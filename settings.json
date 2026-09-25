@@ -1,0 +1,212 @@
+{
+  "currency": "₹",
+  "timezone_offset_minutes": 330,
+  "thresholds": {
+    "meta": 500,
+    "google": 1200
+  },
+  "meta_accounts": {
+    "2296482101180961": "Imarticus Gen AI Workshop",
+    "441229168101305": "Imarticus Learning - Finance 1",
+    "1315886119065844": "Imarticus Learning - Cert Prep 3",
+    "718781920169137": "Imarticus Learning - Finance 3",
+    "440162118348238": "Imarticus Learning - Leadership 2",
+    "1353404463486013": "ISFB",
+    "569105641867920": "Imarticus Learning - Tech 1",
+    "54209228": "Imarticus Learning - Marketing 1",
+    "105804772960771": "Imarticus Learning - Marketing 3",
+    "336496342055409": "Imarticus Learning - Finance 2",
+    "241562334": "Imarticus Learning - Branding",
+    "750729814964276": "Imarticus Learning - Tech 1",
+    "584043403558805": "Imarticus Learning - HR 1",
+    "999222314375640": "Imarticus Learning - Marketing 1",
+    "3013682562268050": "Imarticus Learning - Leadership 1",
+    "636982851281381": "Imarticus Learning - Cert Prep 1",
+    "1501970208143735": "Imarticus Learning - Marketing 2",
+    "701631941903775": "Imarticus Learning - Analytics 1",
+    "1719931635154497": "Imarticus Learning -  Cert Prep 2",
+    "1494771262099604": "Imarticus Learning - Retail",
+    "1428255942493820": "EE - Senior Finance Leadership",
+    "795786922176165": "Imarticus Learning - Marketing 2"
+  },
+  "google_accounts": {
+    "668-293-8406": "Imarticus Client Account",
+    "650-435-4490": "Imarticus Dubai Account",
+    "143-120-0590": "Online management",
+    "514-100-9688": "Imarticus ISB Fintech",
+    "554-913-3349": "Imarticus_IIM_Udaipur_CBO",
+    "895-151-5025": "Online - Management Account",
+    "157-595-0623": "Online Programs - CBO - GMP",
+    "111-334-6090": "Online Programs - FAP - CSCOO - DSCM - CMO(R)",
+    "217-855-6056": "ISFB"
+  },
+  "product_map_prefix": {},
+  "product_rules": [
+    [
+      "(?i)PGA_PRO",
+      "PGA Pro"
+    ],
+    [
+      "(?i)PGBAF",
+      "PGBAF"
+    ],
+    [
+      "(?i)PGA",
+      "PGA (Data Science)"
+    ],
+    [
+      "(?i)CFOP",
+      "CFOP"
+    ],
+    [
+      "(?i)CIBOP|Investment Banking|Placement Bootcamp|Chennai_Regional",
+      "CIBOP"
+    ],
+    [
+      "(?i)ISB_?CFO|(^|_)EE_",
+      "ISB CFO"
+    ],
+    [
+      "(?i)ACCA",
+      "ACCA"
+    ],
+    [
+      "(?i)CMA",
+      "CMA"
+    ],
+    [
+      "(?i)CFA",
+      "CFA"
+    ],
+    [
+      "(?i)CPA",
+      "CPA"
+    ],
+    [
+      "(?i)FRM",
+      "FRM"
+    ],
+    [
+      "(?i)FMVA",
+      "FMVA"
+    ],
+    [
+      "(?i)Asses",
+      "Cert Prep Assessment"
+    ],
+    [
+      "(?i)Fanchise|Franchise",
+      "Franchise"
+    ],
+    [
+      "(?i)Certprep_Brand",
+      "Cert Prep Brand"
+    ],
+    [
+      "(?i)-UG-|BBA|(^|_)UG(_|$)",
+      "ISFB UG"
+    ],
+    [
+      "(?i)(^|\\W)PG(\\W|$)",
+      "ISFB PG"
+    ],
+    [
+      "(?i)BRAND|Competition",
+      "Imarticus Brand"
+    ],
+    [
+      "(?i)FAP",
+      "FAP (KPMG/PwC)"
+    ],
+    [
+      "(?i)AIPM",
+      "AIPM (IBM)"
+    ],
+    [
+      "(?i)(KPMG|PwC)_PM",
+      "PM (KPMG/PwC)"
+    ],
+    [
+      "(?i)GenAI_Workshop",
+      "GenAI Workshop"
+    ],
+    [
+      "(?i)Gen_?AI",
+      "PwC GenAI"
+    ],
+    [
+      "(?i)PEVC",
+      "IIMC PEVC"
+    ],
+    [
+      "(?i)IBCM",
+      "IIMC IBCM"
+    ],
+    [
+      "(?i)SML",
+      "IIML SML"
+    ],
+    [
+      "(?i)IIML_DM",
+      "IIML DM"
+    ],
+    [
+      "(?i)SHRM",
+      "IIML SHRM"
+    ],
+    [
+      "(?i)AIB|AI for Business",
+      "IIML AI for Business"
+    ],
+    [
+      "(?i)DMPro",
+      "DM Pro"
+    ],
+    [
+      "(?i)Fintech",
+      "Fintech"
+    ],
+    [
+      "(?i)Traffic",
+      "Traffic / Other"
+    ]
+  ],
+  "product_rule_default": "Other",
+  "lead_goals": [
+    "LEAD_GENERATION",
+    "QUALITY_LEAD"
+  ],
+  "non_lead_overrides": {},
+  "lead_overrides": [],
+  "recipients": {
+    "to": [
+      "jasmini.vinarkar@imarticus.com"
+    ],
+    "cc": [],
+    "me": "sjasmini29@gmail.com",
+    "team_mode": false
+  },
+  "dashboard_url": "https://claude.ai/artifact/UWXxchVCwPXzzG8UBiVuUk",
+  "sheets": {
+    "funnel_file_id": "1zc7b0kaPcyqR75zVkFc2sqq4lEFxjG4LPzdqkObgOfY",
+    "creative_file_id": ""
+  },
+  "email_min_spend4": 5000,
+  "email_max_urgent": 6,
+  "weekly_min_spend11": 40000,
+  "weekly_max_per_account": 8,
+  "crm": {
+    "window_days": 60,
+    "program_fees": {
+      "CIBOP": 130000,
+      "CFO": 450000,
+      "ACCA": 120000,
+      "CMA": 70000,
+      "CFA": 50000,
+      "PGA": 130000,
+      "PGA (Data Science)": 130000
+    },
+    "program_map": {},
+    "stage_rules": "MQL = Level 2+, SQL = Level 3+, enrolled = Level 5; Closed/Lost keep the highest level reached (Old Lead Stage)"
+  }
+}
