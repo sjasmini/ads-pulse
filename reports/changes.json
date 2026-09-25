@@ -1,0 +1,4454 @@
+{
+ "snapshot": "2026-09-25",
+ "previous_snapshot": null,
+ "first_run": true,
+ "recent": [
+  {
+   "adset_id": "120251388215480349",
+   "account": "Imarticus Learning -  Cert Prep 2",
+   "campaign": "LG_Direct_CFA_Lookalike",
+   "adset_name": "LG_Direct_CFA_Lookalike",
+   "date": "2026-09-22",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120251388215480349|ad set edited|2026-09-22|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120249651115300379",
+   "account": "Imarticus Learning - Cert Prep 1",
+   "campaign": "LG_CMA_South_Center_VD",
+   "adset_name": "LG_CMA_Chennai_Lookalike _VD – Copy",
+   "date": "2026-09-22",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120249651115320379",
+    "120249651115340379"
+   ],
+   "detail": "2 ad(s) stopped: Video 2, Video 3",
+   "id": "120249651115300379|ad stopped|2026-09-22|2 ad(s) stopped: Video 2, Video 3",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120250356294750379",
+   "account": "Imarticus Learning - Cert Prep 1",
+   "campaign": "LG_CMA_Delhi",
+   "adset_name": "LG_CMA_Delhi_Sep_Qualified",
+   "date": "2026-09-22",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120250372442010379"
+   ],
+   "detail": "1 ad(s) stopped: Batch_Launch_CMA – Copy",
+   "id": "120250356294750379|ad stopped|2026-09-22|1 ad(s) stopped: Batch_Launch_CMA – Copy",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120250271474010379",
+   "account": "Imarticus Learning - Cert Prep 1",
+   "campaign": "LG_CMA_Jaipur",
+   "adset_name": "LG_CMA_Jaipur_Sep – Interest",
+   "date": "2026-09-22",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120250271474020379"
+   ],
+   "detail": "1 ad(s) stopped: set 2(E) – Copy",
+   "id": "120250271474010379|ad stopped|2026-09-22|1 ad(s) stopped: set 2(E) – Copy",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120253521922470572",
+   "account": "Imarticus Learning - Finance 1",
+   "campaign": "CIBOP_LG_Open",
+   "adset_name": "Bangalore_IB",
+   "date": "2026-09-22",
+   "type": "new ad",
+   "source": "ad_days",
+   "ads": [
+    "120253521922420572",
+    "120253521922480572"
+   ],
+   "detail": "2 ad(s) started: [VIDEO]_Bcom/BBA, CIBOP_LG_Placement",
+   "id": "120253521922470572|new ad|2026-09-22|2 ad(s) started: [VIDEO]_Bcom/BBA, CIBOP_LG_Placement",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120253543700770572",
+   "account": "Imarticus Learning - Finance 1",
+   "campaign": "Placement Bootcamp",
+   "adset_name": "Delhi",
+   "date": "2026-09-22",
+   "type": "new ad",
+   "source": "ad_days",
+   "ads": [
+    "120253543700780572"
+   ],
+   "detail": "1 ad(s) started: Influencer_Vasu",
+   "id": "120253543700770572|new ad|2026-09-22|1 ad(s) started: Influencer_Vasu",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120253543750040572",
+   "account": "Imarticus Learning - Finance 1",
+   "campaign": "Placement Bootcamp",
+   "adset_name": "Jaipur",
+   "date": "2026-09-22",
+   "type": "new ad",
+   "source": "ad_days",
+   "ads": [
+    "120253543750030572"
+   ],
+   "detail": "1 ad(s) started: Influencer_Vasu",
+   "id": "120253543750040572|new ad|2026-09-22|1 ad(s) started: Influencer_Vasu",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120249234116460572",
+   "account": "Imarticus Learning - Finance 1",
+   "campaign": "CIBOP_LG_Lookalike",
+   "adset_name": "LL_Bangalore",
+   "date": "2026-09-22",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120250952083570572"
+   ],
+   "detail": "1 ad(s) stopped: [VIDEO]_Bcom/BBA",
+   "id": "120249234116460572|ad stopped|2026-09-22|1 ad(s) stopped: [VIDEO]_Bcom/BBA",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120253394299180572",
+   "account": "Imarticus Learning - Finance 1",
+   "campaign": "CIBOP_LG_Lookalike",
+   "adset_name": "LL_Bangalore – 1 - 3%",
+   "date": "2026-09-22",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120253394299230572",
+    "120253394299250572"
+   ],
+   "detail": "2 ad(s) stopped: Back Office - IB, [VIDEO]_Bcom/BBA",
+   "id": "120253394299180572|ad stopped|2026-09-22|2 ad(s) stopped: Back Office - IB, [VIDEO]_Bcom/BBA",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120246717662850572",
+   "account": "Imarticus Learning - Finance 1",
+   "campaign": "CIBOP_LG_Lookalike",
+   "adset_name": "LL_Pune",
+   "date": "2026-09-22",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120253124144380572"
+   ],
+   "detail": "1 ad(s) stopped: [VIDEO]_Bcom/BBA",
+   "id": "120246717662850572|ad stopped|2026-09-22|1 ad(s) stopped: [VIDEO]_Bcom/BBA",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120253539524370572",
+   "account": "Imarticus Learning - Finance 1",
+   "campaign": "Placement Bootcamp",
+   "adset_name": "Lucknow",
+   "date": "2026-09-22",
+   "type": "new ad",
+   "source": "ad_days",
+   "ads": [
+    "120253539524380572"
+   ],
+   "detail": "1 ad(s) started: Lucknow_Riddhima",
+   "id": "120253539524370572|new ad|2026-09-22|1 ad(s) started: Lucknow_Riddhima",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120253543648350572",
+   "account": "Imarticus Learning - Finance 1",
+   "campaign": "Placement Bootcamp",
+   "adset_name": "Mumbai/Thane",
+   "date": "2026-09-22",
+   "type": "new ad",
+   "source": "ad_days",
+   "ads": [
+    "120253543648370572"
+   ],
+   "detail": "1 ad(s) started: Influencer_Vasu",
+   "id": "120253543648350572|new ad|2026-09-22|1 ad(s) started: Influencer_Vasu",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120253540979730572",
+   "account": "Imarticus Learning - Finance 1",
+   "campaign": "Placement Bootcamp",
+   "adset_name": "Pune",
+   "date": "2026-09-22",
+   "type": "new ad",
+   "source": "ad_days",
+   "ads": [
+    "120253540979710572"
+   ],
+   "detail": "1 ad(s) started: Pune_Shubham",
+   "id": "120253540979730572|new ad|2026-09-22|1 ad(s) started: Pune_Shubham",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120249274516140559",
+   "account": "Imarticus Learning - Finance 2",
+   "campaign": "LG_Online_IIML_SML_30May25",
+   "adset_name": "IIML_SML_Interest_May2026_New_FB",
+   "date": "2026-09-22",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120249715976080559"
+   ],
+   "detail": "1 ad(s) stopped: IIML_SML_Leader_Human_17Sep26_5",
+   "id": "120249274516140559|ad stopped|2026-09-22|1 ad(s) stopped: IIML_SML_Leader_Human_17Sep26_5",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120249033598000559",
+   "account": "Imarticus Learning - Finance 2",
+   "campaign": "LG_Online_ISB_CFO_New_14Oct25",
+   "adset_name": "LG_Online_ISB_New_FinanceTG_Aug26_IG",
+   "date": "2026-09-22",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120249050393200559"
+   ],
+   "detail": "1 ad(s) stopped: ISB_CFO_Human_11_7Aug26",
+   "id": "120249033598000559|ad stopped|2026-09-22|1 ad(s) stopped: ISB_CFO_Human_11_7Aug26",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120243480204490395",
+   "account": "Imarticus Learning - HR 1",
+   "campaign": "LG_Online_PWC_GenAI_24Oct25",
+   "adset_name": "CAPI_PWC_GenAI_Interests_Based_28Jul26_Set2",
+   "date": "2026-09-22",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120243480276440395"
+   ],
+   "detail": "1 ad(s) stopped: PWC_GenAI_Static_4_28Jul2026",
+   "id": "120243480204490395|ad stopped|2026-09-22|1 ad(s) stopped: PWC_GenAI_Static_4_28Jul2026",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120244451869820395",
+   "account": "Imarticus Learning - HR 1",
+   "campaign": "LG_Online_PWC_GenAI_24Oct25",
+   "adset_name": "CAPI_PWC_GenAI_Interests_Based_28Jul26_Set2 – Copy",
+   "date": "2026-09-22",
+   "type": "new ad",
+   "source": "ad_days",
+   "ads": [
+    "120244451870110395",
+    "120244451870210395"
+   ],
+   "detail": "2 ad(s) started: PWC_GenAI_Static_3_28Jul2026, PWC_GenAI_Static_13_28Jul2026",
+   "id": "120244451869820395|new ad|2026-09-22|2 ad(s) started: PWC_GenAI_Static_3_28Jul2026, PWC_GenAI_Sta",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120244451869820395",
+   "account": "Imarticus Learning - HR 1",
+   "campaign": "LG_Online_PWC_GenAI_24Oct25",
+   "adset_name": "CAPI_PWC_GenAI_Interests_Based_28Jul26_Set2 – Copy",
+   "date": "2026-09-22",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120244451870130395"
+   ],
+   "detail": "1 ad(s) stopped: PWC_GenAI_Static_6_28Jul2026",
+   "id": "120244451869820395|ad stopped|2026-09-22|1 ad(s) stopped: PWC_GenAI_Static_6_28Jul2026",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120244408048360395",
+   "account": "Imarticus Learning - HR 1",
+   "campaign": "LG_Online_PWC_GenAI_24Oct25",
+   "adset_name": "CAPI_PWC_GenAI_Interests_Based_28Jul26_Set2_New",
+   "date": "2026-09-22",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120244408048160395"
+   ],
+   "detail": "1 ad(s) stopped: PWC_GenAI_Static_1_28Jul2026",
+   "id": "120244408048360395|ad stopped|2026-09-22|1 ad(s) stopped: PWC_GenAI_Static_1_28Jul2026",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120244184288130395",
+   "account": "Imarticus Learning - HR 1",
+   "campaign": "LG_ACCA_Bangalore",
+   "adset_name": "LG_ACCA_Bangalore_Sep",
+   "date": "2026-09-22",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120244184288060395"
+   ],
+   "detail": "1 ad(s) stopped: KPMG_ACCA_Ad1",
+   "id": "120244184288130395|ad stopped|2026-09-22|1 ad(s) stopped: KPMG_ACCA_Ad1",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120244226266490395",
+   "account": "Imarticus Learning - HR 1",
+   "campaign": "LG_ACCA_South",
+   "adset_name": "LG_ACCA_Chennai_Interest",
+   "date": "2026-09-22",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120244226266520395"
+   ],
+   "detail": "1 ad(s) stopped: Static 4",
+   "id": "120244226266490395|ad stopped|2026-09-22|1 ad(s) stopped: Static 4",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120244387484600395",
+   "account": "Imarticus Learning - HR 1",
+   "campaign": "ACQ_ACCA_Interest_Coimbatore",
+   "adset_name": "LG_ACCA_Coimbatore_Interest",
+   "date": "2026-09-22",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120244387484630395"
+   ],
+   "detail": "1 ad(s) stopped: KPMG_ACCA_Ad3",
+   "id": "120244387484600395|ad stopped|2026-09-22|1 ad(s) stopped: KPMG_ACCA_Ad3",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120244172828620395",
+   "account": "Imarticus Learning - HR 1",
+   "campaign": "ACQ_ACCA_Interest_Delhi",
+   "adset_name": "LG_ACCA_Delhi_Sep",
+   "date": "2026-09-22",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120244319824650395"
+   ],
+   "detail": "1 ad(s) stopped: ACCA_Sep_Batch_Launch",
+   "id": "120244172828620395|ad stopped|2026-09-22|1 ad(s) stopped: ACCA_Sep_Batch_Launch",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120244319564310395",
+   "account": "Imarticus Learning - HR 1",
+   "campaign": "ACQ_ACCA_Interest_Delhi",
+   "adset_name": "LG_ACCA_Delhi_Sep_Batch_Launch",
+   "date": "2026-09-22",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120244319564370395"
+   ],
+   "detail": "1 ad(s) stopped: ACCA_Sep_Batch_Launch",
+   "id": "120244319564310395|ad stopped|2026-09-22|1 ad(s) stopped: ACCA_Sep_Batch_Launch",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120244184332800395",
+   "account": "Imarticus Learning - HR 1",
+   "campaign": "LG_ACCA_Hyderabad",
+   "adset_name": "LG_ACCA_Hyderabad_Sep",
+   "date": "2026-09-22",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120244184332740395"
+   ],
+   "detail": "1 ad(s) stopped: KPMG_ACCA_Ad3",
+   "id": "120244184332800395|ad stopped|2026-09-22|1 ad(s) stopped: KPMG_ACCA_Ad3",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120244274703340395",
+   "account": "Imarticus Learning - HR 1",
+   "campaign": "LG_ACCA_Hyderabad",
+   "adset_name": "LG_ACCA_Hyderabad_Sep_Interest",
+   "date": "2026-09-22",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120244274703400395"
+   ],
+   "detail": "1 ad(s) stopped: Karan_ACCA_1",
+   "id": "120244274703340395|ad stopped|2026-09-22|1 ad(s) stopped: Karan_ACCA_1",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120244173586450395",
+   "account": "Imarticus Learning - HR 1",
+   "campaign": "ACQ_ACCA_Interest_Jaipur",
+   "adset_name": "LG_ACCA_Jaipur_Sep",
+   "date": "2026-09-22",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120244173586460395"
+   ],
+   "detail": "1 ad(s) stopped: New Set 1",
+   "id": "120244173586450395|ad stopped|2026-09-22|1 ad(s) stopped: New Set 1",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120244387714920395",
+   "account": "Imarticus Learning - HR 1",
+   "campaign": "LG_ACCA_Kochi",
+   "adset_name": "LG_ACCA_Kochi_Sep-Interest",
+   "date": "2026-09-22",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120244387715000395"
+   ],
+   "detail": "1 ad(s) stopped: KPMG_ACCA_Ad1",
+   "id": "120244387714920395|ad stopped|2026-09-22|1 ad(s) stopped: KPMG_ACCA_Ad1",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120244173003540395",
+   "account": "Imarticus Learning - HR 1",
+   "campaign": "ACQ_ACCA_Interest_Mumbai",
+   "adset_name": "LG_ACCA_Mumbai_Sep",
+   "date": "2026-09-22",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120244173003560395"
+   ],
+   "detail": "1 ad(s) stopped: KPMG_ACCA_Ad1",
+   "id": "120244173003540395|ad stopped|2026-09-22|1 ad(s) stopped: KPMG_ACCA_Ad1",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120244173064300395",
+   "account": "Imarticus Learning - HR 1",
+   "campaign": "ACQ_ACCA_Interest_Thane",
+   "adset_name": "LG_ACCA_Thane_Sep",
+   "date": "2026-09-22",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120244173064440395"
+   ],
+   "detail": "1 ad(s) stopped: KPMG_ACCA_Ad3",
+   "id": "120244173064300395|ad stopped|2026-09-22|1 ad(s) stopped: KPMG_ACCA_Ad3",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120244451869810395",
+   "account": "Imarticus Learning - HR 1",
+   "campaign": "LG_Online_PWC_GenAI_24Oct25",
+   "adset_name": "PWC_GenAI_Interests_Based_HR_6Feb26_IG_Set3 – Copy",
+   "date": "2026-09-22",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120244451870100395"
+   ],
+   "detail": "1 ad(s) stopped: PWC_GenAI_Static_2_7Aug2026",
+   "id": "120244451869810395|ad stopped|2026-09-22|1 ad(s) stopped: PWC_GenAI_Static_2_7Aug2026",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120249453838960482",
+   "account": "Imarticus Learning - Leadership 1",
+   "campaign": "Facebook_DMPro_P_LAL_SQL",
+   "adset_name": "Facebook_DMPro_IMT_LAL_SQL_V2",
+   "date": "2026-09-22",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120249453838710482"
+   ],
+   "detail": "1 ad(s) stopped: Facebook_DMPro_IMT_LAL_SQL_V2_AI_3-4LPA",
+   "id": "120249453838960482|ad stopped|2026-09-22|1 ad(s) stopped: Facebook_DMPro_IMT_LAL_SQL_V2_AI_3-4LPA",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120235940701420534",
+   "account": "Imarticus Learning - Marketing 1",
+   "campaign": "LG_Online_FAP_24_Oct_25",
+   "adset_name": "KPMG_FAP_Interests_10_Dec_25",
+   "date": "2026-09-22",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120247624030730534"
+   ],
+   "detail": "1 ad(s) stopped: PwC_FAP_Static5_22Jul26",
+   "id": "120235940701420534|ad stopped|2026-09-22|1 ad(s) stopped: PwC_FAP_Static5_22Jul26",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120248148906330534",
+   "account": "Imarticus Learning - Marketing 1",
+   "campaign": "LG_Online_FAP_24_Oct_25",
+   "adset_name": "KPMG_FAP_Interests_10_Dec_25_P1_Cities_26to32",
+   "date": "2026-09-22",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120248148906320534"
+   ],
+   "detail": "1 ad(s) stopped: PwC_FAP_Static3_22Jul26",
+   "id": "120248148906330534|ad stopped|2026-09-22|1 ad(s) stopped: PwC_FAP_Static3_22Jul26",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120248149014950534",
+   "account": "Imarticus Learning - Marketing 1",
+   "campaign": "LG_Online_FAP_24_Oct_25",
+   "adset_name": "KPMG_FAP_Interests_10_Dec_25_P1_Cities_New",
+   "date": "2026-09-22",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120248149014860534"
+   ],
+   "detail": "1 ad(s) stopped: PwC_FAP_Static3_22Jul26",
+   "id": "120248149014950534|ad stopped|2026-09-22|1 ad(s) stopped: PwC_FAP_Static3_22Jul26",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120248148487100534",
+   "account": "Imarticus Learning - Marketing 1",
+   "campaign": "LG_Online_FAP_24_Oct_25",
+   "adset_name": "KPMG_FAP_Interests_10_Dec_25_P2_Cities",
+   "date": "2026-09-22",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120248148486920534"
+   ],
+   "detail": "1 ad(s) stopped: PwC_FAP_Static4_22Jul26",
+   "id": "120248148487100534|ad stopped|2026-09-22|1 ad(s) stopped: PwC_FAP_Static4_22Jul26",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120236610745810534",
+   "account": "Imarticus Learning - Marketing 1",
+   "campaign": "LG_Online_FAP_24_Oct_25",
+   "adset_name": "KPMG_FAP_Interests_23_Dec_25",
+   "date": "2026-09-22",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120247624030690534"
+   ],
+   "detail": "1 ad(s) stopped: PwC_FAP_Static3_22Jul26",
+   "id": "120236610745810534|ad stopped|2026-09-22|1 ad(s) stopped: PwC_FAP_Static3_22Jul26",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120247487784060534",
+   "account": "Imarticus Learning - Marketing 1",
+   "campaign": "LG_AIPM_IBM_Online_24_Oct_25",
+   "adset_name": "LG_AIPM_IBM_Online_ITSwitch_Aug26_IG",
+   "date": "2026-09-22",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120247487783690534"
+   ],
+   "detail": "1 ad(s) stopped: LG_AIPM_IBM_Online_Static4_Jul26",
+   "id": "120247487784060534|ad stopped|2026-09-22|1 ad(s) stopped: LG_AIPM_IBM_Online_Static4_Jul26",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120248149619170534",
+   "account": "Imarticus Learning - Marketing 1",
+   "campaign": "LG_AIPM_IBM_Online_24_Oct_25",
+   "adset_name": "LG_AIPM_IBM_Online_ITSwitch_J26_IG_New",
+   "date": "2026-09-22",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120248149619790534"
+   ],
+   "detail": "1 ad(s) stopped: LG_AIPM_IBM_Online_Static6_Jul26",
+   "id": "120248149619170534|ad stopped|2026-09-22|1 ad(s) stopped: LG_AIPM_IBM_Online_Static6_Jul26",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120248149619180534",
+   "account": "Imarticus Learning - Marketing 1",
+   "campaign": "LG_AIPM_IBM_Online_24_Oct_25",
+   "adset_name": "LG_AIPM_IBM_Online_Interests_24_Oct_25_IG_New",
+   "date": "2026-09-22",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120248149619160534",
+    "120248149619380534"
+   ],
+   "detail": "2 ad(s) stopped: LG_AIPM_IBM_Online_Static3_Jul26, LG_AIPM_IBM_Online_Static6_Jul26",
+   "id": "120248149619180534|ad stopped|2026-09-22|2 ad(s) stopped: LG_AIPM_IBM_Online_Static3_Jul26, LG_AIPM_I",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120248157743330534",
+   "account": "Imarticus Learning - Marketing 1",
+   "campaign": "LG_AIPM_IBM_Online_24_Oct_25",
+   "adset_name": "LG_AIPM_IBM_Online_Interests_Jul26_IG_P2_Cities_New",
+   "date": "2026-09-22",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120248157743420534"
+   ],
+   "detail": "1 ad(s) stopped: LG_AIPM_IBM_Online_Video11_Aug26",
+   "id": "120248157743330534|ad stopped|2026-09-22|1 ad(s) stopped: LG_AIPM_IBM_Online_Video11_Aug26",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120247436504930534",
+   "account": "Imarticus Learning - Marketing 1",
+   "campaign": "LG_Online_FAP_24_Oct_25",
+   "adset_name": "PwC_FAP_Banking_Interests_Jul26",
+   "date": "2026-09-22",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120247436504950534"
+   ],
+   "detail": "1 ad(s) stopped: PwC_FAP_Static3_22Jul26",
+   "id": "120247436504930534|ad stopped|2026-09-22|1 ad(s) stopped: PwC_FAP_Static3_22Jul26",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120248148487090534",
+   "account": "Imarticus Learning - Marketing 1",
+   "campaign": "LG_Online_FAP_24_Oct_25",
+   "adset_name": "PwC_FAP_Banking_Interests_Jul26_Set2_IG_P2_Cities",
+   "date": "2026-09-22",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120248148486750534"
+   ],
+   "detail": "1 ad(s) stopped: PwC_FAP_Static5_28Jul26",
+   "id": "120248148487090534|ad stopped|2026-09-22|1 ad(s) stopped: PwC_FAP_Static5_28Jul26",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120247436481040534",
+   "account": "Imarticus Learning - Marketing 1",
+   "campaign": "LG_Online_FAP_24_Oct_25",
+   "adset_name": "PwC_FAP_Interests_Jul26",
+   "date": "2026-09-22",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120247436481070534"
+   ],
+   "detail": "1 ad(s) stopped: PwC_FAP_Static3_22Jul26",
+   "id": "120247436481040534|ad stopped|2026-09-22|1 ad(s) stopped: PwC_FAP_Static3_22Jul26",
+   "status": "pending"
+  },
+  {
+   "adset_id": "6927070418868",
+   "account": "Imarticus Learning - Tech 1",
+   "campaign": "LG_IIML_SHRM_Online_30_May_23",
+   "adset_name": "IIML_SHRM_LAL_1%_31Dec25_New_FB",
+   "date": "2026-09-22",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "6988500609668"
+   ],
+   "detail": "1 ad(s) stopped: IIML_SHRM_Human_7_3Apr26",
+   "id": "6927070418868|ad stopped|2026-09-22|1 ad(s) stopped: IIML_SHRM_Human_7_3Apr26",
+   "status": "pending"
+  },
+  {
+   "adset_id": "52566324575672",
+   "account": "Imarticus Learning - Tech 1",
+   "campaign": "LG_Online_IIML_DM_Aug26",
+   "adset_name": "LG_Online_IIML_DM_Aug26_Interests",
+   "date": "2026-09-22",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "52566324575472"
+   ],
+   "detail": "1 ad(s) stopped: LG_Online_IIML_Institute_3B_Static_DM_May26",
+   "id": "52566324575672|ad stopped|2026-09-22|1 ad(s) stopped: LG_Online_IIML_Institute_3B_Static_DM_May26",
+   "status": "pending"
+  },
+  {
+   "adset_id": "52579151377472",
+   "account": "Imarticus Learning - Tech 1",
+   "campaign": "PGA_Retail_South_Dec_2025",
+   "adset_name": "PGA_Chennai_LAL3%",
+   "date": "2026-09-22",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "52579151381272"
+   ],
+   "detail": "1 ad(s) stopped: PGA_Chennai_LAL3%_4yearofengineer",
+   "id": "52579151377472|ad stopped|2026-09-22|1 ad(s) stopped: PGA_Chennai_LAL3%_4yearofengineer",
+   "status": "pending"
+  },
+  {
+   "adset_id": "52579154763672",
+   "account": "Imarticus Learning - Tech 1",
+   "campaign": "PGA_Retail_South_Dec_2025",
+   "adset_name": "PGA_Hyderabad_LAL3%",
+   "date": "2026-09-22",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "52579154764272"
+   ],
+   "detail": "1 ad(s) stopped: PGA_Hyderabad_LAL3%_4yearofengineer",
+   "id": "52579154763672|ad stopped|2026-09-22|1 ad(s) stopped: PGA_Hyderabad_LAL3%_4yearofengineer",
+   "status": "pending"
+  },
+  {
+   "adset_id": "52561495683072",
+   "account": "Imarticus Learning - Tech 1",
+   "campaign": "PGA_Jobtitle_Mar2026_v2",
+   "adset_name": "PGA_Jobtitle_Chennai_C",
+   "date": "2026-09-22",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "52561495689872"
+   ],
+   "detail": "1 ad(s) stopped: PGA_Jobtitle_Chennai_Karan-H4",
+   "id": "52561495683072|ad stopped|2026-09-22|1 ad(s) stopped: PGA_Jobtitle_Chennai_Karan-H4",
+   "status": "pending"
+  },
+  {
+   "adset_id": "52576691017872",
+   "account": "Imarticus Learning - Tech 1",
+   "campaign": "LG_PGA_PRO__Retail_13_Nov_2025",
+   "adset_name": "PGA_PRO_CareerSwitch_Delhi_S26",
+   "date": "2026-09-22",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "52576691018072",
+    "52576691018472"
+   ],
+   "detail": "2 ad(s) stopped: PGA_PRO_CareerSwitch_Delhi_S26_Success-Stories, PGA_PRO_CareerSwitch_Delhi_S26_Tools_(Batch-1)",
+   "id": "52576691017872|ad stopped|2026-09-22|2 ad(s) stopped: PGA_PRO_CareerSwitch_Delhi_S26_Success-Stor",
+   "status": "pending"
+  },
+  {
+   "adset_id": "52576688927272",
+   "account": "Imarticus Learning - Tech 1",
+   "campaign": "LG_PGA_PRO__Retail_13_Nov_2025",
+   "adset_name": "PGA_PRO_FOS+Interest_Thane_3_Sep_2026",
+   "date": "2026-09-22",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "52576688926872"
+   ],
+   "detail": "1 ad(s) stopped: PGA_Tools_(Batch-1)_S26",
+   "id": "52576688927272|ad stopped|2026-09-22|1 ad(s) stopped: PGA_Tools_(Batch-1)_S26",
+   "status": "pending"
+  },
+  {
+   "adset_id": "52579372870272",
+   "account": "Imarticus Learning - Tech 1",
+   "campaign": "LG_PGA_PRO__Retail_13_Nov_2025",
+   "adset_name": "PGA_PRO_LAL3%_Delhi",
+   "date": "2026-09-22",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "52579372870872",
+    "52579372871072",
+    "52579372870672",
+    "52579372872272"
+   ],
+   "detail": "4 ad(s) stopped: PGA_PRO_LAL3%_Delhi_engineer Syllabus, PGA_PRO_LAL3%_Delhi_Is it too late, PGA_PRO_LAL3%_Delhi_Become DSA_CH, PGA_PRO_LAL3%_Tools",
+   "id": "52579372870272|ad stopped|2026-09-22|4 ad(s) stopped: PGA_PRO_LAL3%_Delhi_engineer Syllabus, PGA_",
+   "status": "pending"
+  },
+  {
+   "adset_id": "52579364260072",
+   "account": "Imarticus Learning - Tech 1",
+   "campaign": "LG_PGA_PRO__Retail_13_Nov_2025",
+   "adset_name": "PGA_PRO_LAL3%_Thane",
+   "date": "2026-09-22",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "52579364270672"
+   ],
+   "detail": "1 ad(s) stopped: PGA_PRO_LAL3%_Thane_Become DSA_CH",
+   "id": "52579364260072|ad stopped|2026-09-22|1 ad(s) stopped: PGA_PRO_LAL3%_Thane_Become DSA_CH",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120255935958680562",
+   "account": "EE - Senior Finance Leadership",
+   "campaign": "LG_EE_Assessment_CFO_Sept26",
+   "adset_name": "LG_Online_Assessment_CFO_Finance_TG_Sept26_FB",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120256027549900562",
+    "120256027549910562"
+   ],
+   "detail": "2 ad(s) stopped: LG_Online_Assessment_CFO_Static2, LG_Online_Assessment_CFO_Static3",
+   "id": "120255935958680562|ad stopped|2026-09-23|2 ad(s) stopped: LG_Online_Assessment_CFO_Static2, LG_Online",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120255935958710562",
+   "account": "EE - Senior Finance Leadership",
+   "campaign": "LG_EE_Assessment_CFO_Sept26",
+   "adset_name": "LG_Online_Assessment_CFO_FoS_Sept26_FB",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120256027549830562",
+    "120256027549840562"
+   ],
+   "detail": "2 ad(s) stopped: LG_Online_Assessment_CFO_Static3, LG_Online_Assessment_CFO_Static2",
+   "id": "120255935958710562|ad stopped|2026-09-23|2 ad(s) stopped: LG_Online_Assessment_CFO_Static3, LG_Online",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120255935958660562",
+   "account": "EE - Senior Finance Leadership",
+   "campaign": "LG_EE_Assessment_CFO_Sept26",
+   "adset_name": "LG_Online_Assessment_CFO_FoS_Sept26_IG",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120256027549860562"
+   ],
+   "detail": "1 ad(s) stopped: LG_Online_Assessment_CFO_Static2",
+   "id": "120255935958660562|ad stopped|2026-09-23|1 ad(s) stopped: LG_Online_Assessment_CFO_Static2",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120255935958670562",
+   "account": "EE - Senior Finance Leadership",
+   "campaign": "LG_EE_Assessment_CFO_Sept26",
+   "adset_name": "LG_Online_Assessment_CFO_LAL_1%_Sept26_IG",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120256027549930562"
+   ],
+   "detail": "1 ad(s) stopped: LG_Online_Assessment_CFO_Static3",
+   "id": "120255935958670562|ad stopped|2026-09-23|1 ad(s) stopped: LG_Online_Assessment_CFO_Static3",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120255935958650562",
+   "account": "EE - Senior Finance Leadership",
+   "campaign": "LG_EE_Assessment_CFO_Sept26",
+   "adset_name": "LG_Online_Assessment_Finance_TG_Sept26_IG",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120256027549880562"
+   ],
+   "detail": "1 ad(s) stopped: LG_Online_Assessment_CFO_Static2",
+   "id": "120255935958650562|ad stopped|2026-09-23|1 ad(s) stopped: LG_Online_Assessment_CFO_Static2",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120255935958730562",
+   "account": "EE - Senior Finance Leadership",
+   "campaign": "LG_EE_Assessment_CFO_Sept26",
+   "adset_name": "LG_Online_Assessment_LAL_1%_Sept26_FB",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120256027435850562"
+   ],
+   "detail": "1 ad(s) stopped: LG_Online_Assessment_CFO_Static2",
+   "id": "120255935958730562|ad stopped|2026-09-23|1 ad(s) stopped: LG_Online_Assessment_CFO_Static2",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120255935915650562",
+   "account": "EE - Senior Finance Leadership",
+   "campaign": "LG_EE_Website_ISB_CFO_Sept26",
+   "adset_name": "LG_Online_Website_ISB_CFO_Finance_TG_Sept26_FB",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120255935915840562",
+    "120255935915850562"
+   ],
+   "detail": "2 ad(s) stopped: LG_Online_Website_ISB_CFO_Video2, LG_Online_Website_ISB_CFO_Video3",
+   "id": "120255935915650562|ad stopped|2026-09-23|2 ad(s) stopped: LG_Online_Website_ISB_CFO_Video2, LG_Online",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120255935915660562",
+   "account": "EE - Senior Finance Leadership",
+   "campaign": "LG_EE_Website_ISB_CFO_Sept26",
+   "adset_name": "LG_Online_Website_ISB_CFO_Finance_TG_Sept26_IG",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120255935915800562"
+   ],
+   "detail": "1 ad(s) stopped: LG_Online_Website_ISB_CFO_Video1",
+   "id": "120255935915660562|ad stopped|2026-09-23|1 ad(s) stopped: LG_Online_Website_ISB_CFO_Video1",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120255935915820562",
+   "account": "EE - Senior Finance Leadership",
+   "campaign": "LG_EE_Website_ISB_CFO_Sept26",
+   "adset_name": "LG_Online_Website_ISB_CFO_FoS_Sept26_FB",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120255935915770562",
+    "120255935915790562"
+   ],
+   "detail": "2 ad(s) stopped: LG_Online_Website_ISB_CFO_Video2, LG_Online_Website_ISB_CFO_Video1",
+   "id": "120255935915820562|ad stopped|2026-09-23|2 ad(s) stopped: LG_Online_Website_ISB_CFO_Video2, LG_Online",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120255935915890562",
+   "account": "EE - Senior Finance Leadership",
+   "campaign": "LG_EE_Website_ISB_CFO_Sept26",
+   "adset_name": "LG_Online_Website_ISB_CFO_FoS_Sept26_IG",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120255935915750562",
+    "120255935915760562"
+   ],
+   "detail": "2 ad(s) stopped: LG_Online_Website_ISB_CFO_Video1, LG_Online_Website_ISB_CFO_Video2",
+   "id": "120255935915890562|ad stopped|2026-09-23|2 ad(s) stopped: LG_Online_Website_ISB_CFO_Video1, LG_Online",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120255935892390562",
+   "account": "EE - Senior Finance Leadership",
+   "campaign": "LG_EE_Website_ISB_CFO_Sept26",
+   "adset_name": "LG_Online_Website_ISB_CFO_LAL_1%_Sept26_FB",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120255935892370562",
+    "120255935892380562",
+    "120255935892400562"
+   ],
+   "detail": "3 ad(s) stopped: LG_Online_Website_ISB_CFO_Video3, LG_Online_Website_ISB_CFO_Video1, LG_Online_Website_ISB_CFO_Video2",
+   "id": "120255935892390562|ad stopped|2026-09-23|3 ad(s) stopped: LG_Online_Website_ISB_CFO_Video3, LG_Online",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120255935915640562",
+   "account": "EE - Senior Finance Leadership",
+   "campaign": "LG_EE_Website_ISB_CFO_Sept26",
+   "adset_name": "LG_Online_Website_ISB_CFO_LAL_1%_Sept26_IG",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120255935915880562"
+   ],
+   "detail": "1 ad(s) stopped: LG_Online_Website_ISB_CFO_Video1",
+   "id": "120255935915640562|ad stopped|2026-09-23|1 ad(s) stopped: LG_Online_Website_ISB_CFO_Video1",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120252490600930349",
+   "account": "Imarticus Learning -  Cert Prep 2",
+   "campaign": "LG_CFA_Delhi",
+   "adset_name": "CFA_Job_Roles_Company_Delhi",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120252490600910349"
+   ],
+   "detail": "1 ad(s) stopped: KPMG_3",
+   "id": "120252490600930349|ad stopped|2026-09-23|1 ad(s) stopped: KPMG_3",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120256900834100405",
+   "account": "Imarticus Learning - Analytics 1",
+   "campaign": "LG_Online_IIMC_EPIBCM_4_Feb_26",
+   "adset_name": "IIMC_EPIBCM_Company_Based_Sept26_FB_iOS",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120256900834140405"
+   ],
+   "detail": "1 ad(s) stopped: IIMC_IBCM_Banking_Focus_Static3_30Jan26",
+   "id": "120256900834100405|ad stopped|2026-09-23|1 ad(s) stopped: IIMC_IBCM_Banking_Focus_Static3_30Jan26",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120256900928010405",
+   "account": "Imarticus Learning - Analytics 1",
+   "campaign": "LG_Online_IIMC_EPIBCM_4_Feb_26",
+   "adset_name": "IIMC_EPIBCM_Company_Based_Sept26_IG_iOS",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120256900928020405",
+    "120256900928040405"
+   ],
+   "detail": "2 ad(s) stopped: IIMC_IBCM_Banking_Focus_Static3_30Jan26, IIMC_IBCM_Banking_Focus_Static5_30Jan26",
+   "id": "120256900928010405|ad stopped|2026-09-23|2 ad(s) stopped: IIMC_IBCM_Banking_Focus_Static3_30Jan26, II",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120256900529450405",
+   "account": "Imarticus Learning - Analytics 1",
+   "campaign": "LG_Online_IIMC_EPIBCM_4_Feb_26",
+   "adset_name": "IIMC_EPIBCM_Invest_Banking_Professionals_Sept26_FB_iOS",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120256900529470405",
+    "120256900529490405"
+   ],
+   "detail": "2 ad(s) stopped: IIMC_IBCM_Banking_Focus_Static3_30Jan26, IIMC_IBCM_Banking_Focus_Static5_30Jan26",
+   "id": "120256900529450405|ad stopped|2026-09-23|2 ad(s) stopped: IIMC_IBCM_Banking_Focus_Static3_30Jan26, II",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120256900806990405",
+   "account": "Imarticus Learning - Analytics 1",
+   "campaign": "LG_Online_IIMC_EPIBCM_4_Feb_26",
+   "adset_name": "IIMC_EPIBCM_Invest_Banking_Professionals_Sept26_IG_iOS",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120256900807130405",
+    "120256900807160405"
+   ],
+   "detail": "2 ad(s) stopped: IIMC_IBCM_Banking_Focus_Static1_30Jan26, IIMC_IBCM_Banking_Focus_Static3_30Jan26",
+   "id": "120256900806990405|ad stopped|2026-09-23|2 ad(s) stopped: IIMC_IBCM_Banking_Focus_Static1_30Jan26, II",
+   "status": "pending"
+  },
+  {
+   "adset_id": "52515187254341",
+   "account": "Imarticus Learning - Branding",
+   "campaign": "Certprep_ACCA_Webinar_21mar",
+   "adset_name": "Certprep_ACCA_Webinar_26Sep",
+   "date": "2026-09-23",
+   "type": "new ad",
+   "source": "ad_days",
+   "ads": [
+    "52515187254541"
+   ],
+   "detail": "1 ad(s) started: ACCA_Webinar_26Sep",
+   "id": "52515187254341|new ad|2026-09-23|1 ad(s) started: ACCA_Webinar_26Sep",
+   "status": "pending"
+  },
+  {
+   "adset_id": "52515187254341",
+   "account": "Imarticus Learning - Branding",
+   "campaign": "Certprep_ACCA_Webinar_21mar",
+   "adset_name": "Certprep_ACCA_Webinar_26Sep",
+   "date": "2026-09-23",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "52515187254341|ad set edited|2026-09-23|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "52515188959741",
+   "account": "Imarticus Learning - Branding",
+   "campaign": "Certprep_CMA_Webinar_21mar",
+   "adset_name": "Certprep_CMA_Webinar_26sep",
+   "date": "2026-09-23",
+   "type": "new ad",
+   "source": "ad_days",
+   "ads": [
+    "52515188959541"
+   ],
+   "detail": "1 ad(s) started: CMA_26Sep",
+   "id": "52515188959741|new ad|2026-09-23|1 ad(s) started: CMA_26Sep",
+   "status": "pending"
+  },
+  {
+   "adset_id": "52515188959741",
+   "account": "Imarticus Learning - Branding",
+   "campaign": "Certprep_CMA_Webinar_21mar",
+   "adset_name": "Certprep_CMA_Webinar_26sep",
+   "date": "2026-09-23",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "52515188959741|ad set edited|2026-09-23|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "52515189575741",
+   "account": "Imarticus Learning - Branding",
+   "campaign": "LG_Webinar_FMVA",
+   "adset_name": "Webinar_FMVA_26Sep",
+   "date": "2026-09-23",
+   "type": "new ad",
+   "source": "ad_days",
+   "ads": [
+    "52515189575541"
+   ],
+   "detail": "1 ad(s) started: FMVA_26Sep",
+   "id": "52515189575741|new ad|2026-09-23|1 ad(s) started: FMVA_26Sep",
+   "status": "pending"
+  },
+  {
+   "adset_id": "52515189575741",
+   "account": "Imarticus Learning - Branding",
+   "campaign": "LG_Webinar_FMVA",
+   "adset_name": "Webinar_FMVA_26Sep",
+   "date": "2026-09-23",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "52515189575741|ad set edited|2026-09-23|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120248657373040379",
+   "account": "Imarticus Learning - Cert Prep 1",
+   "campaign": "LG_ACCA_Direct",
+   "adset_name": "ACCA- Accounts-BCOM-20-35",
+   "date": "2026-09-23",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120248657373040379|ad set edited|2026-09-23|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120248656818400379",
+   "account": "Imarticus Learning - Cert Prep 1",
+   "campaign": "LG_ACCA_Direct",
+   "adset_name": "ACCA- Finance-BK-20-35",
+   "date": "2026-09-23",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120248656818400379|ad set edited|2026-09-23|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120249259899820379",
+   "account": "Imarticus Learning - Cert Prep 1",
+   "campaign": "AIO_CMA_Direct",
+   "adset_name": "AIO_CMA_Direct_July",
+   "date": "2026-09-23",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120249259899820379|ad set edited|2026-09-23|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120248729189780379",
+   "account": "Imarticus Learning - Cert Prep 1",
+   "campaign": "LG_CMA_Direct",
+   "adset_name": "CMA- Business-Mgmnt-24-40",
+   "date": "2026-09-23",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120248729189780379|ad set edited|2026-09-23|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120248686340060379",
+   "account": "Imarticus Learning - Cert Prep 1",
+   "campaign": "LG_CMA_Direct",
+   "adset_name": "CMA- Finacial-analysis-corp-fina-24-40",
+   "date": "2026-09-23",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120248686340060379|ad set edited|2026-09-23|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120250218815610379",
+   "account": "Imarticus Learning - Cert Prep 1",
+   "campaign": "LG_CMA_Delhi",
+   "adset_name": "LG_CMA_Delhi_Sep",
+   "date": "2026-09-23",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120250218815610379|ad set edited|2026-09-23|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120250356294750379",
+   "account": "Imarticus Learning - Cert Prep 1",
+   "campaign": "LG_CMA_Delhi",
+   "adset_name": "LG_CMA_Delhi_Sep_Qualified",
+   "date": "2026-09-23",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120250356294750379|ad set edited|2026-09-23|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120248656818430379",
+   "account": "Imarticus Learning - Cert Prep 1",
+   "campaign": "LG_ACCA_Direct",
+   "adset_name": "Lookalike (1%) - ACCA_July.csv",
+   "date": "2026-09-23",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120248656818430379|ad set edited|2026-09-23|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120248728080090379",
+   "account": "Imarticus Learning - Cert Prep 1",
+   "campaign": "LG_CMA_Direct",
+   "adset_name": "Lookalike (1%) - CMA_July.csv",
+   "date": "2026-09-23",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120248728080090379|ad set edited|2026-09-23|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120253556407310572",
+   "account": "Imarticus Learning - Finance 1",
+   "campaign": "Placement Bootcamp",
+   "adset_name": "Bangalore",
+   "date": "2026-09-23",
+   "type": "new ad",
+   "source": "ad_days",
+   "ads": [
+    "120253556407320572"
+   ],
+   "detail": "1 ad(s) started: Influencer_Vinisha",
+   "id": "120253556407310572|new ad|2026-09-23|1 ad(s) started: Influencer_Vinisha",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120253521922470572",
+   "account": "Imarticus Learning - Finance 1",
+   "campaign": "CIBOP_LG_Open",
+   "adset_name": "Bangalore_IB",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120253521922430572",
+    "120253521922490572"
+   ],
+   "detail": "2 ad(s) stopped: BCOM + CIBOP, Serious About IB Career",
+   "id": "120253521922470572|ad stopped|2026-09-23|2 ad(s) stopped: BCOM + CIBOP, Serious About IB Career",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120253562130190572",
+   "account": "Imarticus Learning - Finance 1",
+   "campaign": "Placement Bootcamp",
+   "adset_name": "Chennai/Coimbatore",
+   "date": "2026-09-23",
+   "type": "new ad",
+   "source": "ad_days",
+   "ads": [
+    "120253562130200572"
+   ],
+   "detail": "1 ad(s) started: Influencer_Esther",
+   "id": "120253562130190572|new ad|2026-09-23|1 ad(s) started: Influencer_Esther",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120246728168990572",
+   "account": "Imarticus Learning - Finance 1",
+   "campaign": "CIBOP_LG_Lookalike",
+   "adset_name": "Coim",
+   "date": "2026-09-23",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120246728168990572|ad set edited|2026-09-23|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120253438090790572",
+   "account": "Imarticus Learning - Finance 1",
+   "campaign": "CFOP_LG_Mumbai",
+   "adset_name": "Education",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120253438090800572",
+    "120253456916070572"
+   ],
+   "detail": "2 ad(s) stopped: Bcom - Fintech, Bcom - Fintech Analyst",
+   "id": "120253438090790572|ad stopped|2026-09-23|2 ad(s) stopped: Bcom - Fintech, Bcom - Fintech Analyst",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120253456999620572",
+   "account": "Imarticus Learning - Finance 1",
+   "campaign": "CFOP_LG_Bangalore",
+   "adset_name": "Education",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120253456999650572",
+    "120253456999660572"
+   ],
+   "detail": "2 ad(s) stopped: Bcom - Fintech, Bcom - Fintech Analyst",
+   "id": "120253456999620572|ad stopped|2026-09-23|2 ad(s) stopped: Bcom - Fintech, Bcom - Fintech Analyst",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120227608480440559",
+   "account": "Imarticus Learning - Finance 2",
+   "campaign": "LG_Online_IIMC_PEVCP_8May25",
+   "adset_name": "IIMC_PEVCP_JT+FieldOfStudy_8May25",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120228155210160559"
+   ],
+   "detail": "1 ad(s) stopped: IIMC_PEVC_Eligible_1_3July25_OTP",
+   "id": "120227608480440559|ad stopped|2026-09-23|1 ad(s) stopped: IIMC_PEVC_Eligible_1_3July25_OTP",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120249274516140559",
+   "account": "Imarticus Learning - Finance 2",
+   "campaign": "LG_Online_IIML_SML_30May25",
+   "adset_name": "IIML_SML_Interest_May2026_New_FB",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120249274516270559",
+    "120249715976040559",
+    "120249715976060559"
+   ],
+   "detail": "3 ad(s) stopped: IIML_SML_Institute_1_May26, IIML_SML_Leader_Human_17Sep26_1, IIML_SML_Leader_Human_17Sep26_3",
+   "id": "120249274516140559|ad stopped|2026-09-23|3 ad(s) stopped: IIML_SML_Institute_1_May26, IIML_SML_Leader",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120249274442290559",
+   "account": "Imarticus Learning - Finance 2",
+   "campaign": "LG_Online_IIML_SML_30May25",
+   "adset_name": "IIML_SML_Interest_May2026_New_IG",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120249274442530559"
+   ],
+   "detail": "1 ad(s) stopped: IIML_SML_Video3_Jul26",
+   "id": "120249274442290559|ad stopped|2026-09-23|1 ad(s) stopped: IIML_SML_Video3_Jul26",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120249274516130559",
+   "account": "Imarticus Learning - Finance 2",
+   "campaign": "LG_Online_IIML_SML_30May25",
+   "adset_name": "IIML_SML_JobTitles_30May25_FB",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120249716041520559",
+    "120249716041540559"
+   ],
+   "detail": "2 ad(s) stopped: IIML_SML_Leader_Human_17Sep26_5, IIML_SML_Leader_Human_17Sep26_2",
+   "id": "120249274516130559|ad stopped|2026-09-23|2 ad(s) stopped: IIML_SML_Leader_Human_17Sep26_5, IIML_SML_L",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120249274442490559",
+   "account": "Imarticus Learning - Finance 2",
+   "campaign": "LG_Online_IIML_SML_30May25",
+   "adset_name": "IIML_SML_JobTitles_30May25_IG",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120249534777930559"
+   ],
+   "detail": "1 ad(s) stopped: IIML_SML_New_Stats_2",
+   "id": "120249274442490559|ad stopped|2026-09-23|1 ad(s) stopped: IIML_SML_New_Stats_2",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120249339043460559",
+   "account": "Imarticus Learning - Finance 2",
+   "campaign": "LG_Online_ISB_CFO_New_14Oct25",
+   "adset_name": "LG_Online_ISB_New_FinanceTG_Aug26_FB",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120249339043190559",
+    "120249339043500559"
+   ],
+   "detail": "2 ad(s) stopped: ISB_CFO_Human_5_7Aug26, ISB_CFO_Human_2_7Aug26",
+   "id": "120249339043460559|ad stopped|2026-09-23|2 ad(s) stopped: ISB_CFO_Human_5_7Aug26, ISB_CFO_Human_2_7Au",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120249033598000559",
+   "account": "Imarticus Learning - Finance 2",
+   "campaign": "LG_Online_ISB_CFO_New_14Oct25",
+   "adset_name": "LG_Online_ISB_New_FinanceTG_Aug26_IG",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120249050393170559"
+   ],
+   "detail": "1 ad(s) stopped: ISB_CFO_Human_10_7Aug26",
+   "id": "120249033598000559|ad stopped|2026-09-23|1 ad(s) stopped: ISB_CFO_Human_10_7Aug26",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120249033597870559",
+   "account": "Imarticus Learning - Finance 2",
+   "campaign": "LG_Online_ISB_CFO_New_14Oct25",
+   "adset_name": "LG_Online_ISB_New_FoS_Aug26_IG",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120249050393670559",
+    "120249050393740559",
+    "120249050393710559",
+    "120249503365700559"
+   ],
+   "detail": "4 ad(s) stopped: ISB_CFO_Human_8_7Aug26, ISB_CFO_Human_2_7Aug26, ISB_CFO_Human_4_7Aug26, ISB_CFO_Video_2_11May26",
+   "id": "120249033597870559|ad stopped|2026-09-23|4 ad(s) stopped: ISB_CFO_Human_8_7Aug26, ISB_CFO_Human_2_7Au",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120249339043150559",
+   "account": "Imarticus Learning - Finance 2",
+   "campaign": "LG_Online_ISB_CFO_New_14Oct25",
+   "adset_name": "LG_Online_ISB_New_LAL_1%_Aug26_FB",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120249503365750559"
+   ],
+   "detail": "1 ad(s) stopped: ISB_CFO_Video_1_11May26",
+   "id": "120249339043150559|ad stopped|2026-09-23|1 ad(s) stopped: ISB_CFO_Video_1_11May26",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120249033597280559",
+   "account": "Imarticus Learning - Finance 2",
+   "campaign": "LG_Online_ISB_CFO_New_14Oct25",
+   "adset_name": "LG_Online_ISB_New_LAL_1%_to_3%_Aug26_IG",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120249034207270559"
+   ],
+   "detail": "1 ad(s) stopped: ISB_CFO_Human_6_7Aug26",
+   "id": "120249033597280559|ad stopped|2026-09-23|1 ad(s) stopped: ISB_CFO_Human_6_7Aug26",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120244451869820395",
+   "account": "Imarticus Learning - HR 1",
+   "campaign": "LG_Online_PWC_GenAI_24Oct25",
+   "adset_name": "CAPI_PWC_GenAI_Interests_Based_28Jul26_Set2 – Copy",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120244451870150395",
+    "120244451870190395",
+    "120244451870160395"
+   ],
+   "detail": "3 ad(s) stopped: PWC_GenAI_Static_7_28Jul2026, PWC_GenAI_Static_11_28Jul2026, PWC_GenAI_Static_8_28Jul2026",
+   "id": "120244451869820395|ad stopped|2026-09-23|3 ad(s) stopped: PWC_GenAI_Static_7_28Jul2026, PWC_GenAI_Sta",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120244408048360395",
+   "account": "Imarticus Learning - HR 1",
+   "campaign": "LG_Online_PWC_GenAI_24Oct25",
+   "adset_name": "CAPI_PWC_GenAI_Interests_Based_28Jul26_Set2_New",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120244408048200395",
+    "120244408048240395"
+   ],
+   "detail": "2 ad(s) stopped: PWC_GenAI_Static_3_28Jul2026, PWC_GenAI_Static_7_28Jul2026",
+   "id": "120244408048360395|ad stopped|2026-09-23|2 ad(s) stopped: PWC_GenAI_Static_3_28Jul2026, PWC_GenAI_Sta",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120244408071940395",
+   "account": "Imarticus Learning - HR 1",
+   "campaign": "LG_Online_PWC_GenAI_24Oct25",
+   "adset_name": "CAPI_PWC_GenAI_Interests_Based_28Jul26_Set2_iOS",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120244408072010395"
+   ],
+   "detail": "1 ad(s) stopped: PWC_GenAI_Static_11_28Jul2026",
+   "id": "120244408071940395|ad stopped|2026-09-23|1 ad(s) stopped: PWC_GenAI_Static_11_28Jul2026",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120244451869800395",
+   "account": "Imarticus Learning - HR 1",
+   "campaign": "LG_Online_PWC_GenAI_24Oct25",
+   "adset_name": "CAPI_PWC_GenAI_Interests_Based_Finance_6Feb26 – Copy",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120244451869910395"
+   ],
+   "detail": "1 ad(s) stopped: PWC_GenAI_Static_9_6Feb2026",
+   "id": "120244451869800395|ad stopped|2026-09-23|1 ad(s) stopped: PWC_GenAI_Static_9_6Feb2026",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120244408048320395",
+   "account": "Imarticus Learning - HR 1",
+   "campaign": "LG_Online_PWC_GenAI_24Oct25",
+   "adset_name": "CAPI_PWC_GenAI_Interests_Based_Finance_6Feb26_IG_New",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120244408048180395"
+   ],
+   "detail": "1 ad(s) stopped: PWC_GenAI_Static_9_6Feb2026",
+   "id": "120244408048320395|ad stopped|2026-09-23|1 ad(s) stopped: PWC_GenAI_Static_9_6Feb2026",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120244408071960395",
+   "account": "Imarticus Learning - HR 1",
+   "campaign": "LG_Online_PWC_GenAI_24Oct25",
+   "adset_name": "CAPI_PWC_GenAI_Interests_Based_Finance_6Feb26_iOS",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120244408072210395"
+   ],
+   "detail": "1 ad(s) stopped: PWC_GenAI_Static_9_6Feb2026",
+   "id": "120244408071960395|ad stopped|2026-09-23|1 ad(s) stopped: PWC_GenAI_Static_9_6Feb2026",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120244451869790395",
+   "account": "Imarticus Learning - HR 1",
+   "campaign": "LG_Online_PWC_GenAI_24Oct25",
+   "adset_name": "CAPI_PWC_GenAI_Interests_Based_HR_6Feb26",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120244451869870395"
+   ],
+   "detail": "1 ad(s) stopped: PWC_GenAI_Static_8_6Feb2026",
+   "id": "120244451869790395|ad stopped|2026-09-23|1 ad(s) stopped: PWC_GenAI_Static_8_6Feb2026",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120244172828620395",
+   "account": "Imarticus Learning - HR 1",
+   "campaign": "ACQ_ACCA_Interest_Delhi",
+   "adset_name": "LG_ACCA_Delhi_Sep",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120244172828630395"
+   ],
+   "detail": "1 ad(s) stopped: KPMG_ACCA_Ad2_revised",
+   "id": "120244172828620395|ad stopped|2026-09-23|1 ad(s) stopped: KPMG_ACCA_Ad2_revised",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120244451869810395",
+   "account": "Imarticus Learning - HR 1",
+   "campaign": "LG_Online_PWC_GenAI_24Oct25",
+   "adset_name": "PWC_GenAI_Interests_Based_HR_6Feb26_IG_Set3 – Copy",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120244451870220395",
+    "120244451870230395"
+   ],
+   "detail": "2 ad(s) stopped: PWC_GenAI_Static_4_7Aug2026, PWC_GenAI_Static_5_7Aug2026",
+   "id": "120244451869810395|ad stopped|2026-09-23|2 ad(s) stopped: PWC_GenAI_Static_4_7Aug2026, PWC_GenAI_Stat",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120249465724800482",
+   "account": "Imarticus Learning - Leadership 1",
+   "campaign": "Facebook_DMPro_F_DM Tools",
+   "adset_name": "Facebook_DMPro_F_DM Tools_V2",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120249465724890482",
+    "120249465724900482"
+   ],
+   "detail": "2 ad(s) stopped: Facebook_DMPro_IMT_DM Tools_Karan_hook2, Facebook_DMPro_IMT_DM Tools_learn DM",
+   "id": "120249465724800482|ad stopped|2026-09-23|2 ad(s) stopped: Facebook_DMPro_IMT_DM Tools_Karan_hook2, Fa",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120249465667320482",
+   "account": "Imarticus Learning - Leadership 1",
+   "campaign": "Facebook_DMPro_F1_Exp_WMInt",
+   "adset_name": "Facebook_DMPro_IMT1_Exp_WMInt_v2",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120249465667390482",
+    "120249465667400482",
+    "120249465667410482",
+    "120249465667420482"
+   ],
+   "detail": "4 ad(s) stopped: Facebook_DMPro_IMT_Exp_WMInt_Karan_hook2, Facebook_DMPro_IMT_Exp_WMInt_AI_3-4LPA, Facebook_DMPro_IMT_Exp_WMInt_SMM in 5 month, Facebook_DMPro_IMT_Exp_WMInt_learn DM",
+   "id": "120249465667320482|ad stopped|2026-09-23|4 ad(s) stopped: Facebook_DMPro_IMT_Exp_WMInt_Karan_hook2, F",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120249456836010482",
+   "account": "Imarticus Learning - Leadership 1",
+   "campaign": "Facebook_DMPro_ADMIPP_Open_Oct",
+   "adset_name": "Facebook_DMPro_IMT_ADMIPP_Open_Oct_v2",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120249456836060482",
+    "120249456836110482"
+   ],
+   "detail": "2 ad(s) stopped: Facebook_DMPro_IMT_ADMIPP_Open_Oct_Karan_hook2, Facebook_DMPro_IMT_ADMIPP_Open_Oct_SMM in 5 month",
+   "id": "120249456836010482|ad stopped|2026-09-23|2 ad(s) stopped: Facebook_DMPro_IMT_ADMIPP_Open_Oct_Karan_ho",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120249454132370482",
+   "account": "Imarticus Learning - Leadership 1",
+   "campaign": "Facebook_DMPro_F_BPO",
+   "adset_name": "Facebook_DMPro_IMT_BPO_V2",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120249454132520482",
+    "120249454132560482"
+   ],
+   "detail": "2 ad(s) stopped: Facebook_DMPro_IMT_BPO_V2_SMM in 5 month, Facebook_DMPro_IMT_BPO_V2_learn DM",
+   "id": "120249454132370482|ad stopped|2026-09-23|2 ad(s) stopped: Facebook_DMPro_IMT_BPO_V2_SMM in 5 month, F",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120249454008330482",
+   "account": "Imarticus Learning - Leadership 1",
+   "campaign": "Facebook_DMPro_F_CS",
+   "adset_name": "Facebook_DMPro_IMT_CS_V2",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120249454008320482",
+    "120249454008340482"
+   ],
+   "detail": "2 ad(s) stopped: Facebook_DMPro_IMT_CS_V2_learn DM, Facebook_DMPro_IMT_CS_V2_SMM in 5 month",
+   "id": "120249454008330482|ad stopped|2026-09-23|2 ad(s) stopped: Facebook_DMPro_IMT_CS_V2_learn DM, Facebook",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120249465755060482",
+   "account": "Imarticus Learning - Leadership 1",
+   "campaign": "Facebook_DMPro_F_Data Analytics",
+   "adset_name": "Facebook_DMPro_IMT_Data Analytics_V2",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120249465755020482",
+    "120249465755090482"
+   ],
+   "detail": "2 ad(s) stopped: Facebook_DMPro_IMT_DA_SMM in 5 month, Facebook_DMPro_IMT_DA_learn DM",
+   "id": "120249465755060482|ad stopped|2026-09-23|2 ad(s) stopped: Facebook_DMPro_IMT_DA_SMM in 5 month, Faceb",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120249456612140482",
+   "account": "Imarticus Learning - Leadership 1",
+   "campaign": "Facebook_DMPro_Leads_Exp3_SwitchSalesv2",
+   "adset_name": "Facebook_DMPro_IMT_Exp3_SwitchSalesv3",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120249456612170482"
+   ],
+   "detail": "1 ad(s) stopped: Facebook_DMPro_Leads_IMT_SwitchSalesv2_learn DM – Copy",
+   "id": "120249456612140482|ad stopped|2026-09-23|1 ad(s) stopped: Facebook_DMPro_Leads_IMT_SwitchSalesv2_lear",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120249453838960482",
+   "account": "Imarticus Learning - Leadership 1",
+   "campaign": "Facebook_DMPro_P_LAL_SQL",
+   "adset_name": "Facebook_DMPro_IMT_LAL_SQL_V2",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120249453838940482",
+    "120249453838990482"
+   ],
+   "detail": "2 ad(s) stopped: Facebook_DMPro_IMT_LAL_SQL_V2_SMM in 5 month, Facebook_DMPro_IMT_LAL_SQL_V2_learn DM",
+   "id": "120249453838960482|ad stopped|2026-09-23|2 ad(s) stopped: Facebook_DMPro_IMT_LAL_SQL_V2_SMM in 5 mont",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120249456659840482",
+   "account": "Imarticus Learning - Leadership 1",
+   "campaign": "Facebook_DMPro_Leads_Exp3_SwitchSalesv2",
+   "adset_name": "Facebook_DMPro_IMT_Open_V2",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120249456659770482",
+    "120249456659800482",
+    "120249456659810482"
+   ],
+   "detail": "3 ad(s) stopped: Facebook_DMPro_IMT_Open_Karan_hook2 – Copy, Facebook_DMPro_IMT_Open_learn DM – Copy, Facebook_DMPro_IMT_Open_SMM in 5 month – Copy",
+   "id": "120249456659840482|ad stopped|2026-09-23|3 ad(s) stopped: Facebook_DMPro_IMT_Open_Karan_hook2 – Copy,",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120249454132380482",
+   "account": "Imarticus Learning - Leadership 1",
+   "campaign": "Facebook_DMPro_F_BPO",
+   "adset_name": "Facebook_DMPro_IMT_SEOJob_v2",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120249454132410482"
+   ],
+   "detail": "1 ad(s) stopped: Facebook_DMPro_IMT_SEOJob_V2_learn DM",
+   "id": "120249454132380482|ad stopped|2026-09-23|1 ad(s) stopped: Facebook_DMPro_IMT_SEOJob_V2_learn DM",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120249454614960622",
+   "account": "Imarticus Learning - Leadership 2",
+   "campaign": "LG_Online_ISB_CFO_New_Sept26",
+   "adset_name": "LG_Online_ISB_CFO_Accounting_Cert_iOS_Sept26_FB",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120249456444550622",
+    "120249456444610622"
+   ],
+   "detail": "2 ad(s) stopped: ISB_CFO_Video_2_11May26, ISB_CFO_Human_7_7Aug26",
+   "id": "120249454614960622|ad stopped|2026-09-23|2 ad(s) stopped: ISB_CFO_Video_2_11May26, ISB_CFO_Human_7_7A",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120249454274320622",
+   "account": "Imarticus Learning - Leadership 2",
+   "campaign": "LG_Online_ISB_CFO_New_Sept26",
+   "adset_name": "LG_Online_ISB_CFO_Accounting_Cert_iOS_Sept26_IG",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120249456444700622",
+    "120249456444740622"
+   ],
+   "detail": "2 ad(s) stopped: ISB_CFO_Video_1_11May26, ISB_CFO_Video_3_11May26",
+   "id": "120249454274320622|ad stopped|2026-09-23|2 ad(s) stopped: ISB_CFO_Video_1_11May26, ISB_CFO_Video_3_11",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120249454233010622",
+   "account": "Imarticus Learning - Leadership 2",
+   "campaign": "LG_Online_ISB_CFO_New_Sept26",
+   "adset_name": "LG_Online_ISB_CFO_Business_Schools_iOS_Sept26_FB",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120249456444930622",
+    "120249456444850622"
+   ],
+   "detail": "2 ad(s) stopped: ISB_CFO_Human_2_7Aug26, ISB_CFO_Video_3_11May26",
+   "id": "120249454233010622|ad stopped|2026-09-23|2 ad(s) stopped: ISB_CFO_Human_2_7Aug26, ISB_CFO_Video_3_11M",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120249453878580622",
+   "account": "Imarticus Learning - Leadership 2",
+   "campaign": "LG_Online_ISB_CFO_New_Sept26",
+   "adset_name": "LG_Online_ISB_CFO_Business_Schools_iOS_Sept26_IG",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120249456445660622",
+    "120249456445710622"
+   ],
+   "detail": "2 ad(s) stopped: ISB_CFO_Video_2_11May26, ISB_CFO_Human_6_7Aug26",
+   "id": "120249453878580622|ad stopped|2026-09-23|2 ad(s) stopped: ISB_CFO_Video_2_11May26, ISB_CFO_Human_6_7A",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120249453425350622",
+   "account": "Imarticus Learning - Leadership 2",
+   "campaign": "LG_Online_ISB_CFO_New_Sept26",
+   "adset_name": "LG_Online_ISB_CFO_New_Interests_Sept26_FB",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120249455672750622",
+    "120249456272570622"
+   ],
+   "detail": "2 ad(s) stopped: ISB_CFO_Human_2_7Aug26, ISB_CFO_Video_1_11May26",
+   "id": "120249453425350622|ad stopped|2026-09-23|2 ad(s) stopped: ISB_CFO_Human_2_7Aug26, ISB_CFO_Video_1_11M",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120249453860510622",
+   "account": "Imarticus Learning - Leadership 2",
+   "campaign": "LG_Online_ISB_CFO_New_Sept26",
+   "adset_name": "LG_Online_ISB_CFO_New_Interests_Sept26_IG",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120249456445170622",
+    "120249456445220622"
+   ],
+   "detail": "2 ad(s) stopped: ISB_CFO_Video_2_11May26, ISB_CFO_Human_4_7Aug26",
+   "id": "120249453860510622|ad stopped|2026-09-23|2 ad(s) stopped: ISB_CFO_Video_2_11May26, ISB_CFO_Human_4_7A",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120248148906330534",
+   "account": "Imarticus Learning - Marketing 1",
+   "campaign": "LG_Online_FAP_24_Oct_25",
+   "adset_name": "KPMG_FAP_Interests_10_Dec_25_P1_Cities_26to32",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120248148906520534"
+   ],
+   "detail": "1 ad(s) stopped: PwC_FAP_Static5_22Jul26",
+   "id": "120248148906330534|ad stopped|2026-09-23|1 ad(s) stopped: PwC_FAP_Static5_22Jul26",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120247487784060534",
+   "account": "Imarticus Learning - Marketing 1",
+   "campaign": "LG_AIPM_IBM_Online_24_Oct_25",
+   "adset_name": "LG_AIPM_IBM_Online_ITSwitch_Aug26_IG",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120247911328590534"
+   ],
+   "detail": "1 ad(s) stopped: LG_AIPM_IBM_Online_Video3_Aug26",
+   "id": "120247487784060534|ad stopped|2026-09-23|1 ad(s) stopped: LG_AIPM_IBM_Online_Video3_Aug26",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120248149620000534",
+   "account": "Imarticus Learning - Marketing 1",
+   "campaign": "LG_AIPM_IBM_Online_24_Oct_25",
+   "adset_name": "LG_AIPM_IBM_Online_ITSwitch_Aug26_IG_New",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120248149619630534"
+   ],
+   "detail": "1 ad(s) stopped: LG_AIPM_IBM_Online_Video3_Aug26",
+   "id": "120248149620000534|ad stopped|2026-09-23|1 ad(s) stopped: LG_AIPM_IBM_Online_Video3_Aug26",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120247487784080534",
+   "account": "Imarticus Learning - Marketing 1",
+   "campaign": "LG_AIPM_IBM_Online_24_Oct_25",
+   "adset_name": "LG_AIPM_IBM_Online_ITSwitch_J26_IG",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120247911328770534"
+   ],
+   "detail": "1 ad(s) stopped: LG_AIPM_IBM_Online_Video3_Aug26",
+   "id": "120247487784080534|ad stopped|2026-09-23|1 ad(s) stopped: LG_AIPM_IBM_Online_Video3_Aug26",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120248149619170534",
+   "account": "Imarticus Learning - Marketing 1",
+   "campaign": "LG_AIPM_IBM_Online_24_Oct_25",
+   "adset_name": "LG_AIPM_IBM_Online_ITSwitch_J26_IG_New",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120248149619750534",
+    "120248149619910534"
+   ],
+   "detail": "2 ad(s) stopped: LG_AIPM_IBM_Online_Static5_Jul26, LG_AIPM_IBM_Online_Video3_Aug26",
+   "id": "120248149619170534|ad stopped|2026-09-23|2 ad(s) stopped: LG_AIPM_IBM_Online_Static5_Jul26, LG_AIPM_I",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120247487936070534",
+   "account": "Imarticus Learning - Marketing 1",
+   "campaign": "LG_AIPM_IBM_Online_24_Oct_25",
+   "adset_name": "LG_AIPM_IBM_Online_Interests_24_Oct_25_IG",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120247487935800534"
+   ],
+   "detail": "1 ad(s) stopped: LG_AIPM_IBM_Online_Static6_Jul26",
+   "id": "120247487936070534|ad stopped|2026-09-23|1 ad(s) stopped: LG_AIPM_IBM_Online_Static6_Jul26",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120248149620140534",
+   "account": "Imarticus Learning - Marketing 1",
+   "campaign": "LG_AIPM_IBM_Online_24_Oct_25",
+   "adset_name": "LG_AIPM_IBM_Online_Interests_Aug26_IG_New",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120248149619680534",
+    "120248149619690534",
+    "120248149620160534",
+    "120248149620180534"
+   ],
+   "detail": "4 ad(s) stopped: LG_AIPM_IBM_Online_Static3_Jul26, LG_AIPM_IBM_Online_Static7_Jul26, LG_AIPM_IBM_Online_Static6_Jul26, LG_AIPM_IBM_Online_Video3_Aug26",
+   "id": "120248149620140534|ad stopped|2026-09-23|4 ad(s) stopped: LG_AIPM_IBM_Online_Static3_Jul26, LG_AIPM_I",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120247487935590534",
+   "account": "Imarticus Learning - Marketing 1",
+   "campaign": "LG_AIPM_IBM_Online_24_Oct_25",
+   "adset_name": "LG_AIPM_IBM_Online_Interests_IT_Professionals_Aug26_IG",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120247911328540534",
+    "120247911328490534"
+   ],
+   "detail": "2 ad(s) stopped: LG_AIPM_IBM_Online_Video7_Aug26, LG_AIPM_IBM_Online_Video10_Aug26",
+   "id": "120247487935590534|ad stopped|2026-09-23|2 ad(s) stopped: LG_AIPM_IBM_Online_Video7_Aug26, LG_AIPM_IB",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120248149560560534",
+   "account": "Imarticus Learning - Marketing 1",
+   "campaign": "LG_AIPM_IBM_Online_24_Oct_25",
+   "adset_name": "LG_AIPM_IBM_Online_Interests_Jul26_IG_New",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120248149560710534",
+    "120248149560820534",
+    "120248149560670534"
+   ],
+   "detail": "3 ad(s) stopped: LG_AIPM_IBM_Online_Static3_Jul26, LG_AIPM_IBM_Online_Video3_Aug26, LG_AIPM_IBM_Online_Video7_Aug26",
+   "id": "120248149560560534|ad stopped|2026-09-23|3 ad(s) stopped: LG_AIPM_IBM_Online_Static3_Jul26, LG_AIPM_I",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120248157743330534",
+   "account": "Imarticus Learning - Marketing 1",
+   "campaign": "LG_AIPM_IBM_Online_24_Oct_25",
+   "adset_name": "LG_AIPM_IBM_Online_Interests_Jul26_IG_P2_Cities_New",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120248157743500534",
+    "120248157743510534",
+    "120248157743400534"
+   ],
+   "detail": "3 ad(s) stopped: LG_AIPM_IBM_Online_Video2_Aug26, LG_AIPM_IBM_Online_Video3_Aug26, LG_AIPM_IBM_Online_Static3_Jul26",
+   "id": "120248157743330534|ad stopped|2026-09-23|3 ad(s) stopped: LG_AIPM_IBM_Online_Video2_Aug26, LG_AIPM_IB",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120248149560540534",
+   "account": "Imarticus Learning - Marketing 1",
+   "campaign": "LG_AIPM_IBM_Online_24_Oct_25",
+   "adset_name": "LG_AIPM_IBM_Online_LAL1%_Jul26_IG_New",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120248149560530534",
+    "120248149560780534"
+   ],
+   "detail": "2 ad(s) stopped: LG_AIPM_IBM_Online_Video3_Aug26, LG_AIPM_IBM_Online_Static5_Jul26",
+   "id": "120248149560540534|ad stopped|2026-09-23|2 ad(s) stopped: LG_AIPM_IBM_Online_Video3_Aug26, LG_AIPM_IB",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120247436504930534",
+   "account": "Imarticus Learning - Marketing 1",
+   "campaign": "LG_Online_FAP_24_Oct_25",
+   "adset_name": "PwC_FAP_Banking_Interests_Jul26",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120247436504940534"
+   ],
+   "detail": "1 ad(s) stopped: PwC_FAP_Static1_22Jul26",
+   "id": "120247436504930534|ad stopped|2026-09-23|1 ad(s) stopped: PwC_FAP_Static1_22Jul26",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120248149015000534",
+   "account": "Imarticus Learning - Marketing 1",
+   "campaign": "LG_Online_FAP_24_Oct_25",
+   "adset_name": "PwC_FAP_Banking_Interests_Jul26_Set2_IG_P1_Cities_New",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120248149014680534"
+   ],
+   "detail": "1 ad(s) stopped: PwC_FAP_Static3_28Jul26",
+   "id": "120248149015000534|ad stopped|2026-09-23|1 ad(s) stopped: PwC_FAP_Static3_28Jul26",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120248149014900534",
+   "account": "Imarticus Learning - Marketing 1",
+   "campaign": "LG_Online_FAP_24_Oct_25",
+   "adset_name": "PwC_FAP_Banking_Interests_Jul26_Set2_P1_Cities_New",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120248149014920534"
+   ],
+   "detail": "1 ad(s) stopped: PwC_FAP_Static3_28Jul26",
+   "id": "120248149014900534|ad stopped|2026-09-23|1 ad(s) stopped: PwC_FAP_Static3_28Jul26",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120248148486710534",
+   "account": "Imarticus Learning - Marketing 1",
+   "campaign": "LG_Online_FAP_24_Oct_25",
+   "adset_name": "PwC_FAP_Banking_Interests_Jul26_Set2_P2_Cities",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120248148486780534"
+   ],
+   "detail": "1 ad(s) stopped: PwC_FAP_Static5_28Jul26",
+   "id": "120248148486710534|ad stopped|2026-09-23|1 ad(s) stopped: PwC_FAP_Static5_28Jul26",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120248148486690534",
+   "account": "Imarticus Learning - Marketing 1",
+   "campaign": "LG_Online_FAP_24_Oct_25",
+   "adset_name": "PwC_FAP_Interests_Jul26_Set2_P2_Cities",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120248148486950534"
+   ],
+   "detail": "1 ad(s) stopped: PwC_FAP_Static6_28Jul26",
+   "id": "120248148486690534|ad stopped|2026-09-23|1 ad(s) stopped: PwC_FAP_Static6_28Jul26",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120237421427170472",
+   "account": "Imarticus Learning - Marketing 2",
+   "campaign": "LG_Online_KPMG_PM_25May25",
+   "adset_name": "CAPI_KPMG_PM_Interests_LAL12Jan26_New",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120252115672490472"
+   ],
+   "detail": "1 ad(s) stopped: PwC_PM_Static3_28Jul26",
+   "id": "120237421427170472|ad stopped|2026-09-23|1 ad(s) stopped: PwC_PM_Static3_28Jul26",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120251842814120472",
+   "account": "Imarticus Learning - Marketing 2",
+   "campaign": "LG_Online_KPMG_PM_25May25",
+   "adset_name": "PwC_PM_Interests_LAL_Jul26",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120251842814130472",
+    "120251842814150472"
+   ],
+   "detail": "2 ad(s) stopped: PwC_PM_Static6_22Jul26, PwC_PM_Static3_22Jul26",
+   "id": "120251842814120472|ad stopped|2026-09-23|2 ad(s) stopped: PwC_PM_Static6_22Jul26, PwC_PM_Static3_22Ju",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120251842531740472",
+   "account": "Imarticus Learning - Marketing 2",
+   "campaign": "LG_Online_KPMG_PM_25May25",
+   "adset_name": "PwC_PM_JobTitles_Jul26_Set2",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120251842531800472"
+   ],
+   "detail": "1 ad(s) stopped: PwC_PM_Static7_28Jul26",
+   "id": "120251842531740472|ad stopped|2026-09-23|1 ad(s) stopped: PwC_PM_Static7_28Jul26",
+   "status": "pending"
+  },
+  {
+   "adset_id": "52566432913672",
+   "account": "Imarticus Learning - Tech 1",
+   "campaign": "LG_Online_IIML_AIB_21May25",
+   "adset_name": "IIML_AIB_Interest+FieldOfStudy_Aug26_1",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "52579624582072",
+    "52579624811872"
+   ],
+   "detail": "2 ad(s) stopped: IIML_AIB_Lead_AI_17Sept26_2, IIML_AIB_Lead_AI_17Sept26_3",
+   "id": "52566432913672|ad stopped|2026-09-23|2 ad(s) stopped: IIML_AIB_Lead_AI_17Sept26_2, IIML_AIB_Lead_",
+   "status": "pending"
+  },
+  {
+   "adset_id": "52566432913272",
+   "account": "Imarticus Learning - Tech 1",
+   "campaign": "LG_Online_IIML_AIB_21May25",
+   "adset_name": "IIML_AIB_Lookalike1%_Aug26_1",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "52579625902072",
+    "52579631546072"
+   ],
+   "detail": "2 ad(s) stopped: IIML_AIB_Lead_AI_17Sept26_2, IIML_AIB_Lead_AI_17Sept26_3",
+   "id": "52566432913272|ad stopped|2026-09-23|2 ad(s) stopped: IIML_AIB_Lead_AI_17Sept26_2, IIML_AIB_Lead_",
+   "status": "pending"
+  },
+  {
+   "adset_id": "52566432914072",
+   "account": "Imarticus Learning - Tech 1",
+   "campaign": "LG_Online_IIML_AIB_21May25",
+   "adset_name": "IIML_AIB_Lookalike1%_to_3%_Aug26_1",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "52579623380472"
+   ],
+   "detail": "1 ad(s) stopped: IIML_AIB_Lead_AI_17Sep26_2",
+   "id": "52566432914072|ad stopped|2026-09-23|1 ad(s) stopped: IIML_AIB_Lead_AI_17Sep26_2",
+   "status": "pending"
+  },
+  {
+   "adset_id": "6333759266068",
+   "account": "Imarticus Learning - Tech 1",
+   "campaign": "LG_IIML_SHRM_Online_30_May_23",
+   "adset_name": "IIML_SHRM_Interest+JobTitles_1_Mar_24_FB",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "6991978531868"
+   ],
+   "detail": "1 ad(s) stopped: IIML_SHRM_Human_4_3Apr26",
+   "id": "6333759266068|ad stopped|2026-09-23|1 ad(s) stopped: IIML_SHRM_Human_4_3Apr26",
+   "status": "pending"
+  },
+  {
+   "adset_id": "52576985750472",
+   "account": "Imarticus Learning - Tech 1",
+   "campaign": "LG_IIML_SHRM_Online_30_May_23",
+   "adset_name": "IIML_SHRM_Interest+JobTitles_1_Mar_24_IG",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "52576985762472"
+   ],
+   "detail": "1 ad(s) stopped: IIML_SHRM_Human_4_3Apr26",
+   "id": "52576985750472|ad stopped|2026-09-23|1 ad(s) stopped: IIML_SHRM_Human_4_3Apr26",
+   "status": "pending"
+  },
+  {
+   "adset_id": "6927070418868",
+   "account": "Imarticus Learning - Tech 1",
+   "campaign": "LG_IIML_SHRM_Online_30_May_23",
+   "adset_name": "IIML_SHRM_LAL_1%_31Dec25_New_FB",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "6988500611068"
+   ],
+   "detail": "1 ad(s) stopped: IIML_SHRM_Human_2_3Apr26",
+   "id": "6927070418868|ad stopped|2026-09-23|1 ad(s) stopped: IIML_SHRM_Human_2_3Apr26",
+   "status": "pending"
+  },
+  {
+   "adset_id": "6386300208468",
+   "account": "Imarticus Learning - Tech 1",
+   "campaign": "LG_IIML_SHRM_Online_30_May_23",
+   "adset_name": "IIML_SHRM_LAL_1%_6Mar24_FB",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "6991978292668",
+    "6564733181868"
+   ],
+   "detail": "2 ad(s) stopped: IIML_SHRM_Human_4_3Apr26, IIML_SHRM_Cert_1_2/03",
+   "id": "6386300208468|ad stopped|2026-09-23|2 ad(s) stopped: IIML_SHRM_Human_4_3Apr26, IIML_SHRM_Cert_1_",
+   "status": "pending"
+  },
+  {
+   "adset_id": "6386301946868",
+   "account": "Imarticus Learning - Tech 1",
+   "campaign": "LG_IIML_SHRM_Online_30_May_23",
+   "adset_name": "IIML_SHRM_LAL_1%_to_3%_10AUG23_FB",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "6460925675468",
+    "6956924883468"
+   ],
+   "detail": "2 ad(s) stopped: SHRM_Building_3_8/10, IIML_SHRM_Cert_1_2/03",
+   "id": "6386301946868|ad stopped|2026-09-23|2 ad(s) stopped: SHRM_Building_3_8/10, IIML_SHRM_Cert_1_2/03",
+   "status": "pending"
+  },
+  {
+   "adset_id": "52576985750872",
+   "account": "Imarticus Learning - Tech 1",
+   "campaign": "LG_IIML_SHRM_Online_30_May_23",
+   "adset_name": "IIML_SHRM_LAL_1%_to_3%_10AUG23_IG",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "52576985755272",
+    "52576985755672"
+   ],
+   "detail": "2 ad(s) stopped: IIML_SHRM_Strategy_1_2/03, IIML_SHRM_Cert_1_2/03",
+   "id": "52576985750872|ad stopped|2026-09-23|2 ad(s) stopped: IIML_SHRM_Strategy_1_2/03, IIML_SHRM_Cert_1",
+   "status": "pending"
+  },
+  {
+   "adset_id": "52566346871472",
+   "account": "Imarticus Learning - Tech 1",
+   "campaign": "LG_Online_IIML_DM_Aug26",
+   "adset_name": "LG_Online_IIML_DM_Aug26_IITR_DM_LAL1%",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "52566346872672",
+    "52566346871872"
+   ],
+   "detail": "2 ad(s) stopped: LG_Online_IIML_Institute_3B_Static_DM_May26, LG_Online_IIML_Human_Static2_DM_Jul26",
+   "id": "52566346871472|ad stopped|2026-09-23|2 ad(s) stopped: LG_Online_IIML_Institute_3B_Static_DM_May26",
+   "status": "pending"
+  },
+  {
+   "adset_id": "52566324575672",
+   "account": "Imarticus Learning - Tech 1",
+   "campaign": "LG_Online_IIML_DM_Aug26",
+   "adset_name": "LG_Online_IIML_DM_Aug26_Interests",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "52566332909272"
+   ],
+   "detail": "1 ad(s) stopped: LG_Online_IIML_Human_Static2_DM_Jul26",
+   "id": "52566324575672|ad stopped|2026-09-23|1 ad(s) stopped: LG_Online_IIML_Human_Static2_DM_Jul26",
+   "status": "pending"
+  },
+  {
+   "adset_id": "52566340396072",
+   "account": "Imarticus Learning - Tech 1",
+   "campaign": "LG_Online_IIML_DM_Aug26",
+   "adset_name": "LG_Online_IIML_DM_Aug26_Job_Titles",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "52566340397072",
+    "52566340396672"
+   ],
+   "detail": "2 ad(s) stopped: LG_Online_IIML_Human_Static1_DM_Jul26, LG_Online_IIML_Human_Static5_DM_Jul26",
+   "id": "52566340396072|ad stopped|2026-09-23|2 ad(s) stopped: LG_Online_IIML_Human_Static1_DM_Jul26, LG_O",
+   "status": "pending"
+  },
+  {
+   "adset_id": "52562231799072",
+   "account": "Imarticus Learning - Tech 1",
+   "campaign": "LG_Fintech",
+   "adset_name": "LL_Fintech_1%",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "52562231801672"
+   ],
+   "detail": "1 ad(s) stopped: [VIDEO]_Financial_Systems",
+   "id": "52562231799072|ad stopped|2026-09-23|1 ad(s) stopped: [VIDEO]_Financial_Systems",
+   "status": "pending"
+  },
+  {
+   "adset_id": "52562232620672",
+   "account": "Imarticus Learning - Tech 1",
+   "campaign": "LG_Fintech",
+   "adset_name": "LL_Fintech_1%-3%",
+   "date": "2026-09-23",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "52562232623272",
+    "52562232622872"
+   ],
+   "detail": "2 ad(s) stopped: [VIDEO]_AI_Proof_Career, [VIDEO]_Fintech_Golmine",
+   "id": "52562232620672|ad stopped|2026-09-23|2 ad(s) stopped: [VIDEO]_AI_Proof_Career, [VIDEO]_Fintech_Go",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120251131607300511",
+   "account": "ISFB",
+   "campaign": "ISFB PG HE Leads",
+   "adset_name": "ISFB PG HE Akbar DB Lookalike",
+   "date": "2026-09-24",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120251131607300511|ad set edited|2026-09-24|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120251132338130511",
+   "account": "ISFB",
+   "campaign": "ISFB PG HE Leads",
+   "adset_name": "ISFB PG HE IL Lookalike",
+   "date": "2026-09-24",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120251132338130511|ad set edited|2026-09-24|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120251191374170511",
+   "account": "ISFB",
+   "campaign": "PG - Mumbai - HE",
+   "adset_name": "PG - Image - Mumbai",
+   "date": "2026-09-24",
+   "type": "new ad",
+   "source": "ad_days",
+   "ads": [
+    "120251191374100511"
+   ],
+   "detail": "1 ad(s) started: PG Image Building Mumbai",
+   "id": "120251191374170511|new ad|2026-09-24|1 ad(s) started: PG Image Building Mumbai",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120240659341000511",
+   "account": "ISFB",
+   "campaign": "PG - Mumbai",
+   "adset_name": "PG - Image - Mumbai",
+   "date": "2026-09-24",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120240659341000511|ad set edited|2026-09-24|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120251191374170511",
+   "account": "ISFB",
+   "campaign": "PG - Mumbai - HE",
+   "adset_name": "PG - Image - Mumbai",
+   "date": "2026-09-24",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120251191374170511|ad set edited|2026-09-24|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120250098378270511",
+   "account": "ISFB",
+   "campaign": "PG Akbar DB Lookalike 2%",
+   "adset_name": "PG Akbar DB Lookalike IMG",
+   "date": "2026-09-24",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120250098378270511|ad set edited|2026-09-24|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120251191090460511",
+   "account": "ISFB",
+   "campaign": "PG Akbar DB Lookalike 2%  HE",
+   "adset_name": "PG Akbar DB Lookalike IMG",
+   "date": "2026-09-24",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120251191090460511|ad set edited|2026-09-24|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120249693648980511",
+   "account": "ISFB",
+   "campaign": "PG IL Lookalike Mumbai",
+   "adset_name": "PG IL Lookalike Mumbai Image",
+   "date": "2026-09-24",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120249693648980511|ad set edited|2026-09-24|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120251191174090511",
+   "account": "ISFB",
+   "campaign": "PG IL Lookalike Mumbai - HE",
+   "adset_name": "PG IL Lookalike Mumbai Image",
+   "date": "2026-09-24",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120251191174090511|ad set edited|2026-09-24|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120249939073170511",
+   "account": "ISFB",
+   "campaign": "ISFB PG Naukri look a like 2%",
+   "adset_name": "PG Naukri Image Look a like Mumbai",
+   "date": "2026-09-24",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120249939073170511|ad set edited|2026-09-24|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120251191317360511",
+   "account": "ISFB",
+   "campaign": "ISFB PG Naukri look a like 2% - HE",
+   "adset_name": "PG Naukri Image Look a like Mumbai",
+   "date": "2026-09-24",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120251191317360511|ad set edited|2026-09-24|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120252424866130349",
+   "account": "Imarticus Learning -  Cert Prep 2",
+   "campaign": "LG_Direct_CFA_Lookalike_August",
+   "adset_name": "LG_Direct_CFA_Lookalike",
+   "date": "2026-09-24",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120252424866130349|ad set edited|2026-09-24|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120250219125540379",
+   "account": "Imarticus Learning - Cert Prep 1",
+   "campaign": "LG_CMA_Ahmedabad",
+   "adset_name": "LG_CMA_Ahmedabad_Sep",
+   "date": "2026-09-24",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120250219125540379|ad set edited|2026-09-24|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120250217476750379",
+   "account": "Imarticus Learning - Cert Prep 1",
+   "campaign": "LG_CMA_Bangalore",
+   "adset_name": "LG_CMA_Bangalore_Sep26",
+   "date": "2026-09-24",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120250217476750379|ad set edited|2026-09-24|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120250271512140379",
+   "account": "Imarticus Learning - Cert Prep 1",
+   "campaign": "LG_CMA_Bangalore",
+   "adset_name": "LG_CMA_Bangalore_Sep26 – Interest",
+   "date": "2026-09-24",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120250271512140379|ad set edited|2026-09-24|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120250218378710379",
+   "account": "Imarticus Learning - Cert Prep 1",
+   "campaign": "LG_CMA_Chennai",
+   "adset_name": "LG_CMA_Chennai_Sep",
+   "date": "2026-09-24",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120250218378710379|ad set edited|2026-09-24|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120250271558370379",
+   "account": "Imarticus Learning - Cert Prep 1",
+   "campaign": "LG_CMA_Chennai",
+   "adset_name": "LG_CMA_Chennai_Sep – Interest",
+   "date": "2026-09-24",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120250271558370379|ad set edited|2026-09-24|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120250356294750379",
+   "account": "Imarticus Learning - Cert Prep 1",
+   "campaign": "LG_CMA_Delhi",
+   "adset_name": "LG_CMA_Delhi_Sep_Qualified",
+   "date": "2026-09-24",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120250356294760379"
+   ],
+   "detail": "1 ad(s) stopped: Set_3 – Copy 2",
+   "id": "120250356294750379|ad stopped|2026-09-24|1 ad(s) stopped: Set_3 – Copy 2",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120250249838680379",
+   "account": "Imarticus Learning - Cert Prep 1",
+   "campaign": "LG_CMA_Jaipur",
+   "adset_name": "LG_CMA_Jaipur_Sep",
+   "date": "2026-09-24",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120250249838680379|ad set edited|2026-09-24|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120250218573740379",
+   "account": "Imarticus Learning - Cert Prep 1",
+   "campaign": "LG_CMA_Mumbai",
+   "adset_name": "LG_CMA_Mumbai_Sep",
+   "date": "2026-09-24",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120250218573910379",
+    "120250218573920379"
+   ],
+   "detail": "2 ad(s) stopped: KPMG_CMA_Ad2, KPMG_CMA_Ad5",
+   "id": "120250218573740379|ad stopped|2026-09-24|2 ad(s) stopped: KPMG_CMA_Ad2, KPMG_CMA_Ad5",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120250218868720379",
+   "account": "Imarticus Learning - Cert Prep 1",
+   "campaign": "LG_CMA_Pune",
+   "adset_name": "LG_CMA_Pune_Sep",
+   "date": "2026-09-24",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120250218868720379|ad set edited|2026-09-24|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120250218514960379",
+   "account": "Imarticus Learning - Cert Prep 1",
+   "campaign": "LG_CMA_Thane",
+   "adset_name": "LG_CMA_Thane_Sep",
+   "date": "2026-09-24",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120250218514980379"
+   ],
+   "detail": "1 ad(s) stopped: KPMG_CMA_Ad5",
+   "id": "120250218514960379|ad stopped|2026-09-24|1 ad(s) stopped: KPMG_CMA_Ad5",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120253574081310572",
+   "account": "Imarticus Learning - Finance 1",
+   "campaign": "Placement Bootcamp",
+   "adset_name": "Indore",
+   "date": "2026-09-24",
+   "type": "new ad",
+   "source": "ad_days",
+   "ads": [
+    "120253574081320572"
+   ],
+   "detail": "1 ad(s) started: Influencer_Vasu",
+   "id": "120253574081310572|new ad|2026-09-24|1 ad(s) started: Influencer_Vasu",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120253543750040572",
+   "account": "Imarticus Learning - Finance 1",
+   "campaign": "Placement Bootcamp",
+   "adset_name": "Jaipur",
+   "date": "2026-09-24",
+   "type": "new ad",
+   "source": "ad_days",
+   "ads": [
+    "120253581024940572"
+   ],
+   "detail": "1 ad(s) started: Influencer_Suvam",
+   "id": "120253543750040572|new ad|2026-09-24|1 ad(s) started: Influencer_Suvam",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120247239946670572",
+   "account": "Imarticus Learning - Finance 1",
+   "campaign": "CIBOP_LG_Lookalike",
+   "adset_name": "LL_Chennai",
+   "date": "2026-09-24",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120247239946670572|ad set edited|2026-09-24|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120252879296640572",
+   "account": "Imarticus Learning - Finance 1",
+   "campaign": "CIBOP_LG_Lookalike",
+   "adset_name": "LL_Chennai - 1 - 3%",
+   "date": "2026-09-24",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120252879296650572",
+    "120252879296670572",
+    "120253201145970572"
+   ],
+   "detail": "3 ad(s) stopped: [VIDEO]_No_CA, [VIDEO]_Bcom/BBA, [VIDEO]_Companies",
+   "id": "120252879296640572|ad stopped|2026-09-24|3 ad(s) stopped: [VIDEO]_No_CA, [VIDEO]_Bcom/BBA, [VIDEO]_Co",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120250497232670572",
+   "account": "Imarticus Learning - Finance 1",
+   "campaign": "CIBOP_LG_Lookalike",
+   "adset_name": "LL_Cochin",
+   "date": "2026-09-24",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120250952083660572"
+   ],
+   "detail": "1 ad(s) stopped: [VIDEO]_Bcom/BBA",
+   "id": "120250497232670572|ad stopped|2026-09-24|1 ad(s) stopped: [VIDEO]_Bcom/BBA",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120247822208510572",
+   "account": "Imarticus Learning - Finance 1",
+   "campaign": "CIBOP_LG_Lookalike",
+   "adset_name": "LL_Hyderabad",
+   "date": "2026-09-24",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120247822208510572|ad set edited|2026-09-24|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120247087237100572",
+   "account": "Imarticus Learning - Finance 1",
+   "campaign": "CIBOP_LG_Lookalike",
+   "adset_name": "LL_Jaipur",
+   "date": "2026-09-24",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120247087237070572"
+   ],
+   "detail": "1 ad(s) stopped: CIBOP_LG_Logo_12thSept",
+   "id": "120247087237100572|ad stopped|2026-09-24|1 ad(s) stopped: CIBOP_LG_Logo_12thSept",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120246717662850572",
+   "account": "Imarticus Learning - Finance 1",
+   "campaign": "CIBOP_LG_Lookalike",
+   "adset_name": "LL_Pune",
+   "date": "2026-09-24",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120246717662850572|ad set edited|2026-09-24|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120252918403640572",
+   "account": "Imarticus Learning - Finance 1",
+   "campaign": "CIBOP_LG_Lookalike",
+   "adset_name": "LL_Pune_Regional",
+   "date": "2026-09-24",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120252918403650572"
+   ],
+   "detail": "1 ad(s) stopped: Pune_Static",
+   "id": "120252918403640572|ad stopped|2026-09-24|1 ad(s) stopped: Pune_Static",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120251876989240572",
+   "account": "Imarticus Learning - Finance 1",
+   "campaign": "Chennai_Regional",
+   "adset_name": "Lookalike_Chennai",
+   "date": "2026-09-24",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120251876989230572"
+   ],
+   "detail": "1 ad(s) stopped: Chennai_Regional",
+   "id": "120251876989240572|ad stopped|2026-09-24|1 ad(s) stopped: Chennai_Regional",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120252058985900572",
+   "account": "Imarticus Learning - Finance 1",
+   "campaign": "CIBOP_LG_Test",
+   "adset_name": "[VIDEO]_AI",
+   "date": "2026-09-24",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120252058985890572"
+   ],
+   "detail": "1 ad(s) stopped: [VIDEO]_IB_Rejects",
+   "id": "120252058985900572|ad stopped|2026-09-24|1 ad(s) stopped: [VIDEO]_IB_Rejects",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120247775533020572",
+   "account": "Imarticus Learning - Finance 1",
+   "campaign": "CIBOP_LG_Test",
+   "adset_name": "[VIDEO]_Bcom_to_IB",
+   "date": "2026-09-24",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120247775933720572"
+   ],
+   "detail": "1 ad(s) stopped: [VIDEO]_No_CA/MBA",
+   "id": "120247775533020572|ad stopped|2026-09-24|1 ad(s) stopped: [VIDEO]_No_CA/MBA",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120249430240290572",
+   "account": "Imarticus Learning - Finance 1",
+   "campaign": "CIBOP_LG_Test",
+   "adset_name": "[VIDEO]_Operations_Entry",
+   "date": "2026-09-24",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120249430468460572"
+   ],
+   "detail": "1 ad(s) stopped: [VIDEO]_Companies",
+   "id": "120249430240290572|ad stopped|2026-09-24|1 ad(s) stopped: [VIDEO]_Companies",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120227608480530559",
+   "account": "Imarticus Learning - Finance 2",
+   "campaign": "LG_Online_IIMC_PEVCP_8May25",
+   "adset_name": "IIMC_PEVCP_Interest_8May25",
+   "date": "2026-09-24",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120227608480530559|ad set edited|2026-09-24|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120227608480440559",
+   "account": "Imarticus Learning - Finance 2",
+   "campaign": "LG_Online_IIMC_PEVCP_8May25",
+   "adset_name": "IIMC_PEVCP_JT+FieldOfStudy_8May25",
+   "date": "2026-09-24",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120227608480440559|ad set edited|2026-09-24|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120243302865930395",
+   "account": "Imarticus Learning - HR 1",
+   "campaign": "AIO_ACCA_Direct",
+   "adset_name": "AIO_ACCA_Direct_July",
+   "date": "2026-09-24",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120243302865930395|ad set edited|2026-09-24|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120243480204490395",
+   "account": "Imarticus Learning - HR 1",
+   "campaign": "LG_Online_PWC_GenAI_24Oct25",
+   "adset_name": "CAPI_PWC_GenAI_Interests_Based_28Jul26_Set2",
+   "date": "2026-09-24",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120243480204490395|ad set edited|2026-09-24|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120244408071940395",
+   "account": "Imarticus Learning - HR 1",
+   "campaign": "LG_Online_PWC_GenAI_24Oct25",
+   "adset_name": "CAPI_PWC_GenAI_Interests_Based_28Jul26_Set2_iOS",
+   "date": "2026-09-24",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120244408071940395|ad set edited|2026-09-24|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120243480204870395",
+   "account": "Imarticus Learning - HR 1",
+   "campaign": "LG_Online_PWC_GenAI_24Oct25",
+   "adset_name": "CAPI_PWC_GenAI_Interests_Based_Finance_28Jul26_Set2",
+   "date": "2026-09-24",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120243480204870395|ad set edited|2026-09-24|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120235452063900395",
+   "account": "Imarticus Learning - HR 1",
+   "campaign": "LG_Online_PWC_GenAI_24Oct25",
+   "adset_name": "CAPI_PWC_GenAI_Interests_Based_Finance_6Feb26",
+   "date": "2026-09-24",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120235452063900395|ad set edited|2026-09-24|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120243741282000395",
+   "account": "Imarticus Learning - HR 1",
+   "campaign": "LG_Online_PWC_GenAI_24Oct25",
+   "adset_name": "CAPI_PWC_GenAI_Interests_Based_Finance_6Feb26_IG",
+   "date": "2026-09-24",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120243741282000395|ad set edited|2026-09-24|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120244408048260395",
+   "account": "Imarticus Learning - HR 1",
+   "campaign": "LG_Online_PWC_GenAI_24Oct25",
+   "adset_name": "CAPI_PWC_GenAI_Interests_Based_Finance_6Feb26_New",
+   "date": "2026-09-24",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120244408048260395|ad set edited|2026-09-24|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120235413813140395",
+   "account": "Imarticus Learning - HR 1",
+   "campaign": "LG_Online_PWC_GenAI_24Oct25",
+   "adset_name": "CAPI_PWC_GenAI_Interests_Based_HR_6Feb26",
+   "date": "2026-09-24",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120235413813140395|ad set edited|2026-09-24|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120244408071970395",
+   "account": "Imarticus Learning - HR 1",
+   "campaign": "LG_Online_PWC_GenAI_24Oct25",
+   "adset_name": "CAPI_PWC_GenAI_Interests_Based_HR_6Feb26_iOS",
+   "date": "2026-09-24",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120244408071970395|ad set edited|2026-09-24|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120244515886370395",
+   "account": "Imarticus Learning - HR 1",
+   "campaign": "LG_Online_PWC_GenAI_24Oct25",
+   "adset_name": "CAPI_PWC_GenAI_LAL1%_Form_Submitter_24Sep26_Set2",
+   "date": "2026-09-24",
+   "type": "new ad",
+   "source": "ad_days",
+   "ads": [
+    "120244515886390395",
+    "120244515886440395",
+    "120244515886450395"
+   ],
+   "detail": "3 ad(s) started: PWC_GenAI_Static_12_28Jul2026, PWC_GenAI_Static_7_28Jul2026, PWC_GenAI_Static_5_28Jul2026",
+   "id": "120244515886370395|new ad|2026-09-24|3 ad(s) started: PWC_GenAI_Static_12_28Jul2026, PWC_GenAI_St",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120244515886370395",
+   "account": "Imarticus Learning - HR 1",
+   "campaign": "LG_Online_PWC_GenAI_24Oct25",
+   "adset_name": "CAPI_PWC_GenAI_LAL1%_Form_Submitter_24Sep26_Set2",
+   "date": "2026-09-24",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120244515886370395|ad set edited|2026-09-24|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120244244708190395",
+   "account": "Imarticus Learning - HR 1",
+   "campaign": "LG_ACCA_Ahmedabad",
+   "adset_name": "LG_ACCA_Ahmedabad_Sep",
+   "date": "2026-09-24",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120244244708200395"
+   ],
+   "detail": "1 ad(s) stopped: KPMG_ACCA_Ad1",
+   "id": "120244244708190395|ad stopped|2026-09-24|1 ad(s) stopped: KPMG_ACCA_Ad1",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120244271094970395",
+   "account": "Imarticus Learning - HR 1",
+   "campaign": "LG_ACCA_Ahmedabad",
+   "adset_name": "LG_ACCA_Ahmedabad_Sep_Interest",
+   "date": "2026-09-24",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120244271130410395"
+   ],
+   "detail": "1 ad(s) stopped: Karan_ACCA_2",
+   "id": "120244271094970395|ad stopped|2026-09-24|1 ad(s) stopped: Karan_ACCA_2",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120244226221880395",
+   "account": "Imarticus Learning - HR 1",
+   "campaign": "LG_ACCA_South",
+   "adset_name": "LG_ACCA_Bangalore_Interest",
+   "date": "2026-09-24",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120244226221880395|ad set edited|2026-09-24|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120243535049940395",
+   "account": "Imarticus Learning - HR 1",
+   "campaign": "LG_ACCA_South",
+   "adset_name": "LG_ACCA_Bangalore_Lookalike",
+   "date": "2026-09-24",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120243535049940395|ad set edited|2026-09-24|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120244184288130395",
+   "account": "Imarticus Learning - HR 1",
+   "campaign": "LG_ACCA_Bangalore",
+   "adset_name": "LG_ACCA_Bangalore_Sep",
+   "date": "2026-09-24",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120244184288130395|ad set edited|2026-09-24|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120244226266490395",
+   "account": "Imarticus Learning - HR 1",
+   "campaign": "LG_ACCA_South",
+   "adset_name": "LG_ACCA_Chennai_Interest",
+   "date": "2026-09-24",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120244226266490395|ad set edited|2026-09-24|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120244172662830395",
+   "account": "Imarticus Learning - HR 1",
+   "campaign": "ACQ_ACCA_Interest_Chennai",
+   "adset_name": "LG_ACCA_Chennai_Sep",
+   "date": "2026-09-24",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120244172662830395|ad set edited|2026-09-24|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120244273509920395",
+   "account": "Imarticus Learning - HR 1",
+   "campaign": "ACQ_ACCA_Interest_Coimbatore",
+   "adset_name": "LG_ACCA_Coimbatore_Sep",
+   "date": "2026-09-24",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120244273509920395|ad set edited|2026-09-24|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120244172828620395",
+   "account": "Imarticus Learning - HR 1",
+   "campaign": "ACQ_ACCA_Interest_Delhi",
+   "adset_name": "LG_ACCA_Delhi_Sep",
+   "date": "2026-09-24",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120244172828620395|ad set edited|2026-09-24|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120243535613900395",
+   "account": "Imarticus Learning - HR 1",
+   "campaign": "LG_ACCA_South_VD",
+   "adset_name": "LG_ACCA_Hyderabad_Interest_VD",
+   "date": "2026-09-24",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120243535613900395|ad set edited|2026-09-24|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120244184332800395",
+   "account": "Imarticus Learning - HR 1",
+   "campaign": "LG_ACCA_Hyderabad",
+   "adset_name": "LG_ACCA_Hyderabad_Sep",
+   "date": "2026-09-24",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120244184332800395|ad set edited|2026-09-24|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120244274703340395",
+   "account": "Imarticus Learning - HR 1",
+   "campaign": "LG_ACCA_Hyderabad",
+   "adset_name": "LG_ACCA_Hyderabad_Sep_Interest",
+   "date": "2026-09-24",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120244274703340395|ad set edited|2026-09-24|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120243919274170395",
+   "account": "Imarticus Learning - HR 1",
+   "campaign": "LG_Direct_ACCA_ISFB",
+   "adset_name": "LG_ACCA_ISFB_Lookalike",
+   "date": "2026-09-24",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120243919274170395|ad set edited|2026-09-24|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120244173586450395",
+   "account": "Imarticus Learning - HR 1",
+   "campaign": "ACQ_ACCA_Interest_Jaipur",
+   "adset_name": "LG_ACCA_Jaipur_Sep",
+   "date": "2026-09-24",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120244173586450395|ad set edited|2026-09-24|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120244186192770395",
+   "account": "Imarticus Learning - HR 1",
+   "campaign": "LG_ACCA_Kochi",
+   "adset_name": "LG_ACCA_Kochi_Sep",
+   "date": "2026-09-24",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120244384921510395"
+   ],
+   "detail": "1 ad(s) stopped: Karan_ACCA_2 – Copy",
+   "id": "120244186192770395|ad stopped|2026-09-24|1 ad(s) stopped: Karan_ACCA_2 – Copy",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120244173003540395",
+   "account": "Imarticus Learning - HR 1",
+   "campaign": "ACQ_ACCA_Interest_Mumbai",
+   "adset_name": "LG_ACCA_Mumbai_Sep",
+   "date": "2026-09-24",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120244336365010395"
+   ],
+   "detail": "1 ad(s) stopped: Karan_ACCA_3 – Copy",
+   "id": "120244173003540395|ad stopped|2026-09-24|1 ad(s) stopped: Karan_ACCA_3 – Copy",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120244173258550395",
+   "account": "Imarticus Learning - HR 1",
+   "campaign": "ACQ_ACCA_Interest_Pune",
+   "adset_name": "LG_ACCA_Pune_Sep",
+   "date": "2026-09-24",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120244173258550395|ad set edited|2026-09-24|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120244270953460395",
+   "account": "Imarticus Learning - HR 1",
+   "campaign": "ACQ_ACCA_Interest_Thane",
+   "adset_name": "LG_ACCA_Thane_Sep_Interest",
+   "date": "2026-09-24",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "120244270987830395"
+   ],
+   "detail": "1 ad(s) stopped: Karan_ACCA_2",
+   "id": "120244270953460395|ad stopped|2026-09-24|1 ad(s) stopped: Karan_ACCA_2",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120243917793360395",
+   "account": "Imarticus Learning - HR 1",
+   "campaign": "LG_Direct_CMA_ISFB",
+   "adset_name": "LG_CMA_ISFB_Lookalike",
+   "date": "2026-09-24",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120243917793360395|ad set edited|2026-09-24|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120243761616710395",
+   "account": "Imarticus Learning - HR 1",
+   "campaign": "LG_Online_PWC_GenAI_24Oct25",
+   "adset_name": "PWC_GenAI_Interests_Based_HR_6Feb26_IG_Set3",
+   "date": "2026-09-24",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120243761616710395|ad set edited|2026-09-24|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120235940701420534",
+   "account": "Imarticus Learning - Marketing 1",
+   "campaign": "LG_Online_FAP_24_Oct_25",
+   "adset_name": "KPMG_FAP_Interests_10_Dec_25",
+   "date": "2026-09-24",
+   "type": "new ad",
+   "source": "ad_days",
+   "ads": [
+    "120248280655350534",
+    "120248280718170534"
+   ],
+   "detail": "2 ad(s) started: PwC_FAP_Static1_24Sept26, PwC_FAP_Static4_24Sept26",
+   "id": "120235940701420534|new ad|2026-09-24|2 ad(s) started: PwC_FAP_Static1_24Sept26, PwC_FAP_Static4_2",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120235940701420534",
+   "account": "Imarticus Learning - Marketing 1",
+   "campaign": "LG_Online_FAP_24_Oct_25",
+   "adset_name": "KPMG_FAP_Interests_10_Dec_25",
+   "date": "2026-09-24",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120235940701420534|ad set edited|2026-09-24|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120248277553130534",
+   "account": "Imarticus Learning - Marketing 1",
+   "campaign": "LG_Online_FAP_24_Oct_25",
+   "adset_name": "KPMG_FAP_Interests_10_Dec_25_P2",
+   "date": "2026-09-24",
+   "type": "new ad",
+   "source": "ad_days",
+   "ads": [
+    "120248277553120534"
+   ],
+   "detail": "1 ad(s) started: PwC_FAP_Static4_22Jul26",
+   "id": "120248277553130534|new ad|2026-09-24|1 ad(s) started: PwC_FAP_Static4_22Jul26",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120248277553130534",
+   "account": "Imarticus Learning - Marketing 1",
+   "campaign": "LG_Online_FAP_24_Oct_25",
+   "adset_name": "KPMG_FAP_Interests_10_Dec_25_P2",
+   "date": "2026-09-24",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120248277553130534|ad set edited|2026-09-24|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120236610745810534",
+   "account": "Imarticus Learning - Marketing 1",
+   "campaign": "LG_Online_FAP_24_Oct_25",
+   "adset_name": "KPMG_FAP_Interests_23_Dec_25",
+   "date": "2026-09-24",
+   "type": "new ad",
+   "source": "ad_days",
+   "ads": [
+    "120247624030720534"
+   ],
+   "detail": "1 ad(s) started: PwC_FAP_Static5_22Jul26",
+   "id": "120236610745810534|new ad|2026-09-24|1 ad(s) started: PwC_FAP_Static5_22Jul26",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120236610745810534",
+   "account": "Imarticus Learning - Marketing 1",
+   "campaign": "LG_Online_FAP_24_Oct_25",
+   "adset_name": "KPMG_FAP_Interests_23_Dec_25",
+   "date": "2026-09-24",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120236610745810534|ad set edited|2026-09-24|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120247487784080534",
+   "account": "Imarticus Learning - Marketing 1",
+   "campaign": "LG_AIPM_IBM_Online_24_Oct_25",
+   "adset_name": "LG_AIPM_IBM_Online_ITSwitch_J26_IG",
+   "date": "2026-09-24",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120247487784080534|ad set edited|2026-09-24|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120247487936070534",
+   "account": "Imarticus Learning - Marketing 1",
+   "campaign": "LG_AIPM_IBM_Online_24_Oct_25",
+   "adset_name": "LG_AIPM_IBM_Online_Interests_24_Oct_25_IG",
+   "date": "2026-09-24",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120247487936070534|ad set edited|2026-09-24|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120247487783770534",
+   "account": "Imarticus Learning - Marketing 1",
+   "campaign": "LG_AIPM_IBM_Online_24_Oct_25",
+   "adset_name": "LG_AIPM_IBM_Online_Interests_Aug26_IG",
+   "date": "2026-09-24",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120247487783770534|ad set edited|2026-09-24|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120247487935590534",
+   "account": "Imarticus Learning - Marketing 1",
+   "campaign": "LG_AIPM_IBM_Online_24_Oct_25",
+   "adset_name": "LG_AIPM_IBM_Online_Interests_IT_Professionals_Aug26_IG",
+   "date": "2026-09-24",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120247487935590534|ad set edited|2026-09-24|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120247487783290534",
+   "account": "Imarticus Learning - Marketing 1",
+   "campaign": "LG_AIPM_IBM_Online_24_Oct_25",
+   "adset_name": "LG_AIPM_IBM_Online_Interests_Jul26_IG",
+   "date": "2026-09-24",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120247487783290534|ad set edited|2026-09-24|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120248277790790534",
+   "account": "Imarticus Learning - Marketing 1",
+   "campaign": "LG_AIPM_IBM_Online_24_Oct_25",
+   "adset_name": "LG_AIPM_IBM_Online_Interests_Jul26_IG_P2_Cities",
+   "date": "2026-09-24",
+   "type": "new ad",
+   "source": "ad_days",
+   "ads": [
+    "120248277790690534",
+    "120248277791000534"
+   ],
+   "detail": "2 ad(s) started: LG_AIPM_IBM_Online_Static4_Jul26, LG_AIPM_IBM_Online_Video3_Aug26",
+   "id": "120248277790790534|new ad|2026-09-24|2 ad(s) started: LG_AIPM_IBM_Online_Static4_Jul26, LG_AIPM_I",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120248277790790534",
+   "account": "Imarticus Learning - Marketing 1",
+   "campaign": "LG_AIPM_IBM_Online_24_Oct_25",
+   "adset_name": "LG_AIPM_IBM_Online_Interests_Jul26_IG_P2_Cities",
+   "date": "2026-09-24",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120248277790790534|ad set edited|2026-09-24|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120247487783780534",
+   "account": "Imarticus Learning - Marketing 1",
+   "campaign": "LG_AIPM_IBM_Online_24_Oct_25",
+   "adset_name": "LG_AIPM_IBM_Online_LAL1%_Jul26_IG",
+   "date": "2026-09-24",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120247487783780534|ad set edited|2026-09-24|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120248277790650534",
+   "account": "Imarticus Learning - Marketing 1",
+   "campaign": "LG_AIPM_IBM_Online_24_Oct_25",
+   "adset_name": "LG_AIPM_IBM_Online_LAL1%_Jul26_IG_P2_Cities",
+   "date": "2026-09-24",
+   "type": "new ad",
+   "source": "ad_days",
+   "ads": [
+    "120248277790890534"
+   ],
+   "detail": "1 ad(s) started: LG_AIPM_IBM_Online_Static5_Jul26",
+   "id": "120248277790650534|new ad|2026-09-24|1 ad(s) started: LG_AIPM_IBM_Online_Static5_Jul26",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120248277790650534",
+   "account": "Imarticus Learning - Marketing 1",
+   "campaign": "LG_AIPM_IBM_Online_24_Oct_25",
+   "adset_name": "LG_AIPM_IBM_Online_LAL1%_Jul26_IG_P2_Cities",
+   "date": "2026-09-24",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120248277790650534|ad set edited|2026-09-24|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120247243987700534",
+   "account": "Imarticus Learning - Marketing 1",
+   "campaign": "LG_Online_FAP_24_Oct_25",
+   "adset_name": "PwC_FAP_Banking_Interests_Jul26_Set2",
+   "date": "2026-09-24",
+   "type": "new ad",
+   "source": "ad_days",
+   "ads": [
+    "120247244274100534",
+    "120247244274120534"
+   ],
+   "detail": "2 ad(s) started: PwC_FAP_Static3_28Jul26, PwC_FAP_Static6_28Jul26",
+   "id": "120247243987700534|new ad|2026-09-24|2 ad(s) started: PwC_FAP_Static3_28Jul26, PwC_FAP_Static6_28",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120247243987700534",
+   "account": "Imarticus Learning - Marketing 1",
+   "campaign": "LG_Online_FAP_24_Oct_25",
+   "adset_name": "PwC_FAP_Banking_Interests_Jul26_Set2",
+   "date": "2026-09-24",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120247243987700534|ad set edited|2026-09-24|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120247487601310534",
+   "account": "Imarticus Learning - Marketing 1",
+   "campaign": "LG_Online_FAP_24_Oct_25",
+   "adset_name": "PwC_FAP_Banking_Interests_Jul26_Set2_IG",
+   "date": "2026-09-24",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120247487601310534|ad set edited|2026-09-24|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120248148906210534",
+   "account": "Imarticus Learning - Marketing 1",
+   "campaign": "LG_Online_FAP_24_Oct_25",
+   "adset_name": "PwC_FAP_Banking_Interests_Jul26_Set2_IG_P1_Cities_26to32",
+   "date": "2026-09-24",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120248148906210534|ad set edited|2026-09-24|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120248277553020534",
+   "account": "Imarticus Learning - Marketing 1",
+   "campaign": "LG_Online_FAP_24_Oct_25",
+   "adset_name": "PwC_FAP_Banking_Interests_Jul26_Set2_IG_P2",
+   "date": "2026-09-24",
+   "type": "new ad",
+   "source": "ad_days",
+   "ads": [
+    "120248277553110534",
+    "120248277553230534",
+    "120248277553310534"
+   ],
+   "detail": "3 ad(s) started: PwC_FAP_Static6_28Jul26, PwC_FAP_Static3_28Jul26, PwC_FAP_Static5_28Jul26",
+   "id": "120248277553020534|new ad|2026-09-24|3 ad(s) started: PwC_FAP_Static6_28Jul26, PwC_FAP_Static3_28",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120248277553020534",
+   "account": "Imarticus Learning - Marketing 1",
+   "campaign": "LG_Online_FAP_24_Oct_25",
+   "adset_name": "PwC_FAP_Banking_Interests_Jul26_Set2_IG_P2",
+   "date": "2026-09-24",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120248277553020534|ad set edited|2026-09-24|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120248148906190534",
+   "account": "Imarticus Learning - Marketing 1",
+   "campaign": "LG_Online_FAP_24_Oct_25",
+   "adset_name": "PwC_FAP_Banking_Interests_Jul26_Set2_P1_Cities_26to32",
+   "date": "2026-09-24",
+   "type": "new ad",
+   "source": "ad_days",
+   "ads": [
+    "120248280814640534",
+    "120248280814610534",
+    "120248280814650534"
+   ],
+   "detail": "3 ad(s) started: PwC_FAP_Static4_24Sept26, PwC_FAP_Static1_24Sept26, PwC_FAP_Static5_24Sept26",
+   "id": "120248148906190534|new ad|2026-09-24|3 ad(s) started: PwC_FAP_Static4_24Sept26, PwC_FAP_Static1_2",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120248148906190534",
+   "account": "Imarticus Learning - Marketing 1",
+   "campaign": "LG_Online_FAP_24_Oct_25",
+   "adset_name": "PwC_FAP_Banking_Interests_Jul26_Set2_P1_Cities_26to32",
+   "date": "2026-09-24",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120248148906190534|ad set edited|2026-09-24|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120248277552980534",
+   "account": "Imarticus Learning - Marketing 1",
+   "campaign": "LG_Online_FAP_24_Oct_25",
+   "adset_name": "PwC_FAP_Banking_Interests_Jul26_Set2_P2",
+   "date": "2026-09-24",
+   "type": "new ad",
+   "source": "ad_days",
+   "ads": [
+    "120248277553280534",
+    "120248277553140534",
+    "120248277553290534",
+    "120248277553150534"
+   ],
+   "detail": "4 ad(s) started: PwC_FAP_Static1_28Jul26, PwC_FAP_Static5_28Jul26, PwC_FAP_Static3_28Jul26, PwC_FAP_Static6_28Jul26",
+   "id": "120248277552980534|new ad|2026-09-24|4 ad(s) started: PwC_FAP_Static1_28Jul26, PwC_FAP_Static5_28",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120248277552980534",
+   "account": "Imarticus Learning - Marketing 1",
+   "campaign": "LG_Online_FAP_24_Oct_25",
+   "adset_name": "PwC_FAP_Banking_Interests_Jul26_Set2_P2",
+   "date": "2026-09-24",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120248277552980534|ad set edited|2026-09-24|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120248279386280534",
+   "account": "Imarticus Learning - Marketing 1",
+   "campaign": "LG_Online_FAP_24_Oct_25",
+   "adset_name": "PwC_FAP_Form_Abandoners_90Days_Sept26",
+   "date": "2026-09-24",
+   "type": "new ad",
+   "source": "ad_days",
+   "ads": [
+    "120248279386300534",
+    "120248279386240534",
+    "120248279386250534"
+   ],
+   "detail": "3 ad(s) started: PwC_FAP_Static5_28Jul26, PwC_FAP_Static6_28Jul26, PwC_FAP_Static3_28Jul26",
+   "id": "120248279386280534|new ad|2026-09-24|3 ad(s) started: PwC_FAP_Static5_28Jul26, PwC_FAP_Static6_28",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120248279386280534",
+   "account": "Imarticus Learning - Marketing 1",
+   "campaign": "LG_Online_FAP_24_Oct_25",
+   "adset_name": "PwC_FAP_Form_Abandoners_90Days_Sept26",
+   "date": "2026-09-24",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120248279386280534|ad set edited|2026-09-24|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120247485882820534",
+   "account": "Imarticus Learning - Marketing 1",
+   "campaign": "LG_Online_FAP_24_Oct_25",
+   "adset_name": "PwC_FAP_Interests_Jul26_Set2_IG",
+   "date": "2026-09-24",
+   "type": "new ad",
+   "source": "ad_days",
+   "ads": [
+    "120248280815130534"
+   ],
+   "detail": "1 ad(s) started: PwC_FAP_Static2_24Sept26",
+   "id": "120247485882820534|new ad|2026-09-24|1 ad(s) started: PwC_FAP_Static2_24Sept26",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120247485882820534",
+   "account": "Imarticus Learning - Marketing 1",
+   "campaign": "LG_Online_FAP_24_Oct_25",
+   "adset_name": "PwC_FAP_Interests_Jul26_Set2_IG",
+   "date": "2026-09-24",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120247485882820534|ad set edited|2026-09-24|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120248148906180534",
+   "account": "Imarticus Learning - Marketing 1",
+   "campaign": "LG_Online_FAP_24_Oct_25",
+   "adset_name": "PwC_FAP_Interests_Jul26_Set2_P1_Cities_26to32",
+   "date": "2026-09-24",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120248148906180534|ad set edited|2026-09-24|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120248149014930534",
+   "account": "Imarticus Learning - Marketing 1",
+   "campaign": "LG_Online_FAP_24_Oct_25",
+   "adset_name": "PwC_FAP_Interests_Jul26_Set2_P1_Cities_New",
+   "date": "2026-09-24",
+   "type": "new ad",
+   "source": "ad_days",
+   "ads": [
+    "120248280814740534"
+   ],
+   "detail": "1 ad(s) started: PwC_FAP_Static2_24Sept26",
+   "id": "120248149014930534|new ad|2026-09-24|1 ad(s) started: PwC_FAP_Static2_24Sept26",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120248149014930534",
+   "account": "Imarticus Learning - Marketing 1",
+   "campaign": "LG_Online_FAP_24_Oct_25",
+   "adset_name": "PwC_FAP_Interests_Jul26_Set2_P1_Cities_New",
+   "date": "2026-09-24",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120248149014930534|ad set edited|2026-09-24|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120237421427350472",
+   "account": "Imarticus Learning - Marketing 2",
+   "campaign": "LG_Online_KPMG_PM_25May25",
+   "adset_name": "CAPI_KPMG_PM_JobTitles_12Jan26_New",
+   "date": "2026-09-24",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120237421427350472|ad set edited|2026-09-24|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120253071127470472",
+   "account": "Imarticus Learning - Marketing 2",
+   "campaign": "LG_Online_KPMG_PM_25May25",
+   "adset_name": "CAPI_KPMG_PM_JobTitles_12Jan26_New_P2",
+   "date": "2026-09-24",
+   "type": "new ad",
+   "source": "ad_days",
+   "ads": [
+    "120253071127530472",
+    "120253071127560472",
+    "120253071127570472",
+    "120253071127590472",
+    "120253071127600472"
+   ],
+   "detail": "5 ad(s) started: PwC_PM_Static3_28Jul26, PwC_PM_Static1_22Jul26, PwC_PM_Static2_28Jul26, PwC_PM_Static3_22Jul26",
+   "id": "120253071127470472|new ad|2026-09-24|5 ad(s) started: PwC_PM_Static3_28Jul26, PwC_PM_Static1_22Ju",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120253071127470472",
+   "account": "Imarticus Learning - Marketing 2",
+   "campaign": "LG_Online_KPMG_PM_25May25",
+   "adset_name": "CAPI_KPMG_PM_JobTitles_12Jan26_New_P2",
+   "date": "2026-09-24",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120253071127470472|ad set edited|2026-09-24|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120251556779930472",
+   "account": "Imarticus Learning - Marketing 2",
+   "campaign": "LG_Online_KPMG_PM_25May25",
+   "adset_name": "CAPI_PwC_PM_Interests_LAL_Jul26_Set2",
+   "date": "2026-09-24",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120251556779930472|ad set edited|2026-09-24|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120253071127460472",
+   "account": "Imarticus Learning - Marketing 2",
+   "campaign": "LG_Online_KPMG_PM_25May25",
+   "adset_name": "CAPI_PwC_PM_Interests_LAL_Jul26_Set2_P2",
+   "date": "2026-09-24",
+   "type": "new ad",
+   "source": "ad_days",
+   "ads": [
+    "120253071127910472",
+    "120253071127920472",
+    "120253071127950472"
+   ],
+   "detail": "3 ad(s) started: PwC_PM_Static8_28Jul26, PwC_PM_Static3_28Jul26, PwC_PM_Static4_28Jul26",
+   "id": "120253071127460472|new ad|2026-09-24|3 ad(s) started: PwC_PM_Static8_28Jul26, PwC_PM_Static3_28Ju",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120253071127460472",
+   "account": "Imarticus Learning - Marketing 2",
+   "campaign": "LG_Online_KPMG_PM_25May25",
+   "adset_name": "CAPI_PwC_PM_Interests_LAL_Jul26_Set2_P2",
+   "date": "2026-09-24",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120253071127460472|ad set edited|2026-09-24|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120251842461460472",
+   "account": "Imarticus Learning - Marketing 2",
+   "campaign": "LG_Online_KPMG_PM_25May25",
+   "adset_name": "PwC_PM_Interests_Jul26",
+   "date": "2026-09-24",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120251842461460472|ad set edited|2026-09-24|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120253071127440472",
+   "account": "Imarticus Learning - Marketing 2",
+   "campaign": "LG_Online_KPMG_PM_25May25",
+   "adset_name": "PwC_PM_Interests_Jul26_P2",
+   "date": "2026-09-24",
+   "type": "new ad",
+   "source": "ad_days",
+   "ads": [
+    "120253071127490472",
+    "120253071127880472"
+   ],
+   "detail": "2 ad(s) started: PwC_PM_Static2_22Jul26, PwC_PM_Static3_22Jul26",
+   "id": "120253071127440472|new ad|2026-09-24|2 ad(s) started: PwC_PM_Static2_22Jul26, PwC_PM_Static3_22Ju",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120253071127440472",
+   "account": "Imarticus Learning - Marketing 2",
+   "campaign": "LG_Online_KPMG_PM_25May25",
+   "adset_name": "PwC_PM_Interests_Jul26_P2",
+   "date": "2026-09-24",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120253071127440472|ad set edited|2026-09-24|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120251842415220472",
+   "account": "Imarticus Learning - Marketing 2",
+   "campaign": "LG_Online_KPMG_PM_25May25",
+   "adset_name": "PwC_PM_Interests_Jul26_Set2",
+   "date": "2026-09-24",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120251842415220472|ad set edited|2026-09-24|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120253071127450472",
+   "account": "Imarticus Learning - Marketing 2",
+   "campaign": "LG_Online_KPMG_PM_25May25",
+   "adset_name": "PwC_PM_Interests_Jul26_Set2_P2",
+   "date": "2026-09-24",
+   "type": "new ad",
+   "source": "ad_days",
+   "ads": [
+    "120253071127810472",
+    "120253071127820472",
+    "120253071127840472"
+   ],
+   "detail": "3 ad(s) started: PwC_PM_Static2_28Jul26, PwC_PM_Static3_28Jul26, PwC_PM_Static8_28Jul26",
+   "id": "120253071127450472|new ad|2026-09-24|3 ad(s) started: PwC_PM_Static2_28Jul26, PwC_PM_Static3_28Ju",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120253071127450472",
+   "account": "Imarticus Learning - Marketing 2",
+   "campaign": "LG_Online_KPMG_PM_25May25",
+   "adset_name": "PwC_PM_Interests_Jul26_Set2_P2",
+   "date": "2026-09-24",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120253071127450472|ad set edited|2026-09-24|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "52566340396072",
+   "account": "Imarticus Learning - Tech 1",
+   "campaign": "LG_Online_IIML_DM_Aug26",
+   "adset_name": "LG_Online_IIML_DM_Aug26_Job_Titles",
+   "date": "2026-09-24",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "52566340396072|ad set edited|2026-09-24|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "52562225389872",
+   "account": "Imarticus Learning - Tech 1",
+   "campaign": "LG_Fintech",
+   "adset_name": "LL_1%-3%",
+   "date": "2026-09-24",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "52562225390872"
+   ],
+   "detail": "1 ad(s) stopped: [VIDEO]_Fintech_Market",
+   "id": "52562225389872|ad stopped|2026-09-24|1 ad(s) stopped: [VIDEO]_Fintech_Market",
+   "status": "pending"
+  },
+  {
+   "adset_id": "52559185407072",
+   "account": "Imarticus Learning - Tech 1",
+   "campaign": "LG_Fintech",
+   "adset_name": "LL_Bangalore_1%",
+   "date": "2026-09-24",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "52577498314872",
+    "52579644350672"
+   ],
+   "detail": "2 ad(s) stopped: Fintech Analyst in 3 Months, Fintech Analyst in 3 Months",
+   "id": "52559185407072|ad stopped|2026-09-24|2 ad(s) stopped: Fintech Analyst in 3 Months, Fintech Analys",
+   "status": "pending"
+  },
+  {
+   "adset_id": "52575978278272",
+   "account": "Imarticus Learning - Tech 1",
+   "campaign": "LG_Fintech",
+   "adset_name": "LL_Chennai_1%",
+   "date": "2026-09-24",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "52575978281672",
+    "52575978281272",
+    "52575978279072"
+   ],
+   "detail": "3 ad(s) stopped: [VIDEO]_Fintech_Golmine, [VIDEO]_In_Demand_Short, [VIDEO]_Fintech_Opportunities",
+   "id": "52575978278272|ad stopped|2026-09-24|3 ad(s) stopped: [VIDEO]_Fintech_Golmine, [VIDEO]_In_Demand_",
+   "status": "pending"
+  },
+  {
+   "adset_id": "52559199859072",
+   "account": "Imarticus Learning - Tech 1",
+   "campaign": "LG_Fintech",
+   "adset_name": "LL_Delhi_1%",
+   "date": "2026-09-24",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "52577498312672",
+    "52579644350872"
+   ],
+   "detail": "2 ad(s) stopped: Fintech Analyst in 3 Months, Fintech Analyst in 3 Months",
+   "id": "52559199859072|ad stopped|2026-09-24|2 ad(s) stopped: Fintech Analyst in 3 Months, Fintech Analys",
+   "status": "pending"
+  },
+  {
+   "adset_id": "52556977245072",
+   "account": "Imarticus Learning - Tech 1",
+   "campaign": "LG_Fintech",
+   "adset_name": "LL_Mumbai_1%",
+   "date": "2026-09-24",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "52558262936672",
+    "52556977245672",
+    "52556977245872"
+   ],
+   "detail": "3 ad(s) stopped: [VIDEO]_Financial_Systems, [VIDEO]_In_Demand_Short, [VIDEO]_Fintech_Golmine",
+   "id": "52556977245072|ad stopped|2026-09-24|3 ad(s) stopped: [VIDEO]_Financial_Systems, [VIDEO]_In_Deman",
+   "status": "pending"
+  },
+  {
+   "adset_id": "52556991176072",
+   "account": "Imarticus Learning - Tech 1",
+   "campaign": "LG_Fintech",
+   "adset_name": "LL_Mumbai_1-3%",
+   "date": "2026-09-24",
+   "type": "ad stopped",
+   "source": "ad_days",
+   "ads": [
+    "52579644351072"
+   ],
+   "detail": "1 ad(s) stopped: Fintech Analyst in 3 Months",
+   "id": "52556991176072|ad stopped|2026-09-24|1 ad(s) stopped: Fintech Analyst in 3 Months",
+   "status": "pending"
+  },
+  {
+   "adset_id": "52579151377472",
+   "account": "Imarticus Learning - Tech 1",
+   "campaign": "PGA_Retail_South_Dec_2025",
+   "adset_name": "PGA_Chennai_LAL3%",
+   "date": "2026-09-24",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "52579151377472|ad set edited|2026-09-24|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "52561501337672",
+   "account": "Imarticus Learning - Tech 1",
+   "campaign": "PGA_Retail_South_Dec_2025",
+   "adset_name": "PGA_Chennai_Remarketing_v2",
+   "date": "2026-09-24",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "52561501337672|ad set edited|2026-09-24|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "52561501351872",
+   "account": "Imarticus Learning - Tech 1",
+   "campaign": "PGA_Retail_South_Dec_2025",
+   "adset_name": "PGA_Hyderabad_FOS+Interests_v2",
+   "date": "2026-09-24",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "52561501351872|ad set edited|2026-09-24|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "52579154763672",
+   "account": "Imarticus Learning - Tech 1",
+   "campaign": "PGA_Retail_South_Dec_2025",
+   "adset_name": "PGA_Hyderabad_LAL3%",
+   "date": "2026-09-24",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "52579154763672|ad set edited|2026-09-24|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "52575930791872",
+   "account": "Imarticus Learning - Tech 1",
+   "campaign": "PGA_Retail_South_Dec_2025",
+   "adset_name": "PGA_Hyderabad_Open",
+   "date": "2026-09-24",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "52575930791872|ad set edited|2026-09-24|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "6990386943494",
+   "account": "Imarticus Gen AI Workshop",
+   "campaign": "GenAI_Workshop_7Aug26",
+   "adset_name": "GenAI_Workshop_Interest_Finance_25Aug26",
+   "date": "2026-09-25",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "6990386943494|ad set edited|2026-09-25|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "6987746549094",
+   "account": "Imarticus Gen AI Workshop",
+   "campaign": "GenAI_Workshop_7Aug26",
+   "adset_name": "GenAI_Workshop_iOS_Based_15Aug26",
+   "date": "2026-09-25",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "6987746549094|ad set edited|2026-09-25|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "52514561941941",
+   "account": "Imarticus Learning - Branding",
+   "campaign": "Webinar_Online_AIPM_IBM",
+   "adset_name": "AIPM_IBM_Interest_25Sept26",
+   "date": "2026-09-25",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "52514561941941|ad set edited|2026-09-25|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "52514642196341",
+   "account": "Imarticus Learning - Branding",
+   "campaign": "KPMG_FAP_LG_Webinar",
+   "adset_name": "PwC_FAP_LG_Webinar_26Sept26",
+   "date": "2026-09-25",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "52514642196341|ad set edited|2026-09-25|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "52514609052341",
+   "account": "Imarticus Learning - Branding",
+   "campaign": "Webinar_Online_KPMG_PM",
+   "adset_name": "PwC_PM_Webinar_25Sept26",
+   "date": "2026-09-25",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "52514609052341|ad set edited|2026-09-25|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120253556407310572",
+   "account": "Imarticus Learning - Finance 1",
+   "campaign": "Placement Bootcamp",
+   "adset_name": "Bangalore",
+   "date": "2026-09-25",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120253556407310572|ad set edited|2026-09-25|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120253521922470572",
+   "account": "Imarticus Learning - Finance 1",
+   "campaign": "CIBOP_LG_Open",
+   "adset_name": "Bangalore_IB",
+   "date": "2026-09-25",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120253521922470572|ad set edited|2026-09-25|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120253562130190572",
+   "account": "Imarticus Learning - Finance 1",
+   "campaign": "Placement Bootcamp",
+   "adset_name": "Chennai/Coimbatore",
+   "date": "2026-09-25",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120253562130190572|ad set edited|2026-09-25|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120253543700770572",
+   "account": "Imarticus Learning - Finance 1",
+   "campaign": "Placement Bootcamp",
+   "adset_name": "Delhi",
+   "date": "2026-09-25",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120253543700770572|ad set edited|2026-09-25|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120253574081310572",
+   "account": "Imarticus Learning - Finance 1",
+   "campaign": "Placement Bootcamp",
+   "adset_name": "Indore",
+   "date": "2026-09-25",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120253574081310572|ad set edited|2026-09-25|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120253543750040572",
+   "account": "Imarticus Learning - Finance 1",
+   "campaign": "Placement Bootcamp",
+   "adset_name": "Jaipur",
+   "date": "2026-09-25",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120253543750040572|ad set edited|2026-09-25|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120253539524370572",
+   "account": "Imarticus Learning - Finance 1",
+   "campaign": "Placement Bootcamp",
+   "adset_name": "Lucknow",
+   "date": "2026-09-25",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120253539524370572|ad set edited|2026-09-25|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120253543648350572",
+   "account": "Imarticus Learning - Finance 1",
+   "campaign": "Placement Bootcamp",
+   "adset_name": "Mumbai/Thane",
+   "date": "2026-09-25",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120253543648350572|ad set edited|2026-09-25|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120252399631790572",
+   "account": "Imarticus Learning - Finance 1",
+   "campaign": "CIBOP_LG_Open",
+   "adset_name": "Open_Bangalore",
+   "date": "2026-09-25",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120252399631790572|ad set edited|2026-09-25|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120252399631840572",
+   "account": "Imarticus Learning - Finance 1",
+   "campaign": "CIBOP_LG_Open",
+   "adset_name": "Open_Pune",
+   "date": "2026-09-25",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120252399631840572|ad set edited|2026-09-25|edited (details not captured before first snapshot)",
+   "status": "pending"
+  },
+  {
+   "adset_id": "120253540979730572",
+   "account": "Imarticus Learning - Finance 1",
+   "campaign": "Placement Bootcamp",
+   "adset_name": "Pune",
+   "date": "2026-09-25",
+   "type": "ad set edited",
+   "source": "backfill",
+   "detail": "edited (details not captured before first snapshot)",
+   "id": "120253540979730572|ad set edited|2026-09-25|edited (details not captured before first snapshot)",
+   "status": "pending"
+  }
+ ],
+ "recent_count": 393,
+ "new_today": 393,
+ "status_counts": {
+  "not enough data": 205,
+  "scored": 45,
+  "pending": 307
+ },
+ "learnings": [
+  {
+   "type": "ad stopped",
+   "n": 23,
+   "helped": 7,
+   "hurt": 12,
+   "neutral": 4,
+   "median_net": 0.133,
+   "advice": "ad stopped has tended to hurt (net CPL +13% median over 23 changes) — be cautious."
+  },
+  {
+   "type": "new ad",
+   "n": 22,
+   "helped": 10,
+   "hurt": 10,
+   "neutral": 2,
+   "median_net": -0.0495,
+   "advice": null
+  }
+ ],
+ "course_corrections": [
+  {
+   "date": "2026-09-16",
+   "account": "Imarticus Learning - Tech 1",
+   "campaign": "LG_Fintech",
+   "adset_name": "LL_Mumbai_1%",
+   "type": "ad stopped",
+   "detail": "1 ad(s) stopped: Fintech Analyst in 3 Months",
+   "cpl_before": 167.26,
+   "cpl_after": 1192.88,
+   "net": 6.412,
+   "problem": "CPL after ₹1,193 is above the ₹500 threshold",
+   "action": "Re-activate the stopped ad(s) that were carrying the ad set"
+  },
+  {
+   "date": "2026-09-17",
+   "account": "Imarticus Learning - Tech 1",
+   "campaign": "LG_Fintech",
+   "adset_name": "LL_Mumbai_1%",
+   "type": "new ad",
+   "detail": "1 ad(s) started: [VIDEO]_Fintech_Golmine",
+   "cpl_before": 132.43,
+   "cpl_after": 661.41,
+   "net": 4.102,
+   "problem": "new ad CPL ₹2,287 vs ad set's prior ₹132",
+   "action": "Pause the new ad(s)"
+  },
+  {
+   "date": "2026-09-17",
+   "account": "Imarticus Learning - Tech 1",
+   "campaign": "LG_Fintech",
+   "adset_name": "LL_Mumbai_1%",
+   "type": "ad stopped",
+   "detail": "1 ad(s) stopped: [VIDEO]_Digital_Finance_2",
+   "cpl_before": 132.43,
+   "cpl_after": 661.41,
+   "net": 4.102,
+   "problem": "CPL after ₹661 is above the ₹500 threshold",
+   "action": "Re-activate the stopped ad(s) that were carrying the ad set"
+  },
+  {
+   "date": "2026-09-15",
+   "account": "Imarticus Learning - HR 1",
+   "campaign": "LG_ACCA_Kochi",
+   "adset_name": "LG_ACCA_Kochi_Sep",
+   "type": "new ad",
+   "detail": "2 ad(s) started: Karan_ACCA_1 – Copy, Karan_ACCA_2 – Copy",
+   "cpl_before": 283.82,
+   "cpl_after": 763.63,
+   "net": 1.667,
+   "problem": "new ad CPL ₹571 vs ad set's prior ₹284",
+   "action": "Pause the new ad(s)"
+  },
+  {
+   "date": "2026-09-17",
+   "account": "Imarticus Learning - Tech 1",
+   "campaign": "LG_Fintech",
+   "adset_name": "LL_Bangalore_1%",
+   "type": "new ad",
+   "detail": "1 ad(s) started: Fintech Analyst in 3 Months",
+   "cpl_before": 84.51,
+   "cpl_after": 216.8,
+   "net": 1.651,
+   "problem": "new ad CPL ₹262 vs ad set's prior ₹85",
+   "action": "Pause the new ad(s)"
+  },
+  {
+   "date": "2026-09-17",
+   "account": "Imarticus Learning - Tech 1",
+   "campaign": "LG_Fintech",
+   "adset_name": "LL_Fintech_1%-3%",
+   "type": "new ad",
+   "detail": "1 ad(s) started: [VIDEO]_Fintech_Golmine",
+   "cpl_before": 350.82,
+   "cpl_after": 841.59,
+   "net": 1.475,
+   "problem": "new ad CPL ₹735 vs ad set's prior ₹351",
+   "action": "Pause the new ad(s)"
+  },
+  {
+   "date": "2026-09-17",
+   "account": "Imarticus Learning - Tech 1",
+   "campaign": "LG_Fintech",
+   "adset_name": "LL_Fintech_1%-3%",
+   "type": "ad stopped",
+   "detail": "2 ad(s) stopped: [VIDEO]_BCom_BBA_Grad, [VIDEO]_In_Demand_Short",
+   "cpl_before": 350.82,
+   "cpl_after": 841.59,
+   "net": 1.475,
+   "problem": "CPL after ₹842 is above the ₹500 threshold",
+   "action": "Re-activate the stopped ad(s) that were carrying the ad set"
+  },
+  {
+   "date": "2026-09-18",
+   "account": "Imarticus Learning - Tech 1",
+   "campaign": "LG_Fintech",
+   "adset_name": "LL_Fintech_1%-3%",
+   "type": "ad stopped",
+   "detail": "1 ad(s) stopped: [VIDEO]_Fintech_Market",
+   "cpl_before": 316.06,
+   "cpl_after": 744.33,
+   "net": 1.331,
+   "problem": "CPL after ₹744 is above the ₹500 threshold",
+   "action": "Re-activate the stopped ad(s) that were carrying the ad set"
+  },
+  {
+   "date": "2026-09-18",
+   "account": "Imarticus Learning - Tech 1",
+   "campaign": "LG_PGA_PRO__Retail_13_Nov_2025",
+   "adset_name": "PGA_PRO_LAL3%_Thane",
+   "type": "ad stopped",
+   "detail": "1 ad(s) stopped: PGA_PRO_LAL3%_One_DA_Tool",
+   "cpl_before": 531.47,
+   "cpl_after": 933.72,
+   "net": 0.707,
+   "problem": "CPL after ₹934 is above the ₹500 threshold",
+   "action": "Re-activate the stopped ad(s) that were carrying the ad set"
+  },
+  {
+   "date": "2026-09-17",
+   "account": "Imarticus Learning - Tech 1",
+   "campaign": "LG_Fintech",
+   "adset_name": "LL_1%-3%",
+   "type": "new ad",
+   "detail": "1 ad(s) started: [VIDEO]_Fintech_Golmine",
+   "cpl_before": 353.88,
+   "cpl_after": 577.24,
+   "net": 0.691,
+   "problem": "new ad CPL ₹493 vs ad set's prior ₹354",
+   "action": "Pause the new ad(s)"
+  },
+  {
+   "date": "2026-09-17",
+   "account": "Imarticus Learning - HR 1",
+   "campaign": "LG_ACCA_South_VD",
+   "adset_name": "LG_ACCA_Hyderabad_Interest_VD",
+   "type": "new ad",
+   "detail": "1 ad(s) started: Video 2",
+   "cpl_before": 111.84,
+   "cpl_after": 178.44,
+   "net": 0.541,
+   "problem": "new ad CPL ₹181 vs ad set's prior ₹112",
+   "action": "Pause the new ad(s)"
+  },
+  {
+   "date": "2026-09-17",
+   "account": "Imarticus Learning - Finance 1",
+   "campaign": "CIBOP_LG_Open",
+   "adset_name": "Open_Bangalore",
+   "type": "ad stopped",
+   "detail": "1 ad(s) stopped: CIBOP_LG_Logo_12thSept",
+   "cpl_before": 396.92,
+   "cpl_after": 619.72,
+   "net": 0.332,
+   "problem": "CPL after ₹620 is above the ₹500 threshold",
+   "action": "Re-activate the stopped ad(s) that were carrying the ad set"
+  }
+ ]
+}

@@ -1,0 +1,292 @@
+<title>Ads Pulse</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root{
+  --bg:#F3F5F8; --surface:#FFFFFF; --sunk:#EBEFF4; --ink:#16202B; --muted:#5B6878; --line:#D9DFE7;
+  --accent:#0B6E86; --accent-ink:#FFFFFF; --accent-soft:#DDF0F4;
+  --crit:#B42318; --crit-bg:#FCE4E1; --watch:#9A6700; --watch-bg:#FBF0D5; --ok:#1F7A4D; --ok-bg:#DDF3E6;
+  --spark:#0B6E86; --spark-fill:rgba(11,110,134,.12);
+  --display:"Archivo","Helvetica Neue",Arial,sans-serif; --body:"IBM Plex Sans","Segoe UI",Roboto,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --bg:#0F151C; --surface:#161E27; --sunk:#1C2631; --ink:#E4EAF0; --muted:#98A5B4; --line:#2A3542;
+    --accent:#5CC1D8; --accent-ink:#06222B; --accent-soft:#16323B;
+    --crit:#FF8A7A; --crit-bg:#4A1D19; --watch:#F0C05A; --watch-bg:#3D3016; --ok:#6FD39F; --ok-bg:#16372A;
+    --spark:#5CC1D8; --spark-fill:rgba(92,193,216,.16);
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --bg:#0F151C; --surface:#161E27; --sunk:#1C2631; --ink:#E4EAF0; --muted:#98A5B4; --line:#2A3542;
+  --accent:#5CC1D8; --accent-ink:#06222B; --accent-soft:#16323B;
+  --crit:#FF8A7A; --crit-bg:#4A1D19; --watch:#F0C05A; --watch-bg:#3D3016; --ok:#6FD39F; --ok-bg:#16372A;
+  --spark:#5CC1D8; --spark-fill:rgba(92,193,216,.16);
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font:14px/1.5 var(--body);margin:0}
+.wrap{max-width:1240px;margin:0 auto;padding-inline:20px;padding-block:0 64px}
+h1,h2,h3{font-family:var(--display);text-wrap:balance;margin:0}
+h1{font-size:28px;font-weight:800;letter-spacing:-.01em}
+h2{font-size:20px;font-weight:700;margin-bottom:12px}
+h3{font-size:15px;font-weight:700}
+.eyebrow{font:500 11px/1 var(--body);letter-spacing:.09em;text-transform:uppercase;color:var(--muted)}
+.muted{color:var(--muted)}
+.num,td.n,th.n{font-family:var(--mono);font-variant-numeric:tabular-nums;text-align:right;white-space:nowrap}
+header.top{padding-block:28px 18px;display:flex;flex-wrap:wrap;gap:16px 32px;align-items:flex-end;justify-content:space-between;border-bottom:1px solid var(--line)}
+.kpis{display:flex;flex-wrap:wrap;gap:12px 28px}
+.kpi .v{font:600 22px/1.1 var(--mono);font-variant-numeric:tabular-nums}
+.kpi .l{font-size:12px;color:var(--muted)}
+nav.jump{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--line);
+  display:flex;gap:4px;overflow-x:auto;padding-block:8px;margin-bottom:24px;scrollbar-width:thin}
+nav.jump a{flex:none;color:var(--muted);text-decoration:none;padding:5px 10px;border-radius:999px;font-size:13px;white-space:nowrap}
+nav.jump a:hover,nav.jump a:focus-visible{background:var(--accent-soft);color:var(--ink);outline:none}
+section{margin-block:36px}
+.acct{background:var(--surface);border:1px solid var(--line);border-radius:10px;margin-bottom:18px;overflow:hidden}
+.acct-h{display:flex;flex-wrap:wrap;gap:6px 16px;align-items:baseline;justify-content:space-between;padding:14px 16px;border-bottom:1px solid var(--line)}
+.plat{font:600 10px/1 var(--body);letter-spacing:.08em;text-transform:uppercase;padding:4px 6px;border-radius:4px;background:var(--sunk);color:var(--muted);margin-right:8px;vertical-align:2px}
+.scroll{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:13px}
+th{font:600 11px/1.2 var(--body);letter-spacing:.04em;text-transform:uppercase;color:var(--muted);text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);white-space:nowrap;background:var(--surface)}
+td{padding:7px 10px;border-bottom:1px solid var(--line);vertical-align:middle}
+tr:last-child td{border-bottom:0}
+td.red{background:var(--crit-bg);color:var(--crit);font-weight:600}
+td.name{min-width:180px;max-width:360px;overflow-wrap:anywhere}
+.pill{display:inline-block;font:600 11px/1 var(--body);padding:4px 7px;border-radius:999px;white-space:nowrap}
+.pill.critical{background:var(--crit-bg);color:var(--crit)} .pill.watch{background:var(--watch-bg);color:var(--watch)}
+.pill.healthy{background:var(--ok-bg);color:var(--ok)} .pill.inactive,.pill.neutral,.pill.pending{background:var(--sunk);color:var(--muted)}
+.pill.helped{background:var(--ok-bg);color:var(--ok)} .pill.hurt{background:var(--crit-bg);color:var(--crit)}
+details>summary{cursor:pointer;padding:10px 16px;color:var(--accent);font-weight:600;list-style:none;border-top:1px solid var(--line)}
+details>summary::-webkit-details-marker{display:none}
+details>summary:before{content:"▸ ";} details[open]>summary:before{content:"▾ ";}
+details>summary:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+svg.spark{display:block}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:16px}
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,360px),1fr));gap:16px}
+.rec{border-left:3px solid var(--line);padding:10px 14px;background:var(--surface);border-radius:0 8px 8px 0;margin-bottom:10px}
+.rec.critical{border-left-color:var(--crit)} .rec.watch{border-left-color:var(--watch)} .rec.healthy{border-left-color:var(--ok)}
+.rec ul{margin:6px 0 0;padding-left:18px} .rec li{margin-bottom:4px}
+.ask{background:var(--surface);border:1px solid var(--accent);border-radius:12px;padding:18px}
+.ask form{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+.ask input{flex:1 1 260px;min-width:0;font:inherit;padding:10px 12px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink)}
+.ask input:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
+button{font:600 13px/1 var(--body);padding:10px 14px;border-radius:8px;border:1px solid var(--accent);background:var(--accent);color:var(--accent-ink);cursor:pointer}
+button.ghost{background:transparent;color:var(--accent)}
+button:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.chips button{background:var(--accent-soft);color:var(--ink);border-color:transparent;font-weight:500}
+.answer{margin-top:14px;white-space:pre-wrap;line-height:1.6;max-width:80ch}
+.note{font-size:12px;color:var(--muted);margin-top:8px}
+.bar{height:8px;border-radius:4px;background:var(--sunk);overflow:hidden;min-width:60px}
+.bar i{display:block;height:100%;background:var(--accent)}
+.stage{font:500 11px/1 var(--mono)}
+.tag{display:inline-block;font-size:11px;padding:2px 6px;border-radius:4px;background:var(--sunk);color:var(--muted);margin:2px 4px 2px 0}
+footer{color:var(--muted);font-size:12px;border-top:1px solid var(--line);padding-top:16px;margin-top:40px}
+@media (max-width:600px){h1{font-size:23px}.wrap{padding-inline:16px}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div>
+      <div class="eyebrow">Meta + Google Ads · CPL report</div>
+      <h1>Ads Pulse</h1>
+      <div class="muted" id="subtitle"></div>
+    </div>
+    <div class="kpis" id="kpis"></div>
+  </header>
+  <nav class="jump" aria-label="Sections">
+    <a href="#accounts">Accounts</a><a href="#nonlead">Non-lead</a><a href="#ask">Ask</a><a href="#recs">Recommendations</a>
+    <a href="#funnel">Funnel &amp; ROI</a><a href="#placements">Placements</a><a href="#copy">Copy &amp; audience</a>
+    <a href="#changes">Changes</a><a href="#rootcause">Root cause</a><a href="#creative">Creative &amp; targeting</a>
+  </nav>
+
+  <section id="accounts"><h2>Accounts</h2><p class="muted" id="acct-note"></p><div id="acct-list"></div></section>
+  <section id="nonlead"><h2>Campaigns not optimising for leads</h2><div id="nonlead-body"></div></section>
+  <section id="ask">
+    <div class="ask">
+      <h2 style="margin:0">Ask about this report</h2>
+      <p class="muted" style="margin:4px 0 0">Ask about a product, a placement, what changed or what to fix first.</p>
+      <form id="ask-form"><label for="ask-q" class="eyebrow" hidden>Question</label>
+        <input id="ask-q" autocomplete="off" placeholder="e.g. Why is CIBOP on Google above target?">
+        <button type="submit" id="ask-go">Ask</button><button type="button" class="ghost" id="ask-stop" hidden>Stop</button></form>
+      <div class="chips" id="ask-chips"></div>
+      <div class="answer" id="ask-out" aria-live="polite"></div>
+      <div class="note" id="ask-note"></div>
+    </div>
+  </section>
+  <section id="recs"><h2>Recommendations</h2><div id="recs-body"></div></section>
+  <section id="funnel"><h2>Sales funnel &amp; ROI</h2><div id="funnel-body"></div></section>
+  <section id="placements"><h2>Placements</h2><div id="placements-body"></div></section>
+  <section id="copy"><h2>Copy, positioning &amp; audience</h2><div id="copy-body"></div></section>
+  <section id="changes"><h2>Changes &amp; what they did</h2><div id="changes-body"></div></section>
+  <section id="rootcause"><h2>Root cause: ad set, creative, segment</h2><div id="root-body"></div></section>
+  <section id="creative"><h2>Creative &amp; targeting</h2><div id="creative-body"></div></section>
+  <footer id="foot"></footer>
+</div>
+
+<script id="report-data" type="application/json">__REPORT_JSON__</script>
+<script id="ask-context" type="text/plain">__ASK_CONTEXT__</script>
+<script>
+(function(){
+const R = JSON.parse(document.getElementById('report-data').textContent);
+const CTX = document.getElementById('ask-context').textContent;
+const C = R.currency || '₹';
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const money = v => v == null ? '–' : C + Math.round(v).toLocaleString('en-IN');
+const pct = (v, d=0) => v == null ? '–' : (v*100).toFixed(d) + '%';
+const day = d => { const x = new Date(d + 'T00:00:00'); return x.toLocaleDateString('en-GB',{day:'numeric',month:'short'}); };
+const dom = d => String(+d.slice(8,10));
+const pill = s => `<span class="pill ${esc(s)}">${esc(s)}</span>`;
+const above = (spend, leads, T) => spend > 0 && ((leads > 0 && spend/leads > T) || (leads == 0 && spend >= T));
+
+function spark(days, T){
+  const w=110,h=28,p=3; const v=days.map(d=>d.cpl);
+  const vals=v.filter(x=>x!=null); if(!vals.length) return '<span class="muted">no leads</span>';
+  const max=Math.max(T*1.5,...vals), sx=i=>p+i*(w-2*p)/(days.length-1), sy=y=>h-p-(Math.min(y,max)/max)*(h-2*p);
+  let path='',area='',started=false; v.forEach((y,i)=>{ if(y==null) return; path+=(started?'L':'M')+sx(i).toFixed(1)+','+sy(y).toFixed(1); started=true; });
+  const pts=v.map((y,i)=>y==null?null:[sx(i),sy(y)]).filter(Boolean);
+  if(pts.length>1) area='M'+pts[0][0]+','+(h-p)+pts.map(q=>'L'+q[0].toFixed(1)+','+q[1].toFixed(1)).join('')+'L'+pts[pts.length-1][0]+','+(h-p)+'Z';
+  const ty=sy(T), last=pts[pts.length-1];
+  return `<svg class="spark" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" role="img" aria-label="11-day CPL trend">
+    <line x1="0" x2="${w}" y1="${ty}" y2="${ty}" stroke="var(--crit)" stroke-dasharray="2 3" stroke-width="1"/>
+    ${area?`<path d="${area}" fill="var(--spark-fill)"/>`:''}<path d="${path}" fill="none" stroke="var(--spark)" stroke-width="1.6"/>
+    <circle cx="${last[0]}" cy="${last[1]}" r="2.6" fill="${last[1]<ty?'var(--crit)':'var(--spark)'}"/></svg>`;
+}
+
+// ---------- header
+const pt = R.platform_totals;
+$('subtitle').textContent = `4-day view ${day(R.dates4[0])} – ${day(R.dates4[3])} · 11-day trend from ${day(R.dates11[0])} · data through ${day(R.data_date)}`;
+$('kpis').innerHTML = ['meta','google'].map(p => pt[p] ? `<div class="kpi"><div class="v">${money(pt[p].cpl4)}</div>
+  <div class="l">${p==='meta'?'Meta':'Google'} 4-day CPL · target ${money(pt[p].threshold)}</div></div>
+  <div class="kpi"><div class="v">${pt[p].critical}<span class="muted" style="font-size:14px"> / ${pt[p].watch}</span></div>
+  <div class="l">${p==='meta'?'Meta':'Google'} critical / watch</div></div>` : '').join('');
+
+// ---------- accounts
+$('acct-note').textContent = `Red = CPL above target (Meta ${money(R.thresholds.meta)}, Google ${money(R.thresholds.google)}), or no leads on spend of at least the target. Critical = 4-day CPL over 1.3× target or above target on 3 of 4 days.`;
+$('acct-list').innerHTML = R.accounts.map((a,ai) => {
+  const T = a.threshold;
+  const prodRows = a.products.map(p => `<tr><td class="name">${esc(p.product)}</td>${p.days.map(d=>`<td class="n ${above(d.spend,d.leads,T)?'red':''}">${d.leads&&d.spend? money(d.cpl): (d.spend? '0 leads':'–')}</td>`).join('')}
+    <td class="n ${above(p.spend4,p.leads4,T)?'red':''}"><b>${money(p.cpl4)}</b></td><td class="n">${money(p.spend4)}</td><td class="n">${Math.round(p.leads4)}</td><td>${pill(p.severity)}</td></tr>`).join('');
+  const campRows = a.campaigns.map(c => `<tr><td class="name">${esc(c.campaign)}<div class="muted" style="font-size:11px">${esc(c.product)}</div></td>
+    ${c.days.map(d=>`<td class="n ${above(d.spend,d.leads,T)?'red':''}">${d.leads&&d.spend?Math.round(d.cpl).toLocaleString('en-IN'):(d.spend?'0':'·')}</td>`).join('')}
+    <td>${spark(c.days,T)}</td><td class="n">${money(c.cpl11)}</td><td>${esc((c.status||'').replace('_',' ').toLowerCase())}${c.delivering||/deliver/i.test(c.status||'')?'':' · not delivering'}</td><td class="n">${c.daily_budget?money(c.daily_budget):'–'}</td></tr>`).join('');
+  return `<div class="acct"><div class="acct-h"><h3><span class="plat">${a.platform}</span>${esc(a.account)}</h3>
+    <div class="num muted">4 days: ${money(a.spend4)} · ${Math.round(a.leads4)} leads · CPL ${money(a.cpl4)}</div></div>
+    <div class="scroll"><table><thead><tr><th>Product</th>${R.dates4.map(d=>`<th class="n">${day(d)}</th>`).join('')}<th class="n">4-day CPL</th><th class="n">Spend</th><th class="n">Leads</th><th>Status</th></tr></thead><tbody>${prodRows}</tbody></table></div>
+    <details ${ai<2?'open':''}><summary>11-day campaign trend (${a.campaigns.length})</summary><div class="scroll"><table><thead><tr><th>Campaign</th>${R.dates11.map(d=>`<th class="n">${dom(d)}</th>`).join('')}<th>Trend</th><th class="n">11-day CPL</th><th>Status</th><th class="n">Daily budget</th></tr></thead><tbody>${campRows}</tbody></table></div></details></div>`;
+}).join('');
+
+// ---------- non-lead
+$('nonlead-body').innerHTML = R.non_lead.length ? `<div class="grid2">${R.non_lead.map(n=>`<div class="card"><div class="eyebrow">${esc(n.account)}</div>
+  <h3 style="margin:4px 0 8px">${esc(n.campaign)}</h3><div class="muted">Optimises for <b>${esc(n.goal)}</b>${n.destination&&n.destination!=='UNDEFINED'?' → '+esc(n.destination):''}; judged on cost per ${esc(n.metric_label)}, not CPL.</div>
+  <table style="margin-top:10px"><tr><td>Cost per ${esc(n.metric_label)} (4 days)</td><td class="n"><b>${n.cost_per4!=null?C+n.cost_per4.toFixed(2):'none yet'}</b></td></tr>
+  <tr><td>${esc(n.metric_label)}s (11 days)</td><td class="n">${Math.round(n.metric11).toLocaleString('en-IN')}</td></tr>
+  <tr><td>Spend (11 days)</td><td class="n">${money(n.spend11)}</td></tr><tr><td>Status</td><td class="n">${esc(n.status)}</td></tr></table></div>`).join('')}</div>`
+  : '<p class="muted">Every campaign with spend optimises for leads.</p>';
+
+// ---------- recommendations
+const recBlock = (items, cls) => items.map(u => `<div class="rec ${cls}"><b>${esc(u.product)}</b> <span class="muted">· ${esc(u.platform)} · ${esc(u.account)} · CPL ${money(u.cpl4)} vs ${money(u.threshold)}</span>
+  ${u.actions && u.actions.length ? `<ul>${u.actions.map(a=>`<li>${esc(a)}</li>`).join('')}</ul>` : '<div class="muted">No single ad, ad set or placement explains it; check the lead form and landing experience.</div>'}</div>`).join('');
+$('recs-body').innerHTML = `<h3 style="margin-bottom:8px">Urgent (${R.urgent.length})</h3>${recBlock(R.urgent,'critical') || '<p class="muted">Nothing critical.</p>'}
+  <h3 style="margin:18px 0 8px">Watch (${R.watch.length})</h3>${recBlock(R.watch,'watch') || '<p class="muted">Nothing on watch.</p>'}
+  <h3 style="margin:18px 0 8px">Room to scale</h3>${R.scale.map(s=>`<div class="rec healthy">${esc(s.text)}</div>`).join('') || '<p class="muted">No product is far enough under target to scale.</p>'}`;
+
+// ---------- funnel
+if (!R.funnel.configured) {
+  $('funnel-body').innerHTML = '<div class="card muted">The funnel sheet is not connected yet. Once it is, this shows leads → SQL → sales, cost per SQL, revenue and ROI per product, with a scale / hold / watch / fix-or-cut verdict.</div>';
+} else if (R.funnel.mode === 'crm') {
+  const F = R.funnel, num = v => v==null?'–':Math.round(v).toLocaleString('en-IN');
+  const prow = p => `<tr><td>${esc(p.product||p.campaign||p.source||p.adgroup)}</td><td class="n">${money(p.spend)}</td><td class="n">${num(p.leads)}</td><td class="n">${num(p.mql)}</td><td class="n">${num(p.sql)}</td><td class="n">${pct(p.sql_pct)}</td><td class="n">${num(p.sales)}</td><td class="n">${money(p.cost_per_sql)}</td><td class="n">${money(p.cost_per_sale)}</td><td class="n">${F.revenue_available?money(p.revenue):'–'}</td><td class="n"><b>${p.roi==null?'–':p.roi.toFixed(2)+'×'}</b></td><td>${esc(p.verdict||'')}</td></tr>`;
+  const head = first => `<thead><tr><th>${first}</th><th class="n">Ad spend</th><th class="n">CRM leads</th><th class="n">MQL</th><th class="n">SQL</th><th class="n">SQL %</th><th class="n">Enrolled</th><th class="n">Cost / SQL</th><th class="n">Cost / enrolment</th><th class="n">Revenue</th><th class="n">ROI</th><th>Verdict</th></tr></thead>`;
+  $('funnel-body').innerHTML = `<p class="muted">LeadSquared leads created in the last ${F.window_days} days. MQL = Level 2+, SQL = Level 3+, enrolled = Level 5 (Closed/Lost leads keep the highest level they reached). ${num(F.matched_leads)} of ${num(F.leads_in_window)} leads (${pct(F.match_rate)}) carry a campaign name that matches an ad campaign; spend is those campaigns' spend over the same ${F.window_days} days.${F.revenue_available?'':' Revenue and ROI appear once program fees are added.'}</p>
+  ${(F.callouts||[]).map(c=>`<div class="rec">${esc(c)}</div>`).join('')}
+  <div class="card scroll"><table>${head('Product')}<tbody>${F.products.map(prow).join('')}</tbody></table></div>
+  <div class="grid2" style="margin-top:12px"><div class="card scroll"><h3 style="margin-bottom:6px">By lead source (PLS)</h3><table><thead><tr><th>Source</th><th class="n">Leads</th><th class="n">Matched to ads</th><th class="n">SQL %</th><th class="n">Enrolled</th></tr></thead><tbody>${F.by_source.map(x=>`<tr><td>${esc(x.source)}</td><td class="n">${num(x.leads)}</td><td class="n">${num(x.matched)}</td><td class="n">${pct(x.sql_pct)}</td><td class="n">${num(x.sales)}</td></tr>`).join('')}</tbody></table></div>
+  <div class="card"><h3 style="margin-bottom:6px">Campaign names in CRM with no matching ad campaign</h3>${(F.unmatched_campaign_names||[]).map(x=>`<span class="tag">${esc(x)}</span>`).join('') || '<span class="muted">None</span>'}</div></div>
+  <details><summary>By campaign (${F.campaigns.length})</summary><div class="scroll"><table>${head('Campaign')}<tbody>${F.campaigns.map(prow).join('')}</tbody></table></div></details>
+  <details><summary>By ad set / ad group (${F.adgroups.length})</summary><div class="scroll"><table>${head('Ad set / ad group')}<tbody>${F.adgroups.map(a=>prow({...a, adgroup:a.adgroup+' · '+a.campaign})).join('')}</tbody></table></div></details>`;
+} else {
+  $('funnel-body').innerHTML = `<div class="card scroll"><table><thead><tr><th>Product</th><th class="n">Spend</th><th class="n">Leads</th><th class="n">SQL</th><th class="n">SQL %</th><th class="n">Sales</th><th class="n">Cost / SQL</th><th class="n">Cost / sale</th><th class="n">Revenue</th><th class="n">ROI</th><th>Verdict</th></tr></thead><tbody>
+  ${R.funnel.products.map(p=>`<tr><td>${esc(p.product)}</td><td class="n">${money(p.spend)}</td><td class="n">${Math.round(p.leads)}</td><td class="n">${Math.round(p.sql)}</td><td class="n">${pct(p.sql_pct)}</td><td class="n">${Math.round(p.sales)}</td><td class="n">${money(p.cost_per_sql)}</td><td class="n">${money(p.cost_per_sale)}</td><td class="n">${money(p.revenue)}</td><td class="n"><b>${p.roi==null?'–':p.roi.toFixed(2)+'×'}</b></td><td>${esc(p.verdict)}</td></tr>`).join('')}</tbody></table></div>`;
+}
+
+// ---------- placements
+const P = R.placement;
+$('placements-body').innerHTML = `<p class="muted">Meta lead campaigns, ${esc(P.window)}. CPL = CPM ÷ (1000 × CTR × form fill), so each flagged placement's gap is split into the stage that causes it.</p>
+  ${P.flags.length ? `<div class="card scroll"><table><thead><tr><th>Product</th><th>Placement</th><th class="n">Share</th><th class="n">CPL</th><th class="n">Product CPL</th><th>Gap by stage</th><th class="n">Excess spend</th><th>Fix</th></tr></thead><tbody>
+  ${P.flags.map(f=>`<tr><td>${esc(f.product)}</td><td>${esc(f.placement)}</td><td class="n">${pct(f.share)}</td><td class="n red">${f.cpl?money(f.cpl):'0 leads'}</td><td class="n">${money(f.product_cpl)}</td>
+    <td class="stage">${Object.entries(f.stage_split||{}).map(([k,v])=>`${esc(k)} ${pct(v)}`).join(' · ') || esc(f.stage)}</td><td class="n">${money(f.excess_spend)}</td><td style="min-width:260px">${esc(f.fix)}</td></tr>`).join('')}</tbody></table></div>` : '<p class="muted">No placement takes 10%+ of a product\'s spend at 1.3× its CPL.</p>'}
+  <details><summary>All placements by product</summary><div class="scroll">${P.products.slice(0,15).map(p=>`<h3 style="margin:12px 16px 4px">${esc(p.product)} <span class="muted num">${money(p.cpl)} CPL</span></h3>
+  <table><thead><tr><th>Placement</th><th>Share</th><th class="n">CPM</th><th class="n">CTR</th><th class="n">Form fill</th><th class="n">CPL</th></tr></thead><tbody>${p.placements.slice(0,8).map(x=>`<tr><td>${esc(x.placement)}</td>
+  <td><div class="bar"><i style="width:${Math.round(x.share*100)}%"></i></div></td><td class="n">${money(x.cpm)}</td><td class="n">${pct(x.ctr,2)}</td><td class="n">${pct(x.ff,1)}</td><td class="n ${x.flag?'red':''}">${x.cpl?money(x.cpl):'–'}</td></tr>`).join('')}</tbody></table>`).join('')}</div></details>`;
+
+// ---------- copy
+const cr = R.creative || {};
+const grp = (title, rows) => `<div class="card scroll"><h3 style="margin-bottom:6px">${title}</h3><table><thead><tr><th></th><th class="n">Spend</th><th class="n">CTR</th><th class="n">Form fill</th><th class="n">CPL</th><th class="n">SQL rate</th><th class="n">Cost / SQL</th></tr></thead><tbody>
+  ${(rows||[]).map(g=>`<tr><td>${esc(g.name)}</td><td class="n">${money(g.spend)}</td><td class="n">${pct(g.ctr,2)}</td><td class="n">${pct(g.ff,1)}</td><td class="n">${money(g.cpl)}</td><td class="n">${pct(g.sql_rate)}</td><td class="n">${money(g.cost_per_sql)}</td></tr>`).join('')}</tbody></table></div>`;
+$('copy-body').innerHTML = `<p class="muted">Source: ${esc(cr.source)}. Hooks are tagged by message angle from the ad name.</p>
+  ${(cr.callouts||[]).map(c=>`<div class="rec">${esc(c)}</div>`).join('')}
+  <div class="grid2" style="margin-top:12px">${grp('Message angle', cr.angles)}${grp('Audience', cr.audiences)}${grp('Format', cr.formats)}</div>`;
+
+// ---------- changes
+const CH = R.changes;
+const recent = (CH.recent||[]).filter(e=>e.type!=='ad set edited').slice().reverse();
+$('changes-body').innerHTML = `<p class="muted">${CH.recent_count} changes detected in the last 7 days${CH.first_run?' (first run: ad set edits back-filled from their last-updated time)':''}. Each change is scored on its ad set: CPL 3 days before vs 3 days after, net of the rest of the account.</p>
+  ${CH.course_corrections.length?`<h3 style="margin:12px 0 8px">Course-corrections</h3>${CH.course_corrections.slice(0,6).map(c=>`<div class="rec critical"><b>${esc(c.adset_name)}</b> <span class="muted">· ${esc(c.account)} · ${esc(c.date)} · ${esc(c.type)}</span><div>${esc(c.detail)}</div><div class="muted">${esc(c.problem)}. CPL ${money(c.cpl_before)} → ${money(c.cpl_after)} (net ${pct(c.net)}).</div><div><b>${esc(c.action)}.</b></div></div>`).join('')}`:''}
+  <h3 style="margin:18px 0 8px">What each type of change has done</h3>
+  <div class="card scroll"><table><thead><tr><th>Change type</th><th class="n">Scored</th><th class="n">Helped</th><th class="n">Hurt</th><th class="n">Neutral</th><th class="n">Median net CPL</th><th>Learning</th></tr></thead><tbody>
+  ${CH.learnings.map(l=>`<tr><td>${esc(l.type)}</td><td class="n">${l.n}</td><td class="n">${l.helped}</td><td class="n">${l.hurt}</td><td class="n">${l.neutral}</td><td class="n">${l.median_net==null?'–':(l.median_net>0?'+':'')+pct(l.median_net)}</td><td>${esc(l.advice||'Mixed results; no advice yet.')}</td></tr>`).join('') || '<tr><td colspan="7" class="muted">Nothing scored yet.</td></tr>'}</tbody></table></div>
+  <details><summary>Change log, last 7 days (${recent.length})</summary><div class="scroll"><table><thead><tr><th>Date</th><th>Account</th><th>Ad set</th><th>Change</th><th>Detail</th><th class="n">CPL before</th><th class="n">CPL after</th><th>Result</th></tr></thead><tbody>
+  ${recent.slice(0,150).map(e=>`<tr><td class="num">${esc(e.date)}</td><td>${esc(e.account)}</td><td class="name">${esc(e.adset_name)}</td><td>${esc(e.type)}</td><td class="name">${esc(e.detail)}</td><td class="n">${money(e.cpl_before)}</td><td class="n">${money(e.cpl_after)}</td><td>${e.verdict?pill(e.verdict):pill(e.status==='pending'?'pending':'neutral').replace('neutral','too few leads')}</td></tr>`).join('')}</tbody></table></div></details>`;
+
+// ---------- root cause & creative
+const rootMeta = R.root_cause.filter(r=>r.platform==='meta'), rootG = R.root_cause.filter(r=>r.platform==='google');
+$('root-body').innerHTML = rootMeta.map(r=>{ const rc=r.root_cause||{}; return `<details class="acct"><summary>${esc(r.product)} · ${esc(r.account)} — ${pill(r.severity)} CPL ${money(r.cpl4)}</summary>
+  <div class="scroll"><table><thead><tr><th>Ad set</th><th class="n">Share</th><th class="n">Spend</th><th class="n">Leads</th><th class="n">CPL</th></tr></thead><tbody>
+  ${(rc.ad_sets||[]).map(s=>`<tr><td class="name">${esc(s.adset)}</td><td class="n">${pct(s.share)}</td><td class="n">${money(s.spend)}</td><td class="n">${Math.round(s.leads)}</td><td class="n ${above(s.spend,s.leads,r.threshold)?'red':''}">${money(s.cpl)}</td></tr>`).join('')}</tbody></table></div></details>`;}).join('')
+  + (rootG.length?`<h3 style="margin:16px 0 8px">Google (campaign level)</h3>${rootG.map(r=>`<details class="acct"><summary>${esc(r.product)} · ${esc(r.account)} — ${pill(r.severity)} CPL ${money(r.cpl4)}</summary><div class="scroll"><table><thead><tr><th>Campaign</th><th class="n">Share</th><th class="n">Spend</th><th class="n">Conv.</th><th class="n">CPL</th></tr></thead><tbody>
+  ${(r.root_cause.campaigns||[]).map(c=>`<tr><td class="name">${esc(c.campaign)}</td><td class="n">${pct(c.share)}</td><td class="n">${money(c.spend)}</td><td class="n">${c.leads.toFixed(1)}</td><td class="n ${above(c.spend,c.leads,r.threshold)?'red':''}">${money(c.cpl)}</td></tr>`).join('')}</tbody></table></div></details>`).join('')}`:'');
+const tchips = t => !t ? '' : [t.advantage_plus?'Advantage+ audience':'', ...(t.interests||[]).slice(0,4).map(x=>'interest: '+x), ...(t.job_titles||[]).slice(0,3).map(x=>'job: '+x), ...(t.custom_audiences||[]).slice(0,2).map(x=>'audience: '+x), t.age&&t.age[0]?`age ${t.age[0]}–${t.age[1]}`:''].filter(Boolean).map(x=>`<span class="tag">${esc(x)}</span>`).join('') || '<span class="tag">broad</span>';
+$('creative-body').innerHTML = rootMeta.map(r=>{ const rc=r.root_cause||{}; return `<details class="acct"><summary>${esc(r.product)} · ${esc(r.account)}</summary>
+  <div class="scroll"><table><thead><tr><th>Ad</th><th>Ad set</th><th class="n">Spend</th><th class="n">CTR</th><th class="n">Form fill</th><th class="n">CPL</th></tr></thead><tbody>
+  ${(rc.ads||[]).map(a=>`<tr><td class="name">${esc(a.ad)}</td><td class="name muted">${esc(a.adset)}</td><td class="n">${money(a.spend)}</td><td class="n">${pct(a.ctr,2)}</td><td class="n">${pct(a.ff,1)}</td><td class="n ${above(a.spend,a.leads,r.threshold)?'red':''}">${money(a.cpl)}</td></tr>`).join('')}</tbody></table></div>
+  <div style="padding:8px 16px 14px">${(rc.ad_sets||[]).slice(0,5).map(s=>`<div style="margin-top:6px"><b>${esc(s.adset)}</b><div>${tchips(s.targeting)}</div></div>`).join('')}</div></details>`;}).join('') || '<p class="muted">No Meta product needs a creative review today.</p>';
+
+$('foot').innerHTML = `Totals reconciled on ${R.verification.checked.meta} Meta and ${R.verification.checked.google} Google account-days before building this page. Generated ${esc(R.generated_ist)} (IST).`;
+
+// ---------- Ask box: Claude when available, precomputed answers otherwise
+const QA = R.quick_answers || [];
+const chips = ['What should we fix first?','Where are we wasting budget?','Which placements are a problem?','What changed?','Which products make money?','Which copy works?'];
+$('ask-chips').innerHTML = chips.map(c=>`<button type="button">${esc(c)}</button>`).join('');
+function local(q){
+  const s=q.toLowerCase(); let best=null,score=0;
+  for(const a of QA){ let sc=0; for(const k of a.keys){ if(k && k.length>2 && s.includes(k)) sc+=k.length; } if(sc>score){score=sc;best=a;} }
+  return best ? best.a : 'I could not match that to a product or topic. Try a product name (e.g. CIBOP, ACCA, PGA) or one of the suggestions.';
+}
+let samplePromise = (window.claude && window.claude.use) ? window.claude.use('sample').catch(()=>null) : Promise.resolve(null);
+let sampleOff = false, ctl = null;
+async function ask(q){
+  if(!q.trim()) return;
+  $('ask-q').value = q; $('ask-note').textContent=''; const out=$('ask-out');
+  const sample = sampleOff ? null : await samplePromise;
+  if(!sample){ out.textContent = local(q); $('ask-note').textContent='Quick answer from this report (Claude not available in this view).'; return; }
+  out.textContent='Thinking...'; $('ask-go').disabled=true; $('ask-stop').hidden=false; ctl=new AbortController();
+  try{
+    await sample(`You are a performance-marketing analyst. Answer the question using ONLY the report data below. Be specific: name products, campaigns, ad sets, numbers (currency ${C}). Max 150 words, plain text, no tables.\n\nREPORT DATA:\n${CTX}\n\nQUESTION: ${q}`,
+      {signal:ctl.signal, onText:({text})=>{out.textContent=text;}});
+  }catch(e){
+    if(e && e.code==='cancelled'){ out.textContent = e.text || ''; }
+    else { if(['not_granted','sampling_disabled','not_declared','capability_disabled','capability_removed','refused'].includes(e&&e.code)) sampleOff=true;
+      out.textContent = local(q); $('ask-note').textContent='Quick answer from this report (Claude was not available).'; }
+  }finally{ $('ask-go').disabled=false; $('ask-stop').hidden=true; }
+}
+$('ask-form').addEventListener('submit', e=>{ e.preventDefault(); ask($('ask-q').value); });
+$('ask-stop').addEventListener('click', ()=>ctl&&ctl.abort());
+$('ask-chips').addEventListener('click', e=>{ if(e.target.tagName==='BUTTON') ask(e.target.textContent); });
+})();
+</script>

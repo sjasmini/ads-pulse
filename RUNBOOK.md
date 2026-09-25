@@ -14,9 +14,11 @@ Follow these steps in order. Nobody is watching the run, so don't ask questions:
 
 ## 0. Setup
 
-- `cd` into the repo root. Run `git pull` so `history/` has yesterday's snapshot.
-- Read `settings.json`: `meta_accounts` (ids), `google_accounts` (ids), `recipients`, `dashboard_url`, `sheets`.
-- `rm -f raw/*.json raw/sheets/*.csv` so no stale file can be used.
+- The scheduled task prompt has already downloaded this folder from the **Ads Pulse Engine** artifact
+  (`settings.json → engine_url`). Work from this folder: `cd` into it (the folder that holds this RUNBOOK.md).
+  If instead you are in a git checkout of the repo, `git pull` first.
+- Read `settings.json`: `meta_accounts` (ids), `google_accounts` (ids), `recipients`, `dashboard_url`, `engine_url`, `sheets`.
+- `mkdir -p raw/sheets && rm -f raw/*.json raw/sheets/*.csv` so no stale file can be used.
 
 ## 1. Windsor pulls (connector ids: `facebook`, `google_ads`)
 
@@ -74,18 +76,22 @@ already applies `team_mode`; never add recipients.
 Append one line to `history/run_log.md`:
 `- <IST date time> <MODE> data <data_date> | PIPELINE OK | emailed <to> | dashboard <published/failed> | <warnings>`
 
-## 7. Commit and push
+## 7. Save state (history) back to the Engine artifact
 
-```
-git add history/ reports/*.json settings.json
-git status --short | grep '^A.*raw/' && exit 1   # never commit raw/
-git commit -m "Ads Pulse <MODE> run for <data_date>"
-git push
-```
 Change detection needs yesterday's snapshot, so a run that skips this breaks tomorrow's change scoring.
+
+1. List the state files: `find history reports -type f -name "*.json" -o -name "run_log.md" | sort` (run from this folder).
+2. Call Artifact publish with `url` = `settings.json → engine_url`, `file_path` = `<this folder>/index.html` (the Engine page, downloaded with the other files), and
+   `files` = a map from each listed relative path to its absolute path in this folder (e.g.
+   `{"history/change_ledger.json": "/abs/path/history/change_ledger.json", ...}`). Omit `icon` and `capabilities`.
+   Code files are left out of the map, so they stay as they are. Never include anything under `raw/`.
+3. If this publish fails, say so in the log line and in a short note to `recipients.me`.
+
+(When running from a git checkout instead: `git add history/ reports/*.json settings.json`, check nothing under raw/ is
+staged, commit "Ads Pulse <MODE> run for <data_date>", push.)
 
 ## 8. Failure note (instead of the team email)
 
 To `recipients.me` only, subject `Ads Pulse <MODE> run did not send (<today IST>)`, plain short body:
 which step failed, the error line, the newest data date seen, and "No team email was sent." Then log it (step 6)
-and commit `history/run_log.md` only.
+and save `history/run_log.md` back to the Engine artifact (step 7) only.

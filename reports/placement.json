@@ -1,0 +1,4631 @@
+{
+ "window": "last 7 days",
+ "products": [
+  {
+   "product": "CIBOP",
+   "spend": 295698.72,
+   "leads": 1675.0,
+   "cpl": 176.54,
+   "placements": [
+    {
+     "spend": 176059.81,
+     "impressions": 1776952.0,
+     "clicks": 19874.0,
+     "leads": 301.0,
+     "cpm": 99.08,
+     "ctr": 0.011184320116694204,
+     "ff": 0.015145416121565865,
+     "cpl": 584.92,
+     "placement": "Instagram · feed",
+     "share": 0.5954026934592742,
+     "flag": "Form fill"
+    },
+    {
+     "spend": 81198.87,
+     "impressions": 2514665.0,
+     "clicks": 7251.0,
+     "leads": 1065.0,
+     "cpm": 32.29,
+     "ctr": 0.002883485474208294,
+     "ff": 0.14687629292511378,
+     "cpl": 76.24,
+     "placement": "Instagram · instagram reels",
+     "share": 0.27460002049565857
+    },
+    {
+     "spend": 20461.98,
+     "impressions": 254001.0,
+     "clicks": 5689.0,
+     "leads": 154.0,
+     "cpm": 80.56,
+     "ctr": 0.022397549615946394,
+     "ff": 0.027069783793285288,
+     "cpl": 132.87,
+     "placement": "Instagram · instagram stories",
+     "share": 0.06919873205092038
+    },
+    {
+     "spend": 12537.77,
+     "impressions": 1577.0,
+     "clicks": 225.0,
+     "leads": 121.0,
+     "cpm": 7950.39,
+     "ctr": 0.14267596702599875,
+     "ff": 0.5377777777777778,
+     "cpl": 103.62,
+     "placement": "Instagram · instagram lead gen multi submit",
+     "share": 0.04240048450585093
+    },
+    {
+     "spend": 3313.85,
+     "impressions": 26481.0,
+     "clicks": 86.0,
+     "leads": 24.0,
+     "cpm": 125.14,
+     "ctr": 0.0032476114950341756,
+     "ff": 0.27906976744186046,
+     "cpl": 138.08,
+     "placement": "Facebook · facebook reels",
+     "share": 0.011206833424504905
+    },
+    {
+     "spend": 548.43,
+     "impressions": 3944.0,
+     "clicks": 32.0,
+     "leads": 4.0,
+     "cpm": 139.06,
+     "ctr": 0.008113590263691683,
+     "ff": 0.125,
+     "cpl": 137.11,
+     "placement": "Facebook · feed",
+     "share": 0.001854705694412642
+    },
+    {
+     "spend": 462.47,
+     "impressions": 2136.0,
+     "clicks": 42.0,
+     "leads": 2.0,
+     "cpm": 216.51,
+     "ctr": 0.019662921348314606,
+     "ff": 0.047619047619047616,
+     "cpl": 231.24,
+     "placement": "Facebook · facebook notification",
+     "share": 0.0015639956095975
+    },
+    {
+     "spend": 373.19,
+     "impressions": 3178.0,
+     "clicks": 29.0,
+     "leads": 2.0,
+     "cpm": 117.43,
+     "ctr": 0.009125235997482694,
+     "ff": 0.06896551724137931,
+     "cpl": 186.59,
+     "placement": "Facebook · facebook reels overlay",
+     "share": 0.0012620565279206969
+    },
+    {
+     "spend": 346.82,
+     "impressions": 4947.0,
+     "clicks": 40.0,
+     "leads": 1.0,
+     "cpm": 70.11,
+     "ctr": 0.008085708510208208,
+     "ff": 0.025,
+     "cpl": 346.82,
+     "placement": "Facebook · facebook stories",
+     "share": 0.001172880626208703
+    },
+    {
+     "spend": 265.01,
+     "impressions": 1047.0,
+     "clicks": 32.0,
+     "leads": 1.0,
+     "cpm": 253.11,
+     "ctr": 0.030563514804202482,
+     "ff": 0.03125,
+     "cpl": 265.01,
+     "placement": "Facebook · instream video",
+     "share": 0.0008962209911168299
+    },
+    {
+     "spend": 59.34,
+     "impressions": 424.0,
+     "clicks": 15.0,
+     "leads": 0.0,
+     "cpm": 139.95,
+     "ctr": 0.03537735849056604,
+     "ff": 0.0,
+     "cpl": null,
+     "placement": "Audience_Network · an classic",
+     "share": 0.00020066843704948453
+    },
+    {
+     "spend": 57.51,
+     "impressions": 814.0,
+     "clicks": 1.0,
+     "leads": 0.0,
+     "cpm": 70.65,
+     "ctr": 0.0012285012285012285,
+     "ff": 0.0,
+     "cpl": null,
+     "placement": "Facebook · marketplace",
+     "share": 0.0001944810582222064
+    },
+    {
+     "spend": 6.31,
+     "impressions": 2141.0,
+     "clicks": 0.0,
+     "leads": 0.0,
+     "cpm": 2.95,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": null,
+     "placement": "Instagram · instagram explore grid home",
+     "share": 2.133894931255065e-05
+    },
+    {
+     "spend": 4.01,
+     "impressions": 38.0,
+     "clicks": 0.0,
+     "leads": 0.0,
+     "cpm": 105.51,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": null,
+     "placement": "Facebook · search",
+     "share": 1.3559409383456444e-05
+    },
+    {
+     "spend": 2.84,
+     "impressions": 49.0,
+     "clicks": 0.0,
+     "leads": 0.0,
+     "cpm": 57.96,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": null,
+     "placement": "Facebook · facebook profile feed",
+     "share": 9.604032100780133e-06
+    },
+    {
+     "spend": 0.51,
+     "impressions": 28.0,
+     "clicks": 0.0,
+     "leads": 0.0,
+     "cpm": 18.21,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": null,
+     "placement": "Instagram · instagram search",
+     "share": 1.7247284662832738e-06
+    }
+   ]
+  },
+  {
+   "product": "ACCA",
+   "spend": 189734.55,
+   "leads": 997.0,
+   "cpl": 190.31,
+   "placements": [
+    {
+     "spend": 139294.68,
+     "impressions": 1119598.0,
+     "clicks": 12575.0,
+     "leads": 205.0,
+     "cpm": 124.41,
+     "ctr": 0.011231709953036715,
+     "ff": 0.016302186878727636,
+     "cpl": 679.49,
+     "placement": "Instagram · feed",
+     "share": 0.7341555798530924,
+     "flag": "Form fill"
+    },
+    {
+     "spend": 21700.76,
+     "impressions": 398887.0,
+     "clicks": 1124.0,
+     "leads": 465.0,
+     "cpm": 54.4,
+     "ctr": 0.002817840641585211,
+     "ff": 0.41370106761565834,
+     "cpl": 46.67,
+     "placement": "Instagram · instagram reels",
+     "share": 0.114374312487828
+    },
+    {
+     "spend": 8486.3,
+     "impressions": 182227.0,
+     "clicks": 648.0,
+     "leads": 117.0,
+     "cpm": 46.57,
+     "ctr": 0.0035560043242768634,
+     "ff": 0.18055555555555555,
+     "cpl": 72.53,
+     "placement": "Facebook · facebook reels",
+     "share": 0.04472721338561016
+    },
+    {
+     "spend": 7051.52,
+     "impressions": 173550.0,
+     "clicks": 729.0,
+     "leads": 36.0,
+     "cpm": 40.63,
+     "ctr": 0.004200518582541055,
+     "ff": 0.04938271604938271,
+     "cpl": 195.88,
+     "placement": "Facebook · facebook stories",
+     "share": 0.03716521004591162
+    },
+    {
+     "spend": 5344.48,
+     "impressions": 51953.0,
+     "clicks": 480.0,
+     "leads": 112.0,
+     "cpm": 102.87,
+     "ctr": 0.009239119973822494,
+     "ff": 0.23333333333333334,
+     "cpl": 47.72,
+     "placement": "Instagram · instagram stories",
+     "share": 0.028168196582102827
+    },
+    {
+     "spend": 2923.71,
+     "impressions": 6554.0,
+     "clicks": 229.0,
+     "leads": 27.0,
+     "cpm": 446.1,
+     "ctr": 0.034940494354592615,
+     "ff": 0.11790393013100436,
+     "cpl": 108.29,
+     "placement": "Facebook · facebook notification",
+     "share": 0.015409470239031041
+    },
+    {
+     "spend": 2595.98,
+     "impressions": 35860.0,
+     "clicks": 214.0,
+     "leads": 14.0,
+     "cpm": 72.39,
+     "ctr": 0.005967651979921919,
+     "ff": 0.06542056074766354,
+     "cpl": 185.43,
+     "placement": "Facebook · facebook reels overlay",
+     "share": 0.013682146458661403
+    },
+    {
+     "spend": 2200.34,
+     "impressions": 48696.0,
+     "clicks": 351.0,
+     "leads": 21.0,
+     "cpm": 45.19,
+     "ctr": 0.007207984228684081,
+     "ff": 0.05982905982905983,
+     "cpl": 104.78,
+     "placement": "Facebook · feed",
+     "share": 0.011596960074797637
+    },
+    {
+     "spend": 101.44,
+     "impressions": 3889.0,
+     "clicks": 29.0,
+     "leads": 0.0,
+     "cpm": 26.08,
+     "ctr": 0.007456929802005657,
+     "ff": 0.0,
+     "cpl": null,
+     "placement": "Facebook · instream video",
+     "share": 0.00053465064772581
+    },
+    {
+     "spend": 20.48,
+     "impressions": 263.0,
+     "clicks": 0.0,
+     "leads": 0.0,
+     "cpm": 77.87,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": null,
+     "placement": "Facebook · marketplace",
+     "share": 0.0001079381694625139
+    },
+    {
+     "spend": 6.27,
+     "impressions": 919.0,
+     "clicks": 0.0,
+     "leads": 0.0,
+     "cpm": 6.82,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": null,
+     "placement": "Instagram · instagram explore grid home",
+     "share": 3.304511488974734e-05
+    },
+    {
+     "spend": 5.44,
+     "impressions": 140.0,
+     "clicks": 1.0,
+     "leads": 0.0,
+     "cpm": 38.86,
+     "ctr": 0.007142857142857143,
+     "ff": 0.0,
+     "cpl": null,
+     "placement": "Facebook · facebook profile feed",
+     "share": 2.8674271517061215e-05
+    },
+    {
+     "spend": 3.08,
+     "impressions": 29.0,
+     "clicks": 0.0,
+     "leads": 0.0,
+     "cpm": 106.21,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": null,
+     "placement": "Facebook · search",
+     "share": 1.6233732873761642e-05
+    },
+    {
+     "spend": 0.07,
+     "impressions": 7.0,
+     "clicks": 0.0,
+     "leads": 0.0,
+     "cpm": 10.0,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": null,
+     "placement": "Unknown · unknown",
+     "share": 3.689364959460132e-07
+    }
+   ]
+  },
+  {
+   "product": "ISFB PG",
+   "spend": 171439.02,
+   "leads": 412.0,
+   "cpl": 416.11,
+   "placements": [
+    {
+     "spend": 42078.83,
+     "impressions": 349327.0,
+     "clicks": 1262.0,
+     "leads": 66.0,
+     "cpm": 120.46,
+     "ctr": 0.0036126609165624186,
+     "ff": 0.05229793977812995,
+     "cpl": 637.56,
+     "placement": "Instagram · feed",
+     "share": 0.24544489566772806,
+     "flag": "Form fill"
+    },
+    {
+     "spend": 33088.73,
+     "impressions": 287721.0,
+     "clicks": 974.0,
+     "leads": 85.0,
+     "cpm": 115.0,
+     "ctr": 0.0033852238800782704,
+     "ff": 0.08726899383983573,
+     "cpl": 389.28,
+     "placement": "Instagram · instagram reels",
+     "share": 0.19300584023110423
+    },
+    {
+     "spend": 32948.6,
+     "impressions": 178922.0,
+     "clicks": 594.0,
+     "leads": 81.0,
+     "cpm": 184.15,
+     "ctr": 0.003319882406858855,
+     "ff": 0.13636363636363635,
+     "cpl": 406.77,
+     "placement": "Facebook · facebook reels",
+     "share": 0.19218846971888756
+    },
+    {
+     "spend": 30391.32,
+     "impressions": 204451.0,
+     "clicks": 1100.0,
+     "leads": 88.0,
+     "cpm": 148.65,
+     "ctr": 0.0053802622633296,
+     "ff": 0.08,
+     "cpl": 345.36,
+     "placement": "Facebook · feed",
+     "share": 0.17727186734597564
+    },
+    {
+     "spend": 21715.23,
+     "impressions": 138408.0,
+     "clicks": 599.0,
+     "leads": 65.0,
+     "cpm": 156.89,
+     "ctr": 0.0043277845211259465,
+     "ff": 0.10851419031719532,
+     "cpl": 334.08,
+     "placement": "Instagram · instagram stories",
+     "share": 0.1266644415995132
+    },
+    {
+     "spend": 7657.73,
+     "impressions": 19863.0,
+     "clicks": 834.0,
+     "leads": 16.0,
+     "cpm": 385.53,
+     "ctr": 0.041987615163872526,
+     "ff": 0.019184652278177457,
+     "cpl": 478.61,
+     "placement": "Facebook · facebook notification",
+     "share": 0.044667352727904786
+    },
+    {
+     "spend": 2828.56,
+     "impressions": 9078.0,
+     "clicks": 166.0,
+     "leads": 8.0,
+     "cpm": 311.58,
+     "ctr": 0.018285966071821987,
+     "ff": 0.04819277108433735,
+     "cpl": 353.57,
+     "placement": "Facebook · facebook stories",
+     "share": 0.016498913093125143
+    },
+    {
+     "spend": 285.94,
+     "impressions": 2777.0,
+     "clicks": 12.0,
+     "leads": 1.0,
+     "cpm": 102.97,
+     "ctr": 0.004321209938782859,
+     "ff": 0.08333333333333333,
+     "cpl": 285.94,
+     "placement": "Facebook · facebook profile feed",
+     "share": 0.001667880504485267
+    },
+    {
+     "spend": 190.74,
+     "impressions": 9279.0,
+     "clicks": 5.0,
+     "leads": 2.0,
+     "cpm": 20.56,
+     "ctr": 0.0005388511693070374,
+     "ff": 0.4,
+     "cpl": 95.37,
+     "placement": "Instagram · instagram explore grid home",
+     "share": 0.0011126002671019693
+    },
+    {
+     "spend": 118.24,
+     "impressions": 577.0,
+     "clicks": 2.0,
+     "leads": 0.0,
+     "cpm": 204.92,
+     "ctr": 0.0034662045060658577,
+     "ff": 0.0,
+     "cpl": null,
+     "placement": "Facebook · facebook reels overlay",
+     "share": 0.0006896714625128181
+    },
+    {
+     "spend": 98.11,
+     "impressions": 603.0,
+     "clicks": 3.0,
+     "leads": 0.0,
+     "cpm": 162.7,
+     "ctr": 0.004975124378109453,
+     "ff": 0.0,
+     "cpl": null,
+     "placement": "Facebook · marketplace",
+     "share": 0.0005722763680862257
+    },
+    {
+     "spend": 33.83,
+     "impressions": 121.0,
+     "clicks": 1.0,
+     "leads": 0.0,
+     "cpm": 279.55,
+     "ctr": 0.008264462809917356,
+     "ff": 0.0,
+     "cpl": null,
+     "placement": "Facebook · instream video",
+     "share": 0.0001973016405562116
+    },
+    {
+     "spend": 2.45,
+     "impressions": 12.0,
+     "clicks": 0.0,
+     "leads": 0.0,
+     "cpm": 204.15,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": null,
+     "placement": "Unknown · unknown",
+     "share": 1.4289629005434034e-05
+    },
+    {
+     "spend": 0.46,
+     "impressions": 3.0,
+     "clicks": 0.0,
+     "leads": 0.0,
+     "cpm": 153.33,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": null,
+     "placement": "Facebook · search",
+     "share": 2.683169786308946e-06
+    },
+    {
+     "spend": 0.19,
+     "impressions": 2.0,
+     "clicks": 0.0,
+     "leads": 0.0,
+     "cpm": 95.0,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": null,
+     "placement": "Facebook · right hand column",
+     "share": 1.108265781301521e-06
+    },
+    {
+     "spend": 0.07,
+     "impressions": 3.0,
+     "clicks": 0.0,
+     "leads": 0.0,
+     "cpm": 23.33,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": null,
+     "placement": "Facebook · biz disco feed",
+     "share": 4.083084457426657e-07
+    }
+   ]
+  },
+  {
+   "product": "CMA",
+   "spend": 154257.37,
+   "leads": 1186.0,
+   "cpl": 130.07,
+   "placements": [
+    {
+     "spend": 66350.47,
+     "impressions": 365520.0,
+     "clicks": 3279.0,
+     "leads": 121.0,
+     "cpm": 181.52,
+     "ctr": 0.008970781352593566,
+     "ff": 0.03690149435803599,
+     "cpl": 548.35,
+     "placement": "Instagram · feed",
+     "share": 0.43012838238483186,
+     "flag": "Form fill"
+    },
+    {
+     "spend": 36680.4,
+     "impressions": 558451.0,
+     "clicks": 1246.0,
+     "leads": 650.0,
+     "cpm": 65.68,
+     "ctr": 0.0022311715799595666,
+     "ff": 0.521669341894061,
+     "cpl": 56.43,
+     "placement": "Instagram · instagram reels",
+     "share": 0.23778703261527206
+    },
+    {
+     "spend": 20078.12,
+     "impressions": 326700.0,
+     "clicks": 864.0,
+     "leads": 141.0,
+     "cpm": 61.46,
+     "ctr": 0.002644628099173554,
+     "ff": 0.16319444444444445,
+     "cpl": 142.4,
+     "placement": "Facebook · facebook reels",
+     "share": 0.13015986878972427
+    },
+    {
+     "spend": 12112.32,
+     "impressions": 144532.0,
+     "clicks": 839.0,
+     "leads": 40.0,
+     "cpm": 83.8,
+     "ctr": 0.005804942850026292,
+     "ff": 0.04767580452920143,
+     "cpl": 302.81,
+     "placement": "Facebook · facebook reels overlay",
+     "share": 0.0785201849581388
+    },
+    {
+     "spend": 7014.47,
+     "impressions": 12961.0,
+     "clicks": 507.0,
+     "leads": 55.0,
+     "cpm": 541.2,
+     "ctr": 0.03911735205616851,
+     "ff": 0.10848126232741617,
+     "cpl": 127.54,
+     "placement": "Facebook · facebook notification",
+     "share": 0.04547252110963485
+    },
+    {
+     "spend": 5414.34,
+     "impressions": 59980.0,
+     "clicks": 787.0,
+     "leads": 124.0,
+     "cpm": 90.27,
+     "ctr": 0.013121040346782261,
+     "ff": 0.15756035578144853,
+     "cpl": 43.66,
+     "placement": "Instagram · instagram stories",
+     "share": 0.03509940633974129
+    },
+    {
+     "spend": 4018.19,
+     "impressions": 64503.0,
+     "clicks": 356.0,
+     "leads": 30.0,
+     "cpm": 62.29,
+     "ctr": 0.005519123141559308,
+     "ff": 0.08426966292134831,
+     "cpl": 133.94,
+     "placement": "Facebook · feed",
+     "share": 0.02604860635063713
+    },
+    {
+     "spend": 2090.47,
+     "impressions": 20517.0,
+     "clicks": 158.0,
+     "leads": 19.0,
+     "cpm": 101.89,
+     "ctr": 0.007700930935321928,
+     "ff": 0.12025316455696203,
+     "cpl": 110.02,
+     "placement": "Facebook · facebook stories",
+     "share": 0.013551823190461148
+    },
+    {
+     "spend": 431.97,
+     "impressions": 12046.0,
+     "clicks": 56.0,
+     "leads": 6.0,
+     "cpm": 35.86,
+     "ctr": 0.004648846089988378,
+     "ff": 0.10714285714285714,
+     "cpl": 71.99,
+     "placement": "Facebook · instream video",
+     "share": 0.0028003005680706863
+    },
+    {
+     "spend": 45.65,
+     "impressions": 795.0,
+     "clicks": 2.0,
+     "leads": 0.0,
+     "cpm": 57.42,
+     "ctr": 0.0025157232704402514,
+     "ff": 0.0,
+     "cpl": null,
+     "placement": "Facebook · marketplace",
+     "share": 0.000295933348849264
+    },
+    {
+     "spend": 14.15,
+     "impressions": 157.0,
+     "clicks": 0.0,
+     "leads": 0.0,
+     "cpm": 90.13,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": null,
+     "placement": "Facebook · facebook profile feed",
+     "share": 9.172916683020555e-05
+    },
+    {
+     "spend": 6.3,
+     "impressions": 21.0,
+     "clicks": 0.0,
+     "leads": 0.0,
+     "cpm": 300.0,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": null,
+     "placement": "Facebook · search",
+     "share": 4.084018813656718e-05
+    },
+    {
+     "spend": 0.39,
+     "impressions": 11.0,
+     "clicks": 0.0,
+     "leads": 0.0,
+     "cpm": 35.45,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": null,
+     "placement": "Unknown · unknown",
+     "share": 2.5282422535692947e-06
+    },
+    {
+     "spend": 0.13,
+     "impressions": 94.0,
+     "clicks": 0.0,
+     "leads": 0.0,
+     "cpm": 1.38,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": null,
+     "placement": "Instagram · instagram explore grid home",
+     "share": 8.427474178564316e-07
+    }
+   ]
+  },
+  {
+   "product": "PGA (Data Science)",
+   "spend": 107221.76,
+   "leads": 645.0,
+   "cpl": 166.24,
+   "placements": [
+    {
+     "spend": 35799.74,
+     "impressions": 603490.0,
+     "clicks": 1894.0,
+     "leads": 267.0,
+     "cpm": 59.32,
+     "ctr": 0.003138411572685546,
+     "ff": 0.1409714889123548,
+     "cpl": 134.08,
+     "placement": "Instagram · instagram reels",
+     "share": 0.3338850329132025
+    },
+    {
+     "spend": 33774.89,
+     "impressions": 444731.0,
+     "clicks": 1367.0,
+     "leads": 229.0,
+     "cpm": 75.94,
+     "ctr": 0.0030737681879608124,
+     "ff": 0.16752011704462327,
+     "cpl": 147.49,
+     "placement": "Instagram · instagram stories",
+     "share": 0.3150002897592799
+    },
+    {
+     "spend": 20179.78,
+     "impressions": 89279.0,
+     "clicks": 2806.0,
+     "leads": 57.0,
+     "cpm": 226.03,
+     "ctr": 0.03142956350317544,
+     "ff": 0.020313613684960798,
+     "cpl": 354.03,
+     "placement": "Instagram · feed",
+     "share": 0.18820605613244354,
+     "flag": "Form fill"
+    },
+    {
+     "spend": 10192.08,
+     "impressions": 85421.0,
+     "clicks": 310.0,
+     "leads": 45.0,
+     "cpm": 119.32,
+     "ctr": 0.0036290841830463236,
+     "ff": 0.14516129032258066,
+     "cpl": 226.49,
+     "placement": "Facebook · facebook reels",
+     "share": 0.0950560612929166
+    },
+    {
+     "spend": 3851.05,
+     "impressions": 15534.0,
+     "clicks": 145.0,
+     "leads": 25.0,
+     "cpm": 247.91,
+     "ctr": 0.009334363332045835,
+     "ff": 0.1724137931034483,
+     "cpl": 154.04,
+     "placement": "Facebook · feed",
+     "share": 0.03591671873702062
+    },
+    {
+     "spend": 2404.47,
+     "impressions": 40314.0,
+     "clicks": 184.0,
+     "leads": 13.0,
+     "cpm": 59.64,
+     "ctr": 0.004564171255643201,
+     "ff": 0.07065217391304347,
+     "cpl": 184.96,
+     "placement": "Facebook · facebook stories",
+     "share": 0.022425201729177727
+    },
+    {
+     "spend": 667.85,
+     "impressions": 1190.0,
+     "clicks": 48.0,
+     "leads": 5.0,
+     "cpm": 561.22,
+     "ctr": 0.040336134453781515,
+     "ff": 0.10416666666666667,
+     "cpl": 133.57,
+     "placement": "Facebook · facebook notification",
+     "share": 0.006228669435916114
+    },
+    {
+     "spend": 265.59,
+     "impressions": 1193.0,
+     "clicks": 24.0,
+     "leads": 1.0,
+     "cpm": 222.62,
+     "ctr": 0.020117351215423303,
+     "ff": 0.041666666666666664,
+     "cpl": 265.59,
+     "placement": "Facebook · facebook reels overlay",
+     "share": 0.0024770149245106447
+    },
+    {
+     "spend": 43.15,
+     "impressions": 890.0,
+     "clicks": 3.0,
+     "leads": 3.0,
+     "cpm": 48.48,
+     "ctr": 0.0033707865168539327,
+     "ff": 1.0,
+     "cpl": 14.38,
+     "placement": "Facebook · facebook profile feed",
+     "share": 0.0004024285738245402
+    },
+    {
+     "spend": 29.04,
+     "impressions": 534.0,
+     "clicks": 0.0,
+     "leads": 0.0,
+     "cpm": 54.38,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": null,
+     "placement": "Instagram · instagram explore grid home",
+     "share": 0.0002708377476075399
+    },
+    {
+     "spend": 9.04,
+     "impressions": 88.0,
+     "clicks": 2.0,
+     "leads": 0.0,
+     "cpm": 102.73,
+     "ctr": 0.022727272727272728,
+     "ff": 0.0,
+     "cpl": null,
+     "placement": "Facebook · search",
+     "share": 8.43112442061096e-05
+    },
+    {
+     "spend": 3.74,
+     "impressions": 12.0,
+     "clicks": 0.0,
+     "leads": 0.0,
+     "cpm": 311.66,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": null,
+     "placement": "Unknown · unknown",
+     "share": 3.4880046704251026e-05
+    },
+    {
+     "spend": 0.93,
+     "impressions": 18.0,
+     "clicks": 0.0,
+     "leads": 0.0,
+     "cpm": 51.67,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": null,
+     "placement": "Facebook · instream video",
+     "share": 8.673612512354196e-06
+    },
+    {
+     "spend": 0.41,
+     "impressions": 2.0,
+     "clicks": 0.0,
+     "leads": 0.0,
+     "cpm": 205.0,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": null,
+     "placement": "Instagram · instagram search",
+     "share": 3.823850677489484e-06
+    }
+   ]
+  },
+  {
+   "product": "PM (KPMG/PwC)",
+   "spend": 98298.41,
+   "leads": 424.0,
+   "cpl": 231.84,
+   "placements": [
+    {
+     "spend": 60531.5,
+     "impressions": 645775.0,
+     "clicks": 4804.0,
+     "leads": 295.0,
+     "cpm": 93.73,
+     "ctr": 0.007439123533738531,
+     "ff": 0.06140716069941715,
+     "cpl": 205.19,
+     "placement": "Instagram · instagram reels",
+     "share": 0.6157933124248908
+    },
+    {
+     "spend": 17593.87,
+     "impressions": 72647.0,
+     "clicks": 392.0,
+     "leads": 46.0,
+     "cpm": 242.18,
+     "ctr": 0.005395955786199017,
+     "ff": 0.11734693877551021,
+     "cpl": 382.48,
+     "placement": "Instagram · feed",
+     "share": 0.17898426027440323,
+     "flag": "CPM"
+    },
+    {
+     "spend": 13262.46,
+     "impressions": 72691.0,
+     "clicks": 238.0,
+     "leads": 66.0,
+     "cpm": 182.45,
+     "ctr": 0.0032741329738206933,
+     "ff": 0.2773109243697479,
+     "cpl": 200.95,
+     "placement": "Facebook · facebook reels",
+     "share": 0.1349203695156412
+    },
+    {
+     "spend": 5323.38,
+     "impressions": 12807.0,
+     "clicks": 57.0,
+     "leads": 9.0,
+     "cpm": 415.66,
+     "ctr": 0.004450691028343875,
+     "ff": 0.15789473684210525,
+     "cpl": 591.49,
+     "placement": "Instagram · instagram stories",
+     "share": 0.05415525032398794
+    },
+    {
+     "spend": 1131.23,
+     "impressions": 5458.0,
+     "clicks": 25.0,
+     "leads": 5.0,
+     "cpm": 207.26,
+     "ctr": 0.004580432392817882,
+     "ff": 0.2,
+     "cpl": 226.25,
+     "placement": "Facebook · feed",
+     "share": 0.011508142400268732
+    },
+    {
+     "spend": 253.05,
+     "impressions": 457.0,
+     "clicks": 3.0,
+     "leads": 1.0,
+     "cpm": 553.72,
+     "ctr": 0.006564551422319475,
+     "ff": 0.3333333333333333,
+     "cpl": 253.05,
+     "placement": "Facebook · facebook stories",
+     "share": 0.0025743030838443876
+    },
+    {
+     "spend": 73.62,
+     "impressions": 395.0,
+     "clicks": 5.0,
+     "leads": 1.0,
+     "cpm": 186.38,
+     "ctr": 0.012658227848101266,
+     "ff": 0.2,
+     "cpl": 73.62,
+     "placement": "Facebook · facebook reels overlay",
+     "share": 0.0007489459900724742
+    },
+    {
+     "spend": 66.72,
+     "impressions": 76.0,
+     "clicks": 3.0,
+     "leads": 1.0,
+     "cpm": 877.83,
+     "ctr": 0.039473684210526314,
+     "ff": 0.3333333333333333,
+     "cpl": 66.72,
+     "placement": "Instagram · instagram lead gen multi submit",
+     "share": 0.0006787007032972354
+    },
+    {
+     "spend": 23.41,
+     "impressions": 94.0,
+     "clicks": 0.0,
+     "leads": 0.0,
+     "cpm": 249.04,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": null,
+     "placement": "Facebook · search",
+     "share": 0.00023815441165325055
+    },
+    {
+     "spend": 22.1,
+     "impressions": 92.0,
+     "clicks": 0.0,
+     "leads": 0.0,
+     "cpm": 240.22,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": null,
+     "placement": "Facebook · facebook profile feed",
+     "share": 0.00022482764471978744
+    },
+    {
+     "spend": 17.08,
+     "impressions": 238.0,
+     "clicks": 0.0,
+     "leads": 0.0,
+     "cpm": 71.76,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": null,
+     "placement": "Instagram · instagram search",
+     "share": 0.000173733227221071
+    }
+   ]
+  },
+  {
+   "product": "DM Pro",
+   "spend": 88070.18,
+   "leads": 281.0,
+   "cpl": 313.42,
+   "placements": [
+    {
+     "spend": 38116.85,
+     "impressions": 145546.0,
+     "clicks": 645.0,
+     "leads": 111.0,
+     "cpm": 261.89,
+     "ctr": 0.0044315886386434526,
+     "ff": 0.17209302325581396,
+     "cpl": 343.4,
+     "placement": "Facebook · facebook reels",
+     "share": 0.43280083160134447
+    },
+    {
+     "spend": 25756.97,
+     "impressions": 95062.0,
+     "clicks": 493.0,
+     "leads": 83.0,
+     "cpm": 270.95,
+     "ctr": 0.005186089078706529,
+     "ff": 0.16835699797160245,
+     "cpl": 310.32,
+     "placement": "Instagram · instagram reels",
+     "share": 0.29245964898954413
+    },
+    {
+     "spend": 9826.35,
+     "impressions": 16677.0,
+     "clicks": 107.0,
+     "leads": 34.0,
+     "cpm": 589.22,
+     "ctr": 0.006416022066318882,
+     "ff": 0.3177570093457944,
+     "cpl": 289.01,
+     "placement": "Instagram · feed",
+     "share": 0.11157410954715219
+    },
+    {
+     "spend": 6815.93,
+     "impressions": 12126.0,
+     "clicks": 123.0,
+     "leads": 25.0,
+     "cpm": 562.09,
+     "ctr": 0.010143493320138546,
+     "ff": 0.2032520325203252,
+     "cpl": 272.64,
+     "placement": "Instagram · instagram stories",
+     "share": 0.07739197771299205
+    },
+    {
+     "spend": 4485.37,
+     "impressions": 7861.0,
+     "clicks": 64.0,
+     "leads": 10.0,
+     "cpm": 570.58,
+     "ctr": 0.008141457829792647,
+     "ff": 0.15625,
+     "cpl": 448.54,
+     "placement": "Facebook · feed",
+     "share": 0.05092947243996718
+    },
+    {
+     "spend": 2461.48,
+     "impressions": 7679.0,
+     "clicks": 93.0,
+     "leads": 16.0,
+     "cpm": 320.55,
+     "ctr": 0.012110951946868082,
+     "ff": 0.17204301075268819,
+     "cpl": 153.84,
+     "placement": "Facebook · facebook stories",
+     "share": 0.02794908677142376
+    },
+    {
+     "spend": 593.4,
+     "impressions": 713.0,
+     "clicks": 11.0,
+     "leads": 2.0,
+     "cpm": 832.26,
+     "ctr": 0.015427769985974754,
+     "ff": 0.18181818181818182,
+     "cpl": 296.7,
+     "placement": "Facebook · instream video",
+     "share": 0.0067378447582800965
+    },
+    {
+     "spend": 13.83,
+     "impressions": 358.0,
+     "clicks": 0.0,
+     "leads": 0.0,
+     "cpm": 38.63,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": null,
+     "placement": "Instagram · instagram explore grid home",
+     "share": 0.0001570281792963614
+    }
+   ]
+  },
+  {
+   "product": "Fintech",
+   "spend": 86396.01,
+   "leads": 251.0,
+   "cpl": 344.21,
+   "placements": [
+    {
+     "spend": 48284.15,
+     "impressions": 468119.0,
+     "clicks": 4039.0,
+     "leads": 69.0,
+     "cpm": 103.15,
+     "ctr": 0.008628147970921924,
+     "ff": 0.017083436494181727,
+     "cpl": 699.77,
+     "placement": "Instagram · feed",
+     "share": 0.5588700948110913,
+     "flag": "Form fill"
+    },
+    {
+     "spend": 27951.81,
+     "impressions": 656342.0,
+     "clicks": 1486.0,
+     "leads": 139.0,
+     "cpm": 42.59,
+     "ctr": 0.0022640635522334393,
+     "ff": 0.09353970390309556,
+     "cpl": 201.09,
+     "placement": "Instagram · instagram reels",
+     "share": 0.3235312058971241
+    },
+    {
+     "spend": 5693.29,
+     "impressions": 37902.0,
+     "clicks": 663.0,
+     "leads": 35.0,
+     "cpm": 150.21,
+     "ctr": 0.017492480607883488,
+     "ff": 0.05279034690799397,
+     "cpl": 162.67,
+     "placement": "Instagram · instagram stories",
+     "share": 0.0658975952708927
+    },
+    {
+     "spend": 1972.08,
+     "impressions": 9905.0,
+     "clicks": 29.0,
+     "leads": 4.0,
+     "cpm": 199.1,
+     "ctr": 0.00292781423523473,
+     "ff": 0.13793103448275862,
+     "cpl": 493.02,
+     "placement": "Facebook · facebook reels",
+     "share": 0.02282599856173913
+    },
+    {
+     "spend": 1443.87,
+     "impressions": 8813.0,
+     "clicks": 48.0,
+     "leads": 4.0,
+     "cpm": 163.83,
+     "ctr": 0.0054464994893906726,
+     "ff": 0.08333333333333333,
+     "cpl": 360.97,
+     "placement": "Facebook · feed",
+     "share": 0.016712206964187345
+    },
+    {
+     "spend": 297.85,
+     "impressions": 824.0,
+     "clicks": 16.0,
+     "leads": 0.0,
+     "cpm": 361.47,
+     "ctr": 0.019417475728155338,
+     "ff": 0.0,
+     "cpl": null,
+     "placement": "Facebook · instream video",
+     "share": 0.0034475214769756142
+    },
+    {
+     "spend": 292.28,
+     "impressions": 1834.0,
+     "clicks": 8.0,
+     "leads": 0.0,
+     "cpm": 159.37,
+     "ctr": 0.004362050163576881,
+     "ff": 0.0,
+     "cpl": null,
+     "placement": "Facebook · facebook stories",
+     "share": 0.003383037017565972
+    },
+    {
+     "spend": 228.64,
+     "impressions": 771.0,
+     "clicks": 14.0,
+     "leads": 0.0,
+     "cpm": 296.55,
+     "ctr": 0.018158236057068743,
+     "ff": 0.0,
+     "cpl": null,
+     "placement": "Facebook · facebook notification",
+     "share": 0.0026464254541384486
+    },
+    {
+     "spend": 200.54,
+     "impressions": 822.0,
+     "clicks": 2.0,
+     "leads": 0.0,
+     "cpm": 243.97,
+     "ctr": 0.0024330900243309003,
+     "ff": 0.0,
+     "cpl": null,
+     "placement": "Facebook · facebook reels overlay",
+     "share": 0.002321209046575183
+    },
+    {
+     "spend": 15.37,
+     "impressions": 1787.0,
+     "clicks": 0.0,
+     "leads": 0.0,
+     "cpm": 8.6,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": null,
+     "placement": "Instagram · instagram explore grid home",
+     "share": 0.00017789594681513643
+    },
+    {
+     "spend": 10.86,
+     "impressions": 35.0,
+     "clicks": 3.0,
+     "leads": 0.0,
+     "cpm": 310.28,
+     "ctr": 0.08571428571428572,
+     "ff": 0.0,
+     "cpl": null,
+     "placement": "Facebook · search",
+     "share": 0.00012569793443007376
+    },
+    {
+     "spend": 3.01,
+     "impressions": 218.0,
+     "clicks": 0.0,
+     "leads": 0.0,
+     "cpm": 13.81,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": null,
+     "placement": "Instagram · instagram search",
+     "share": 3.483841441288781e-05
+    },
+    {
+     "spend": 2.25,
+     "impressions": 55.0,
+     "clicks": 1.0,
+     "leads": 0.0,
+     "cpm": 40.91,
+     "ctr": 0.01818181818181818,
+     "ff": 0.0,
+     "cpl": null,
+     "placement": "Facebook · facebook profile feed",
+     "share": 2.6041711879981484e-05
+    },
+    {
+     "spend": 0.02,
+     "impressions": 1.0,
+     "clicks": 0.0,
+     "leads": 0.0,
+     "cpm": 20.0,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": null,
+     "placement": "Unknown · unknown",
+     "share": 2.3149217191858738e-07
+    }
+   ]
+  },
+  {
+   "product": "ISB CFO",
+   "spend": 80842.63,
+   "leads": 174.0,
+   "cpl": 464.61,
+   "placements": [
+    {
+     "spend": 22113.67,
+     "impressions": 174645.0,
+     "clicks": 645.0,
+     "leads": 22.0,
+     "cpm": 126.62,
+     "ctr": 0.0036932062183286096,
+     "ff": 0.034108527131782945,
+     "cpl": 1005.17,
+     "placement": "Instagram · feed",
+     "share": 0.27353967736272267,
+     "flag": "Form fill"
+    },
+    {
+     "spend": 18010.09,
+     "impressions": 138780.0,
+     "clicks": 468.0,
+     "leads": 50.0,
+     "cpm": 129.77,
+     "ctr": 0.0033722438391699094,
+     "ff": 0.10683760683760683,
+     "cpl": 360.2,
+     "placement": "Facebook · feed",
+     "share": 0.22277965873052327
+    },
+    {
+     "spend": 16038.86,
+     "impressions": 73189.0,
+     "clicks": 294.0,
+     "leads": 41.0,
+     "cpm": 219.14,
+     "ctr": 0.004016997089726598,
+     "ff": 0.13945578231292516,
+     "cpl": 391.19,
+     "placement": "Facebook · facebook reels",
+     "share": 0.1983960284300449
+    },
+    {
+     "spend": 15512.49,
+     "impressions": 77866.0,
+     "clicks": 214.0,
+     "leads": 39.0,
+     "cpm": 199.22,
+     "ctr": 0.0027483112012945316,
+     "ff": 0.1822429906542056,
+     "cpl": 397.76,
+     "placement": "Instagram · instagram reels",
+     "share": 0.19188501189519067
+    },
+    {
+     "spend": 4321.13,
+     "impressions": 5694.0,
+     "clicks": 197.0,
+     "leads": 6.0,
+     "cpm": 758.89,
+     "ctr": 0.034597822269055147,
+     "ff": 0.030456852791878174,
+     "cpl": 720.19,
+     "placement": "Facebook · facebook stories",
+     "share": 0.05345117675346679
+    },
+    {
+     "spend": 2097.48,
+     "impressions": 4512.0,
+     "clicks": 57.0,
+     "leads": 6.0,
+     "cpm": 464.87,
+     "ctr": 0.012632978723404254,
+     "ff": 0.10526315789473684,
+     "cpl": 349.58,
+     "placement": "Instagram · instagram stories",
+     "share": 0.025945212353859846
+    },
+    {
+     "spend": 1408.08,
+     "impressions": 3414.0,
+     "clicks": 129.0,
+     "leads": 5.0,
+     "cpm": 412.44,
+     "ctr": 0.037785588752196834,
+     "ff": 0.03875968992248062,
+     "cpl": 281.62,
+     "placement": "Facebook · facebook notification",
+     "share": 0.01741752342472965
+    },
+    {
+     "spend": 1139.93,
+     "impressions": 7515.0,
+     "clicks": 74.0,
+     "leads": 5.0,
+     "cpm": 151.69,
+     "ctr": 0.009846972721224218,
+     "ff": 0.06756756756756757,
+     "cpl": 227.99,
+     "placement": "Facebook · facebook reels overlay",
+     "share": 0.014100631083007355
+    },
+    {
+     "spend": 182.9,
+     "impressions": 871.0,
+     "clicks": 8.0,
+     "leads": 0.0,
+     "cpm": 209.99,
+     "ctr": 0.009184845005740528,
+     "ff": 0.0,
+     "cpl": null,
+     "placement": "Facebook · instream video",
+     "share": 0.0022624263983772254
+    },
+    {
+     "spend": 8.6,
+     "impressions": 57.0,
+     "clicks": 0.0,
+     "leads": 0.0,
+     "cpm": 150.88,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": null,
+     "placement": "Facebook · marketplace",
+     "share": 0.00010637951796766075
+    },
+    {
+     "spend": 5.54,
+     "impressions": 89.0,
+     "clicks": 1.0,
+     "leads": 0.0,
+     "cpm": 62.25,
+     "ctr": 0.011235955056179775,
+     "ff": 0.0,
+     "cpl": null,
+     "placement": "Facebook · facebook profile feed",
+     "share": 6.852943808053923e-05
+    },
+    {
+     "spend": 2.1,
+     "impressions": 86.0,
+     "clicks": 0.0,
+     "leads": 0.0,
+     "cpm": 24.42,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": null,
+     "placement": "Facebook · right hand column",
+     "share": 2.597391998005745e-05
+    },
+    {
+     "spend": 1.38,
+     "impressions": 7.0,
+     "clicks": 0.0,
+     "leads": 0.0,
+     "cpm": 197.14,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": null,
+     "placement": "Facebook · search",
+     "share": 1.7070201720392073e-05
+    },
+    {
+     "spend": 0.21,
+     "impressions": 5.0,
+     "clicks": 0.0,
+     "leads": 0.0,
+     "cpm": 42.0,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": null,
+     "placement": "Unknown · unknown",
+     "share": 2.5976393922335766e-06
+    },
+    {
+     "spend": 0.16,
+     "impressions": 11.0,
+     "clicks": 0.0,
+     "leads": 0.0,
+     "cpm": 14.55,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": null,
+     "placement": "Instagram · instagram explore grid home",
+     "share": 1.9791538226541534e-06
+    },
+    {
+     "spend": 0.01,
+     "impressions": 1.0,
+     "clicks": 0.0,
+     "leads": 0.0,
+     "cpm": 10.0,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": null,
+     "placement": "Instagram · instagram search",
+     "share": 1.236971139158846e-07
+    }
+   ]
+  },
+  {
+   "product": "FAP (KPMG/PwC)",
+   "spend": 77200.29,
+   "leads": 351.0,
+   "cpl": 219.94,
+   "placements": [
+    {
+     "spend": 26821.81,
+     "impressions": 320232.0,
+     "clicks": 2066.0,
+     "leads": 161.0,
+     "cpm": 83.76,
+     "ctr": 0.0064515726098578535,
+     "ff": 0.07792836398838335,
+     "cpl": 166.6,
+     "placement": "Instagram · instagram reels",
+     "share": 0.3474314725338875
+    },
+    {
+     "spend": 18874.93,
+     "impressions": 109925.0,
+     "clicks": 695.0,
+     "leads": 52.0,
+     "cpm": 171.71,
+     "ctr": 0.006322492608596771,
+     "ff": 0.07482014388489208,
+     "cpl": 362.98,
+     "placement": "Instagram · feed",
+     "share": 0.24449305856816478,
+     "flag": "CPM"
+    },
+    {
+     "spend": 18719.72,
+     "impressions": 168856.0,
+     "clicks": 435.0,
+     "leads": 70.0,
+     "cpm": 110.86,
+     "ctr": 0.0025761595679158573,
+     "ff": 0.16091954022988506,
+     "cpl": 267.42,
+     "placement": "Facebook · facebook reels",
+     "share": 0.24248249617000472
+    },
+    {
+     "spend": 5680.42,
+     "impressions": 32596.0,
+     "clicks": 283.0,
+     "leads": 33.0,
+     "cpm": 174.27,
+     "ctr": 0.008682046876917413,
+     "ff": 0.1166077738515901,
+     "cpl": 172.13,
+     "placement": "Facebook · feed",
+     "share": 0.07358027032486572
+    },
+    {
+     "spend": 3675.71,
+     "impressions": 15055.0,
+     "clicks": 64.0,
+     "leads": 15.0,
+     "cpm": 244.15,
+     "ctr": 0.004251079375622717,
+     "ff": 0.234375,
+     "cpl": 245.05,
+     "placement": "Instagram · instagram stories",
+     "share": 0.04761262042877381
+    },
+    {
+     "spend": 2166.89,
+     "impressions": 24715.0,
+     "clicks": 219.0,
+     "leads": 13.0,
+     "cpm": 87.67,
+     "ctr": 0.008861015577584463,
+     "ff": 0.0593607305936073,
+     "cpl": 166.68,
+     "placement": "Facebook · facebook reels overlay",
+     "share": 0.02806836091945816
+    },
+    {
+     "spend": 761.43,
+     "impressions": 3245.0,
+     "clicks": 64.0,
+     "leads": 4.0,
+     "cpm": 234.65,
+     "ctr": 0.019722650231124808,
+     "ff": 0.0625,
+     "cpl": 190.36,
+     "placement": "Facebook · facebook stories",
+     "share": 0.009863070475335096
+    },
+    {
+     "spend": 229.29,
+     "impressions": 156.0,
+     "clicks": 6.0,
+     "leads": 2.0,
+     "cpm": 1469.84,
+     "ctr": 0.038461538461538464,
+     "ff": 0.3333333333333333,
+     "cpl": 114.65,
+     "placement": "Instagram · instagram lead gen multi submit",
+     "share": 0.0029701300383329268
+    },
+    {
+     "spend": 129.65,
+     "impressions": 1831.0,
+     "clicks": 14.0,
+     "leads": 1.0,
+     "cpm": 70.81,
+     "ctr": 0.007646095030038231,
+     "ff": 0.07142857142857142,
+     "cpl": 129.65,
+     "placement": "Facebook · instream video",
+     "share": 0.0016793486160211946
+    },
+    {
+     "spend": 104.2,
+     "impressions": 501.0,
+     "clicks": 0.0,
+     "leads": 0.0,
+     "cpm": 207.99,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": null,
+     "placement": "Facebook · marketplace",
+     "share": 0.0013497669521057073
+    },
+    {
+     "spend": 32.45,
+     "impressions": 163.0,
+     "clicks": 1.0,
+     "leads": 0.0,
+     "cpm": 199.07,
+     "ctr": 0.006134969325153374,
+     "ff": 0.0,
+     "cpl": null,
+     "placement": "Facebook · facebook profile feed",
+     "share": 0.000420313188487133
+    },
+    {
+     "spend": 3.79,
+     "impressions": 11.0,
+     "clicks": 0.0,
+     "leads": 0.0,
+     "cpm": 344.54,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": null,
+     "placement": "Facebook · search",
+     "share": 4.9091784563363415e-05
+    }
+   ]
+  },
+  {
+   "product": "AIPM (IBM)",
+   "spend": 75731.01,
+   "leads": 217.0,
+   "cpl": 348.99,
+   "placements": [
+    {
+     "spend": 39550.47,
+     "impressions": 385765.0,
+     "clicks": 2509.0,
+     "leads": 149.0,
+     "cpm": 102.52,
+     "ctr": 0.006503959664562622,
+     "ff": 0.059386209645277,
+     "cpl": 265.44,
+     "placement": "Instagram · instagram reels",
+     "share": 0.5222494028829796
+    },
+    {
+     "spend": 29637.27,
+     "impressions": 117046.0,
+     "clicks": 861.0,
+     "leads": 47.0,
+     "cpm": 253.21,
+     "ctr": 0.007356082224082839,
+     "ff": 0.0545876887340302,
+     "cpl": 630.58,
+     "placement": "Instagram · feed",
+     "share": 0.39134919419581127,
+     "flag": "CPM"
+    },
+    {
+     "spend": 5469.7,
+     "impressions": 7760.0,
+     "clicks": 85.0,
+     "leads": 14.0,
+     "cpm": 704.86,
+     "ctr": 0.01095360824742268,
+     "ff": 0.16470588235294117,
+     "cpl": 390.69,
+     "placement": "Instagram · instagram stories",
+     "share": 0.0722253051586468
+    },
+    {
+     "spend": 747.48,
+     "impressions": 6531.0,
+     "clicks": 62.0,
+     "leads": 6.0,
+     "cpm": 114.45,
+     "ctr": 0.00949318634206094,
+     "ff": 0.0967741935483871,
+     "cpl": 124.58,
+     "placement": "Facebook · feed",
+     "share": 0.009870166804681687
+    },
+    {
+     "spend": 147.71,
+     "impressions": 1276.0,
+     "clicks": 3.0,
+     "leads": 0.0,
+     "cpm": 115.76,
+     "ctr": 0.0023510971786833857,
+     "ff": 0.0,
+     "cpl": null,
+     "placement": "Facebook · facebook reels",
+     "share": 0.001950492938032245
+    },
+    {
+     "spend": 136.54,
+     "impressions": 4882.0,
+     "clicks": 34.0,
+     "leads": 1.0,
+     "cpm": 27.97,
+     "ctr": 0.006964358869315854,
+     "ff": 0.029411764705882353,
+     "cpl": 136.54,
+     "placement": "Facebook · facebook reels overlay",
+     "share": 0.0018029853316402168
+    },
+    {
+     "spend": 21.7,
+     "impressions": 862.0,
+     "clicks": 7.0,
+     "leads": 0.0,
+     "cpm": 25.17,
+     "ctr": 0.008120649651972157,
+     "ff": 0.0,
+     "cpl": null,
+     "placement": "Facebook · instream video",
+     "share": 0.0002865233149360128
+    },
+    {
+     "spend": 9.41,
+     "impressions": 259.0,
+     "clicks": 0.0,
+     "leads": 0.0,
+     "cpm": 36.33,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": null,
+     "placement": "Instagram · instagram explore grid home",
+     "share": 0.00012425425215411003
+    },
+    {
+     "spend": 5.13,
+     "impressions": 36.0,
+     "clicks": 0.0,
+     "leads": 0.0,
+     "cpm": 142.49,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": null,
+     "placement": "Facebook · facebook stories",
+     "share": 6.773447240137758e-05
+    },
+    {
+     "spend": 2.78,
+     "impressions": 116.0,
+     "clicks": 0.0,
+     "leads": 0.0,
+     "cpm": 23.96,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": null,
+     "placement": "Instagram · instagram search",
+     "share": 3.6706231749327306e-05
+    },
+    {
+     "spend": 2.34,
+     "impressions": 18.0,
+     "clicks": 0.0,
+     "leads": 0.0,
+     "cpm": 129.99,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": null,
+     "placement": "Facebook · facebook profile feed",
+     "share": 3.089619434746242e-05
+    },
+    {
+     "spend": 0.48,
+     "impressions": 1.0,
+     "clicks": 0.0,
+     "leads": 0.0,
+     "cpm": 480.0,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": null,
+     "placement": "Facebook · search",
+     "share": 6.338222620216242e-06
+    }
+   ]
+  },
+  {
+   "product": "CFA",
+   "spend": 62459.61,
+   "leads": 532.0,
+   "cpl": 117.41,
+   "placements": [
+    {
+     "spend": 39234.64,
+     "impressions": 321419.0,
+     "clicks": 2990.0,
+     "leads": 58.0,
+     "cpm": 122.07,
+     "ctr": 0.009302499229977071,
+     "ff": 0.01939799331103679,
+     "cpl": 676.46,
+     "placement": "Instagram · feed",
+     "share": 0.6281601636190811,
+     "flag": "Form fill"
+    },
+    {
+     "spend": 11136.41,
+     "impressions": 101171.0,
+     "clicks": 807.0,
+     "leads": 106.0,
+     "cpm": 110.08,
+     "ctr": 0.007976594083284735,
+     "ff": 0.13135068153655513,
+     "cpl": 105.06,
+     "placement": "Facebook · facebook reels overlay",
+     "share": 0.17829775565633896
+    },
+    {
+     "spend": 6608.24,
+     "impressions": 143795.0,
+     "clicks": 495.0,
+     "leads": 231.0,
+     "cpm": 45.96,
+     "ctr": 0.003442400639799715,
+     "ff": 0.4666666666666667,
+     "cpl": 28.61,
+     "placement": "Instagram · instagram reels",
+     "share": 0.10580025698879604
+    },
+    {
+     "spend": 2013.78,
+     "impressions": 13064.0,
+     "clicks": 127.0,
+     "leads": 70.0,
+     "cpm": 154.15,
+     "ctr": 0.009721371708511941,
+     "ff": 0.5511811023622047,
+     "cpl": 28.77,
+     "placement": "Instagram · instagram stories",
+     "share": 0.032241334788607655
+    },
+    {
+     "spend": 1531.34,
+     "impressions": 32456.0,
+     "clicks": 82.0,
+     "leads": 30.0,
+     "cpm": 47.18,
+     "ctr": 0.0025264974118807,
+     "ff": 0.36585365853658536,
+     "cpl": 51.04,
+     "placement": "Facebook · facebook reels",
+     "share": 0.024517304823841676
+    },
+    {
+     "spend": 918.58,
+     "impressions": 17038.0,
+     "clicks": 133.0,
+     "leads": 22.0,
+     "cpm": 53.91,
+     "ctr": 0.0078060805258833195,
+     "ff": 0.16541353383458646,
+     "cpl": 41.75,
+     "placement": "Facebook · feed",
+     "share": 0.014706780886549274
+    },
+    {
+     "spend": 457.36,
+     "impressions": 8376.0,
+     "clicks": 44.0,
+     "leads": 9.0,
+     "cpm": 54.6,
+     "ctr": 0.0052531041069723014,
+     "ff": 0.20454545454545456,
+     "cpl": 50.82,
+     "placement": "Facebook · facebook stories",
+     "share": 0.007322554515914279
+    },
+    {
+     "spend": 427.66,
+     "impressions": 2061.0,
+     "clicks": 68.0,
+     "leads": 5.0,
+     "cpm": 207.5,
+     "ctr": 0.03299369238233867,
+     "ff": 0.07352941176470588,
+     "cpl": 85.53,
+     "placement": "Facebook · facebook notification",
+     "share": 0.006846975178284055
+    },
+    {
+     "spend": 83.23,
+     "impressions": 3090.0,
+     "clicks": 19.0,
+     "leads": 1.0,
+     "cpm": 26.93,
+     "ctr": 0.006148867313915857,
+     "ff": 0.05263157894736842,
+     "cpl": 83.23,
+     "placement": "Facebook · instream video",
+     "share": 0.0013324690926945126
+    },
+    {
+     "spend": 38.38,
+     "impressions": 250.0,
+     "clicks": 0.0,
+     "leads": 0.0,
+     "cpm": 153.52,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": null,
+     "placement": "Facebook · marketplace",
+     "share": 0.0006144626893852481
+    },
+    {
+     "spend": 7.17,
+     "impressions": 24.0,
+     "clicks": 0.0,
+     "leads": 0.0,
+     "cpm": 298.75,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": null,
+     "placement": "Facebook · facebook profile feed",
+     "share": 0.00011479258337541241
+    },
+    {
+     "spend": 2.37,
+     "impressions": 12.0,
+     "clicks": 0.0,
+     "leads": 0.0,
+     "cpm": 197.5,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": null,
+     "placement": "Facebook · search",
+     "share": 3.7944521206673376e-05
+    },
+    {
+     "spend": 0.45,
+     "impressions": 12.0,
+     "clicks": 0.0,
+     "leads": 0.0,
+     "cpm": 37.5,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": null,
+     "placement": "Instagram · instagram explore grid home",
+     "share": 7.204655925317728e-06
+    }
+   ]
+  },
+  {
+   "product": "PwC GenAI",
+   "spend": 45913.78,
+   "leads": 110.0,
+   "cpl": 417.4,
+   "placements": [
+    {
+     "spend": 24536.42,
+     "impressions": 81943.0,
+     "clicks": 525.0,
+     "leads": 51.0,
+     "cpm": 299.43,
+     "ctr": 0.00640689259607288,
+     "ff": 0.09714285714285714,
+     "cpl": 481.11,
+     "placement": "Instagram · instagram reels",
+     "share": 0.5344020281806509
+    },
+    {
+     "spend": 15198.27,
+     "impressions": 38241.0,
+     "clicks": 204.0,
+     "leads": 42.0,
+     "cpm": 397.43,
+     "ctr": 0.005334588530634659,
+     "ff": 0.20588235294117646,
+     "cpl": 361.86,
+     "placement": "Instagram · feed",
+     "share": 0.33101767341094046
+    },
+    {
+     "spend": 3670.35,
+     "impressions": 6222.0,
+     "clicks": 36.0,
+     "leads": 10.0,
+     "cpm": 589.9,
+     "ctr": 0.0057859209257473485,
+     "ff": 0.2777777777777778,
+     "cpl": 367.04,
+     "placement": "Instagram · instagram stories",
+     "share": 0.07994011619156628
+    },
+    {
+     "spend": 1361.23,
+     "impressions": 3430.0,
+     "clicks": 13.0,
+     "leads": 5.0,
+     "cpm": 396.86,
+     "ctr": 0.0037900874635568515,
+     "ff": 0.38461538461538464,
+     "cpl": 272.25,
+     "placement": "Facebook · facebook reels",
+     "share": 0.029647419641004123
+    },
+    {
+     "spend": 989.35,
+     "impressions": 2194.0,
+     "clicks": 9.0,
+     "leads": 1.0,
+     "cpm": 450.94,
+     "ctr": 0.004102096627164996,
+     "ff": 0.1111111111111111,
+     "cpl": 989.35,
+     "placement": "Facebook · feed",
+     "share": 0.021548088659979835
+    },
+    {
+     "spend": 158.16,
+     "impressions": 226.0,
+     "clicks": 3.0,
+     "leads": 1.0,
+     "cpm": 699.81,
+     "ctr": 0.01327433628318584,
+     "ff": 0.3333333333333333,
+     "cpl": 158.16,
+     "placement": "Facebook · facebook stories",
+     "share": 0.0034446739158585375
+    }
+   ]
+  },
+  {
+   "product": "IIMC PEVC",
+   "spend": 42444.98,
+   "leads": 45.0,
+   "cpl": 943.22,
+   "placements": [
+    {
+     "spend": 38816.61,
+     "impressions": 246193.0,
+     "clicks": 1334.0,
+     "leads": 29.0,
+     "cpm": 157.67,
+     "ctr": 0.0054185131177572066,
+     "ff": 0.021739130434782608,
+     "cpl": 1338.5,
+     "placement": "Instagram · feed",
+     "share": 0.9145159099744753,
+     "flag": "Form fill"
+    },
+    {
+     "spend": 1858.09,
+     "impressions": 4304.0,
+     "clicks": 11.0,
+     "leads": 8.0,
+     "cpm": 431.71,
+     "ctr": 0.0025557620817843866,
+     "ff": 0.7272727272727273,
+     "cpl": 232.26,
+     "placement": "Facebook · facebook reels",
+     "share": 0.04377639465544241
+    },
+    {
+     "spend": 834.19,
+     "impressions": 1583.0,
+     "clicks": 79.0,
+     "leads": 5.0,
+     "cpm": 526.97,
+     "ctr": 0.04990524320909665,
+     "ff": 0.06329113924050633,
+     "cpl": 166.84,
+     "placement": "Facebook · facebook notification",
+     "share": 0.019653549089542387
+    },
+    {
+     "spend": 460.59,
+     "impressions": 1795.0,
+     "clicks": 4.0,
+     "leads": 1.0,
+     "cpm": 256.6,
+     "ctr": 0.0022284122562674096,
+     "ff": 0.25,
+     "cpl": 460.59,
+     "placement": "Instagram · instagram reels",
+     "share": 0.010851492895387173
+    },
+    {
+     "spend": 379.01,
+     "impressions": 3533.0,
+     "clicks": 17.0,
+     "leads": 2.0,
+     "cpm": 107.28,
+     "ctr": 0.004811774695726012,
+     "ff": 0.11764705882352941,
+     "cpl": 189.5,
+     "placement": "Facebook · feed",
+     "share": 0.008929418722945753
+    },
+    {
+     "spend": 45.63,
+     "impressions": 74.0,
+     "clicks": 0.0,
+     "leads": 0.0,
+     "cpm": 616.61,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": null,
+     "placement": "Instagram · instagram stories",
+     "share": 0.001075015228950478
+    },
+    {
+     "spend": 31.2,
+     "impressions": 35.0,
+     "clicks": 0.0,
+     "leads": 0.0,
+     "cpm": 891.4,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": null,
+     "placement": "Facebook · facebook stories",
+     "share": 0.0007350456974298357
+    },
+    {
+     "spend": 14.97,
+     "impressions": 184.0,
+     "clicks": 1.0,
+     "leads": 0.0,
+     "cpm": 81.36,
+     "ctr": 0.005434782608695652,
+     "ff": 0.0,
+     "cpl": null,
+     "placement": "Facebook · facebook reels overlay",
+     "share": 0.000352677748104304
+    },
+    {
+     "spend": 4.31,
+     "impressions": 10.0,
+     "clicks": 0.0,
+     "leads": 0.0,
+     "cpm": 431.0,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": null,
+     "placement": "Facebook · facebook profile feed",
+     "share": 0.0001015432211264012
+    },
+    {
+     "spend": 0.22,
+     "impressions": 4.0,
+     "clicks": 0.0,
+     "leads": 0.0,
+     "cpm": 55.0,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": null,
+     "placement": "Facebook · instream video",
+     "share": 5.183180660744378e-06
+    },
+    {
+     "spend": 0.15,
+     "impressions": 1.0,
+     "clicks": 0.0,
+     "leads": 0.0,
+     "cpm": 150.0,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": null,
+     "placement": "Facebook · search",
+     "share": 3.5339868141438937e-06
+    },
+    {
+     "spend": 0.01,
+     "impressions": 1.0,
+     "clicks": 0.0,
+     "leads": 0.0,
+     "cpm": 10.0,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": null,
+     "placement": "Unknown · unknown",
+     "share": 2.3559912094292626e-07
+    }
+   ]
+  },
+  {
+   "product": "GenAI Workshop",
+   "spend": 42378.56,
+   "leads": 42.0,
+   "cpl": 1009.01,
+   "placements": [
+    {
+     "spend": 33814.96,
+     "impressions": 170419.0,
+     "clicks": 544.0,
+     "leads": 38.0,
+     "cpm": 198.42,
+     "ctr": 0.003192132332662438,
+     "ff": 0.06985294117647059,
+     "cpl": 889.87,
+     "placement": "Instagram · instagram reels",
+     "share": 0.7979260909338919
+    },
+    {
+     "spend": 3473.34,
+     "impressions": 5778.0,
+     "clicks": 51.0,
+     "leads": 2.0,
+     "cpm": 601.13,
+     "ctr": 0.008826583592938734,
+     "ff": 0.0392156862745098,
+     "cpl": 1736.67,
+     "placement": "Instagram · feed",
+     "share": 0.08195993898339175
+    },
+    {
+     "spend": 2987.61,
+     "impressions": 4616.0,
+     "clicks": 52.0,
+     "leads": 2.0,
+     "cpm": 647.23,
+     "ctr": 0.011265164644714038,
+     "ff": 0.038461538461538464,
+     "cpl": 1493.81,
+     "placement": "Instagram · instagram stories",
+     "share": 0.07049822346370849
+    },
+    {
+     "spend": 1702.28,
+     "impressions": 3185.0,
+     "clicks": 23.0,
+     "leads": 0.0,
+     "cpm": 534.47,
+     "ctr": 0.007221350078492936,
+     "ff": 0.0,
+     "cpl": null,
+     "placement": "Facebook · facebook reels",
+     "share": 0.04016851200189787
+    },
+    {
+     "spend": 356.45,
+     "impressions": 1261.0,
+     "clicks": 7.0,
+     "leads": 0.0,
+     "cpm": 282.67,
+     "ctr": 0.0055511498810467885,
+     "ff": 0.0,
+     "cpl": null,
+     "placement": "Facebook · feed",
+     "share": 0.00841114703186907
+    },
+    {
+     "spend": 29.05,
+     "impressions": 21.0,
+     "clicks": 1.0,
+     "leads": 0.0,
+     "cpm": 1383.29,
+     "ctr": 0.047619047619047616,
+     "ff": 0.0,
+     "cpl": null,
+     "placement": "Facebook · facebook stories",
+     "share": 0.0006854645351671588
+    },
+    {
+     "spend": 8.39,
+     "impressions": 69.0,
+     "clicks": 0.0,
+     "leads": 0.0,
+     "cpm": 121.58,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": null,
+     "placement": "Threads · threads feed",
+     "share": 0.0001979585899144318
+    },
+    {
+     "spend": 4.63,
+     "impressions": 2.0,
+     "clicks": 0.0,
+     "leads": 0.0,
+     "cpm": 2315.0,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": null,
+     "placement": "Instagram · instagram search",
+     "share": 0.00010925335804413044
+    },
+    {
+     "spend": 1.84,
+     "impressions": 16.0,
+     "clicks": 1.0,
+     "leads": 0.0,
+     "cpm": 114.98,
+     "ctr": 0.0625,
+     "ff": 0.0,
+     "cpl": null,
+     "placement": "Whatsapp · status",
+     "share": 4.341110211528872e-05
+    }
+   ]
+  },
+  {
+   "product": "PGA Pro",
+   "spend": 22749.5,
+   "leads": 56.0,
+   "cpl": 406.24,
+   "placements": [
+    {
+     "spend": 9778.5,
+     "impressions": 52803.0,
+     "clicks": 958.0,
+     "leads": 12.0,
+     "cpm": 185.19,
+     "ctr": 0.018142908546862867,
+     "ff": 0.012526096033402923,
+     "cpl": 814.88,
+     "placement": "Instagram · feed",
+     "share": 0.42983372131182546,
+     "flag": "Form fill"
+    },
+    {
+     "spend": 4364.1,
+     "impressions": 99042.0,
+     "clicks": 462.0,
+     "leads": 25.0,
+     "cpm": 44.06,
+     "ctr": 0.004664687708244987,
+     "ff": 0.05411255411255411,
+     "cpl": 174.56,
+     "placement": "Instagram · instagram reels",
+     "share": 0.19183284991684585
+    },
+    {
+     "spend": 3460.71,
+     "impressions": 12963.0,
+     "clicks": 57.0,
+     "leads": 7.0,
+     "cpm": 266.97,
+     "ctr": 0.004397130293913446,
+     "ff": 0.12280701754385964,
+     "cpl": 494.39,
+     "placement": "Facebook · facebook reels",
+     "share": 0.15212250885567818
+    },
+    {
+     "spend": 2056.37,
+     "impressions": 16624.0,
+     "clicks": 113.0,
+     "leads": 2.0,
+     "cpm": 123.7,
+     "ctr": 0.006797401347449471,
+     "ff": 0.017699115044247787,
+     "cpl": 1028.18,
+     "placement": "Facebook · facebook reels overlay",
+     "share": 0.09039177164505494
+    },
+    {
+     "spend": 1627.45,
+     "impressions": 10622.0,
+     "clicks": 474.0,
+     "leads": 6.0,
+     "cpm": 153.22,
+     "ctr": 0.044624364526454526,
+     "ff": 0.012658227848101266,
+     "cpl": 271.24,
+     "placement": "Facebook · instream video",
+     "share": 0.07153792422487494
+    },
+    {
+     "spend": 673.21,
+     "impressions": 2242.0,
+     "clicks": 7.0,
+     "leads": 4.0,
+     "cpm": 300.27,
+     "ctr": 0.0031222123104371097,
+     "ff": 0.5714285714285714,
+     "cpl": 168.3,
+     "placement": "Instagram · instagram stories",
+     "share": 0.02959217578229049
+    },
+    {
+     "spend": 454.73,
+     "impressions": 1020.0,
+     "clicks": 10.0,
+     "leads": 0.0,
+     "cpm": 445.81,
+     "ctr": 0.00980392156862745,
+     "ff": 0.0,
+     "cpl": null,
+     "placement": "Facebook · feed",
+     "share": 0.019988562473850252
+    },
+    {
+     "spend": 321.22,
+     "impressions": 1230.0,
+     "clicks": 9.0,
+     "leads": 0.0,
+     "cpm": 261.15,
+     "ctr": 0.007317073170731708,
+     "ff": 0.0,
+     "cpl": null,
+     "placement": "Facebook · facebook stories",
+     "share": 0.014119857641354129
+    },
+    {
+     "spend": 9.4,
+     "impressions": 196.0,
+     "clicks": 0.0,
+     "leads": 0.0,
+     "cpm": 47.96,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": null,
+     "placement": "Facebook · facebook profile feed",
+     "share": 0.0004131607306233576
+    },
+    {
+     "spend": 3.78,
+     "impressions": 1019.0,
+     "clicks": 0.0,
+     "leads": 0.0,
+     "cpm": 3.71,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": null,
+     "placement": "Instagram · instagram explore grid home",
+     "share": 0.00016614870729531948
+    },
+    {
+     "spend": 0.03,
+     "impressions": 1.0,
+     "clicks": 0.0,
+     "leads": 0.0,
+     "cpm": 30.0,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": null,
+     "placement": "Facebook · search",
+     "share": 1.31871030712196e-06
+    }
+   ]
+  },
+  {
+   "product": "IIMC IBCM",
+   "spend": 16359.46,
+   "leads": 29.0,
+   "cpl": 564.12,
+   "placements": [
+    {
+     "spend": 9067.42,
+     "impressions": 54096.0,
+     "clicks": 119.0,
+     "leads": 15.0,
+     "cpm": 167.62,
+     "ctr": 0.002199792960662526,
+     "ff": 0.12605042016806722,
+     "cpl": 604.49,
+     "placement": "Facebook · facebook reels",
+     "share": 0.5542618154877975
+    },
+    {
+     "spend": 2410.29,
+     "impressions": 14165.0,
+     "clicks": 51.0,
+     "leads": 2.0,
+     "cpm": 170.16,
+     "ctr": 0.003600423579244617,
+     "ff": 0.0392156862745098,
+     "cpl": 1205.15,
+     "placement": "Instagram · feed",
+     "share": 0.147333212709955,
+     "flag": "Form fill"
+    },
+    {
+     "spend": 1807.67,
+     "impressions": 15927.0,
+     "clicks": 68.0,
+     "leads": 5.0,
+     "cpm": 113.5,
+     "ctr": 0.004269479500219752,
+     "ff": 0.07352941176470588,
+     "cpl": 361.53,
+     "placement": "Instagram · instagram reels",
+     "share": 0.11049708853470717
+    },
+    {
+     "spend": 1661.07,
+     "impressions": 11152.0,
+     "clicks": 27.0,
+     "leads": 3.0,
+     "cpm": 148.95,
+     "ctr": 0.002421090387374462,
+     "ff": 0.1111111111111111,
+     "cpl": 553.69,
+     "placement": "Facebook · feed",
+     "share": 0.10153601035731011
+    },
+    {
+     "spend": 498.42,
+     "impressions": 2817.0,
+     "clicks": 25.0,
+     "leads": 2.0,
+     "cpm": 176.93,
+     "ctr": 0.008874689385871494,
+     "ff": 0.08,
+     "cpl": 249.21,
+     "placement": "Facebook · facebook reels overlay",
+     "share": 0.030466904164318392
+    },
+    {
+     "spend": 400.45,
+     "impressions": 1421.0,
+     "clicks": 18.0,
+     "leads": 0.0,
+     "cpm": 281.81,
+     "ctr": 0.012667135819845179,
+     "ff": 0.0,
+     "cpl": null,
+     "placement": "Facebook · facebook stories",
+     "share": 0.024478417991791915
+    },
+    {
+     "spend": 345.33,
+     "impressions": 1347.0,
+     "clicks": 14.0,
+     "leads": 2.0,
+     "cpm": 256.37,
+     "ctr": 0.010393466963622866,
+     "ff": 0.14285714285714285,
+     "cpl": 172.67,
+     "placement": "Facebook · facebook notification",
+     "share": 0.021108911907850265
+    },
+    {
+     "spend": 124.97,
+     "impressions": 396.0,
+     "clicks": 5.0,
+     "leads": 0.0,
+     "cpm": 315.57,
+     "ctr": 0.012626262626262626,
+     "ff": 0.0,
+     "cpl": null,
+     "placement": "Instagram · instagram stories",
+     "share": 0.007638864608000511
+    },
+    {
+     "spend": 26.4,
+     "impressions": 207.0,
+     "clicks": 1.0,
+     "leads": 0.0,
+     "cpm": 127.55,
+     "ctr": 0.004830917874396135,
+     "ff": 0.0,
+     "cpl": null,
+     "placement": "Facebook · instream video",
+     "share": 0.001613873563063818
+    },
+    {
+     "spend": 11.03,
+     "impressions": 133.0,
+     "clicks": 0.0,
+     "leads": 0.0,
+     "cpm": 82.94,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": null,
+     "placement": "Facebook · marketplace",
+     "share": 0.000674270422128848
+    },
+    {
+     "spend": 5.73,
+     "impressions": 95.0,
+     "clicks": 0.0,
+     "leads": 0.0,
+     "cpm": 60.32,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": null,
+     "placement": "Facebook · facebook profile feed",
+     "share": 0.0003502805104813974
+    },
+    {
+     "spend": 0.43,
+     "impressions": 4.0,
+     "clicks": 0.0,
+     "leads": 0.0,
+     "cpm": 107.52,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": null,
+     "placement": "Unknown · unknown",
+     "share": 2.6290598833946847e-05
+    },
+    {
+     "spend": 0.23,
+     "impressions": 6.0,
+     "clicks": 0.0,
+     "leads": 0.0,
+     "cpm": 38.33,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": null,
+     "placement": "Facebook · search",
+     "share": 1.4059143761468904e-05
+    }
+   ]
+  },
+  {
+   "product": "IIML DM",
+   "spend": 13309.9,
+   "leads": 29.0,
+   "cpl": 458.96,
+   "placements": [
+    {
+     "spend": 7382.13,
+     "impressions": 77929.0,
+     "clicks": 409.0,
+     "leads": 9.0,
+     "cpm": 94.73,
+     "ctr": 0.005248367103388983,
+     "ff": 0.022004889975550123,
+     "cpl": 820.24,
+     "placement": "Instagram · feed",
+     "share": 0.5546342872598592,
+     "flag": "Form fill"
+    },
+    {
+     "spend": 4564.41,
+     "impressions": 33022.0,
+     "clicks": 189.0,
+     "leads": 15.0,
+     "cpm": 138.22,
+     "ctr": 0.005723457089213252,
+     "ff": 0.07936507936507936,
+     "cpl": 304.29,
+     "placement": "Instagram · instagram reels",
+     "share": 0.3429334931141481
+    },
+    {
+     "spend": 1363.06,
+     "impressions": 2955.0,
+     "clicks": 34.0,
+     "leads": 5.0,
+     "cpm": 461.27,
+     "ctr": 0.011505922165820644,
+     "ff": 0.14705882352941177,
+     "cpl": 272.61,
+     "placement": "Instagram · instagram stories",
+     "share": 0.10240968001262218
+    },
+    {
+     "spend": 0.3,
+     "impressions": 7.0,
+     "clicks": 0.0,
+     "leads": 0.0,
+     "cpm": 42.86,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": null,
+     "placement": "Instagram · instagram explore grid home",
+     "share": 2.253961337049865e-05
+    }
+   ]
+  },
+  {
+   "product": "CFOP",
+   "spend": 12264.57,
+   "leads": 89.0,
+   "cpl": 137.8,
+   "placements": [
+    {
+     "spend": 8527.43,
+     "impressions": 90673.0,
+     "clicks": 892.0,
+     "leads": 15.0,
+     "cpm": 94.05,
+     "ctr": 0.009837548112448028,
+     "ff": 0.016816143497757848,
+     "cpl": 568.5,
+     "placement": "Instagram · feed",
+     "share": 0.69528980632831,
+     "flag": "Form fill"
+    },
+    {
+     "spend": 2169.99,
+     "impressions": 583.0,
+     "clicks": 43.0,
+     "leads": 21.0,
+     "cpm": 3722.11,
+     "ctr": 0.07375643224699828,
+     "ff": 0.4883720930232558,
+     "cpl": 103.33,
+     "placement": "Instagram · instagram lead gen multi submit",
+     "share": 0.176931600537157
+    },
+    {
+     "spend": 1109.06,
+     "impressions": 27091.0,
+     "clicks": 147.0,
+     "leads": 43.0,
+     "cpm": 40.94,
+     "ctr": 0.005426156288066147,
+     "ff": 0.2925170068027211,
+     "cpl": 25.79,
+     "placement": "Instagram · instagram reels",
+     "share": 0.09042793999300425
+    },
+    {
+     "spend": 194.89,
+     "impressions": 1093.0,
+     "clicks": 8.0,
+     "leads": 3.0,
+     "cpm": 178.31,
+     "ctr": 0.007319304666056725,
+     "ff": 0.375,
+     "cpl": 64.96,
+     "placement": "Instagram · instagram stories",
+     "share": 0.01589046334278332
+    },
+    {
+     "spend": 188.8,
+     "impressions": 1053.0,
+     "clicks": 3.0,
+     "leads": 5.0,
+     "cpm": 179.3,
+     "ctr": 0.002849002849002849,
+     "ff": 1.6666666666666667,
+     "cpl": 37.76,
+     "placement": "Facebook · facebook reels",
+     "share": 0.015393943693093196
+    },
+    {
+     "spend": 47.14,
+     "impressions": 195.0,
+     "clicks": 1.0,
+     "leads": 0.0,
+     "cpm": 241.74,
+     "ctr": 0.005128205128205128,
+     "ff": 0.0,
+     "cpl": null,
+     "placement": "Facebook · feed",
+     "share": 0.0038435754372146765
+    },
+    {
+     "spend": 13.93,
+     "impressions": 60.0,
+     "clicks": 2.0,
+     "leads": 0.0,
+     "cpm": 232.17,
+     "ctr": 0.03333333333333333,
+     "ff": 0.0,
+     "cpl": null,
+     "placement": "Audience_Network · an classic",
+     "share": 0.0011358001136607316
+    },
+    {
+     "spend": 6.75,
+     "impressions": 29.0,
+     "clicks": 1.0,
+     "leads": 2.0,
+     "cpm": 232.76,
+     "ctr": 0.034482758620689655,
+     "ff": 2.0,
+     "cpl": 3.38,
+     "placement": "Facebook · facebook stories",
+     "share": 0.0005503658098082526
+    },
+    {
+     "spend": 4.14,
+     "impressions": 54.0,
+     "clicks": 2.0,
+     "leads": 0.0,
+     "cpm": 76.67,
+     "ctr": 0.037037037037037035,
+     "ff": 0.0,
+     "cpl": null,
+     "placement": "Facebook · facebook reels overlay",
+     "share": 0.0003375576966823949
+    },
+    {
+     "spend": 1.76,
+     "impressions": 12.0,
+     "clicks": 0.0,
+     "leads": 0.0,
+     "cpm": 146.67,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": null,
+     "placement": "Facebook · marketplace",
+     "share": 0.00014350278892778142
+    },
+    {
+     "spend": 0.34,
+     "impressions": 1.0,
+     "clicks": 0.0,
+     "leads": 0.0,
+     "cpm": 340.0,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": null,
+     "placement": "Facebook · facebook profile feed",
+     "share": 2.7722129679230502e-05
+    },
+    {
+     "spend": 0.19,
+     "impressions": 3.0,
+     "clicks": 0.0,
+     "leads": 0.0,
+     "cpm": 63.33,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": null,
+     "placement": "Facebook · facebook notification",
+     "share": 1.549177835015822e-05
+    },
+    {
+     "spend": 0.14,
+     "impressions": 17.0,
+     "clicks": 0.0,
+     "leads": 0.0,
+     "cpm": 8.24,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": null,
+     "placement": "Instagram · instagram search",
+     "share": 1.1414994573800795e-05
+    },
+    {
+     "spend": 0.01,
+     "impressions": 1.0,
+     "clicks": 0.0,
+     "leads": 0.0,
+     "cpm": 10.0,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": null,
+     "placement": "Facebook · search",
+     "share": 8.153567552714853e-07
+    }
+   ]
+  },
+  {
+   "product": "IIML SHRM",
+   "spend": 12142.49,
+   "leads": 35.0,
+   "cpl": 346.93,
+   "placements": [
+    {
+     "spend": 3656.24,
+     "impressions": 22702.0,
+     "clicks": 97.0,
+     "leads": 2.0,
+     "cpm": 161.05,
+     "ctr": 0.004272751299444983,
+     "ff": 0.020618556701030927,
+     "cpl": 1828.12,
+     "placement": "Instagram · feed",
+     "share": 0.3011109171183176,
+     "flag": "Form fill"
+    },
+    {
+     "spend": 3227.04,
+     "impressions": 16475.0,
+     "clicks": 96.0,
+     "leads": 14.0,
+     "cpm": 195.87,
+     "ctr": 0.00582701062215478,
+     "ff": 0.14583333333333334,
+     "cpl": 230.5,
+     "placement": "Facebook · facebook reels overlay",
+     "share": 0.26576413898631995
+    },
+    {
+     "spend": 2990.45,
+     "impressions": 8089.0,
+     "clicks": 23.0,
+     "leads": 9.0,
+     "cpm": 369.69,
+     "ctr": 0.0028433675361602176,
+     "ff": 0.391304347826087,
+     "cpl": 332.27,
+     "placement": "Facebook · facebook reels",
+     "share": 0.2462799392875761
+    },
+    {
+     "spend": 1912.58,
+     "impressions": 7128.0,
+     "clicks": 37.0,
+     "leads": 9.0,
+     "cpm": 268.32,
+     "ctr": 0.005190796857463524,
+     "ff": 0.24324324324324326,
+     "cpl": 212.51,
+     "placement": "Facebook · feed",
+     "share": 0.15751094709569455
+    },
+    {
+     "spend": 184.79,
+     "impressions": 1064.0,
+     "clicks": 6.0,
+     "leads": 0.0,
+     "cpm": 173.67,
+     "ctr": 0.005639097744360902,
+     "ff": 0.0,
+     "cpl": null,
+     "placement": "Instagram · instagram reels",
+     "share": 0.015218386014730093
+    },
+    {
+     "spend": 139.65,
+     "impressions": 319.0,
+     "clicks": 5.0,
+     "leads": 1.0,
+     "cpm": 437.77,
+     "ctr": 0.01567398119122257,
+     "ff": 0.2,
+     "cpl": 139.65,
+     "placement": "Facebook · facebook stories",
+     "share": 0.011500911262846417
+    },
+    {
+     "spend": 31.72,
+     "impressions": 56.0,
+     "clicks": 1.0,
+     "leads": 0.0,
+     "cpm": 566.42,
+     "ctr": 0.017857142857142856,
+     "ff": 0.0,
+     "cpl": null,
+     "placement": "Instagram · instagram stories",
+     "share": 0.0026122895715788115
+    },
+    {
+     "spend": 0.03,
+     "impressions": 1.0,
+     "clicks": 0.0,
+     "leads": 0.0,
+     "cpm": 30.0,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": null,
+     "placement": "Unknown · unknown",
+     "share": 2.470662936514669e-06
+    }
+   ]
+  },
+  {
+   "product": "IIML SML",
+   "spend": 9778.88,
+   "leads": 13.0,
+   "cpl": 752.22,
+   "placements": [
+    {
+     "spend": 3819.5,
+     "impressions": 42774.0,
+     "clicks": 138.0,
+     "leads": 2.0,
+     "cpm": 89.29,
+     "ctr": 0.0032262589423481553,
+     "ff": 0.014492753623188406,
+     "cpl": 1909.75,
+     "placement": "Instagram · feed",
+     "share": 0.3905861509702543,
+     "flag": "Form fill"
+    },
+    {
+     "spend": 2367.02,
+     "impressions": 17699.0,
+     "clicks": 44.0,
+     "leads": 6.0,
+     "cpm": 133.74,
+     "ctr": 0.002486016159105034,
+     "ff": 0.13636363636363635,
+     "cpl": 394.5,
+     "placement": "Facebook · facebook reels",
+     "share": 0.24205427410910044
+    },
+    {
+     "spend": 2288.44,
+     "impressions": 21185.0,
+     "clicks": 89.0,
+     "leads": 4.0,
+     "cpm": 108.02,
+     "ctr": 0.00420108567382582,
+     "ff": 0.0449438202247191,
+     "cpl": 572.11,
+     "placement": "Facebook · feed",
+     "share": 0.23401835384011258
+    },
+    {
+     "spend": 839.7,
+     "impressions": 12199.0,
+     "clicks": 28.0,
+     "leads": 0.0,
+     "cpm": 68.83,
+     "ctr": 0.002295270104106894,
+     "ff": 0.0,
+     "cpl": null,
+     "placement": "Instagram · instagram reels",
+     "share": 0.08586853504695835
+    },
+    {
+     "spend": 329.03,
+     "impressions": 1554.0,
+     "clicks": 23.0,
+     "leads": 1.0,
+     "cpm": 211.73,
+     "ctr": 0.014800514800514801,
+     "ff": 0.043478260869565216,
+     "cpl": 329.03,
+     "placement": "Facebook · facebook stories",
+     "share": 0.033646971841356066
+    },
+    {
+     "spend": 134.41,
+     "impressions": 359.0,
+     "clicks": 5.0,
+     "leads": 0.0,
+     "cpm": 374.4,
+     "ctr": 0.013927576601671309,
+     "ff": 0.0,
+     "cpl": null,
+     "placement": "Instagram · instagram stories",
+     "share": 0.01374492784449753
+    },
+    {
+     "spend": 0.68,
+     "impressions": 2.0,
+     "clicks": 0.0,
+     "leads": 0.0,
+     "cpm": 340.0,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": null,
+     "placement": "Unknown · unknown",
+     "share": 6.953761575967801e-05
+    },
+    {
+     "spend": 0.11,
+     "impressions": 96.0,
+     "clicks": 0.0,
+     "leads": 0.0,
+     "cpm": 1.15,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": null,
+     "placement": "Instagram · instagram explore grid home",
+     "share": 1.1248731961124383e-05
+    }
+   ]
+  },
+  {
+   "product": "IIML AI for Business",
+   "spend": 6864.48,
+   "leads": 12.0,
+   "cpl": 572.04,
+   "placements": [
+    {
+     "spend": 6685.74,
+     "impressions": 111093.0,
+     "clicks": 338.0,
+     "leads": 12.0,
+     "cpm": 60.18,
+     "ctr": 0.003042495926836074,
+     "ff": 0.03550295857988166,
+     "cpl": 557.15,
+     "placement": "Instagram · feed",
+     "share": 0.9739616256438944
+    },
+    {
+     "spend": 141.02,
+     "impressions": 1699.0,
+     "clicks": 2.0,
+     "leads": 0.0,
+     "cpm": 83.0,
+     "ctr": 0.0011771630370806356,
+     "ff": 0.0,
+     "cpl": null,
+     "placement": "Instagram · instagram reels",
+     "share": 0.02054342062326644
+    },
+    {
+     "spend": 37.65,
+     "impressions": 51.0,
+     "clicks": 0.0,
+     "leads": 0.0,
+     "cpm": 738.24,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": null,
+     "placement": "Instagram · instagram stories",
+     "share": 0.0054847563107475
+    },
+    {
+     "spend": 0.07,
+     "impressions": 33.0,
+     "clicks": 0.0,
+     "leads": 0.0,
+     "cpm": 2.12,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": null,
+     "placement": "Instagram · instagram explore grid home",
+     "share": 1.0197422091695222e-05
+    }
+   ]
+  },
+  {
+   "product": "FMVA",
+   "spend": 6331.23,
+   "leads": 195.0,
+   "cpl": 32.47,
+   "placements": [
+    {
+     "spend": 1823.88,
+     "impressions": 39811.0,
+     "clicks": 213.0,
+     "leads": 93.0,
+     "cpm": 45.81,
+     "ctr": 0.005350280073346562,
+     "ff": 0.43661971830985913,
+     "cpl": 19.61,
+     "placement": "Instagram · instagram reels",
+     "share": 0.2880774622296542
+    },
+    {
+     "spend": 1172.79,
+     "impressions": 16524.0,
+     "clicks": 136.0,
+     "leads": 32.0,
+     "cpm": 70.98,
+     "ctr": 0.00823045267489712,
+     "ff": 0.23529411764705882,
+     "cpl": 36.65,
+     "placement": "Instagram · feed",
+     "share": 0.18523962665643753
+    },
+    {
+     "spend": 1123.13,
+     "impressions": 2318.0,
+     "clicks": 113.0,
+     "leads": 12.0,
+     "cpm": 484.52,
+     "ctr": 0.04874892148403796,
+     "ff": 0.10619469026548672,
+     "cpl": 93.59,
+     "placement": "Facebook · facebook notification",
+     "share": 0.17739491098262242,
+     "flag": "CPM"
+    },
+    {
+     "spend": 1068.07,
+     "impressions": 62456.0,
+     "clicks": 197.0,
+     "leads": 22.0,
+     "cpm": 17.1,
+     "ctr": 0.0031542205712821827,
+     "ff": 0.1116751269035533,
+     "cpl": 48.55,
+     "placement": "Facebook · facebook reels",
+     "share": 0.1686988283682818,
+     "flag": "CTR"
+    },
+    {
+     "spend": 606.76,
+     "impressions": 22134.0,
+     "clicks": 154.0,
+     "leads": 8.0,
+     "cpm": 27.41,
+     "ctr": 0.006957621758380772,
+     "ff": 0.05194805194805195,
+     "cpl": 75.85,
+     "placement": "Facebook · feed",
+     "share": 0.0958363841491087
+    },
+    {
+     "spend": 230.68,
+     "impressions": 17142.0,
+     "clicks": 99.0,
+     "leads": 3.0,
+     "cpm": 13.46,
+     "ctr": 0.005775288764438222,
+     "ff": 0.030303030303030304,
+     "cpl": 76.89,
+     "placement": "Facebook · facebook reels overlay",
+     "share": 0.03643503653421156
+    },
+    {
+     "spend": 207.15,
+     "impressions": 2672.0,
+     "clicks": 10.0,
+     "leads": 21.0,
+     "cpm": 77.53,
+     "ctr": 0.0037425149700598802,
+     "ff": 2.1,
+     "cpl": 9.86,
+     "placement": "Instagram · instagram stories",
+     "share": 0.0327182548617211
+    },
+    {
+     "spend": 66.11,
+     "impressions": 5253.0,
+     "clicks": 34.0,
+     "leads": 2.0,
+     "cpm": 12.58,
+     "ctr": 0.006472491909385114,
+     "ff": 0.058823529411764705,
+     "cpl": 33.05,
+     "placement": "Facebook · facebook stories",
+     "share": 0.010441256905194455
+    },
+    {
+     "spend": 26.08,
+     "impressions": 2544.0,
+     "clicks": 20.0,
+     "leads": 1.0,
+     "cpm": 10.25,
+     "ctr": 0.007861635220125786,
+     "ff": 0.05,
+     "cpl": 26.08,
+     "placement": "Facebook · instream video",
+     "share": 0.004119104753434881
+    },
+    {
+     "spend": 6.27,
+     "impressions": 106.0,
+     "clicks": 0.0,
+     "leads": 1.0,
+     "cpm": 59.14,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": 6.27,
+     "placement": "Instagram · instagram explore grid home",
+     "share": 0.00099017093060636
+    },
+    {
+     "spend": 0.26,
+     "impressions": 15.0,
+     "clicks": 0.0,
+     "leads": 0.0,
+     "cpm": 17.33,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": null,
+     "placement": "Facebook · facebook profile feed",
+     "share": 4.1066269254690324e-05
+    },
+    {
+     "spend": 0.04,
+     "impressions": 7.0,
+     "clicks": 0.0,
+     "leads": 0.0,
+     "cpm": 5.71,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": null,
+     "placement": "Unknown · unknown",
+     "share": 6.317887577644665e-06
+    },
+    {
+     "spend": 0.01,
+     "impressions": 2.0,
+     "clicks": 0.0,
+     "leads": 0.0,
+     "cpm": 5.0,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": null,
+     "placement": "Facebook · search",
+     "share": 1.5794718944111663e-06
+    }
+   ]
+  },
+  {
+   "product": "Franchise",
+   "spend": 4168.72,
+   "leads": 5.0,
+   "cpl": 833.74,
+   "placements": [
+    {
+     "spend": 1409.24,
+     "impressions": 2157.0,
+     "clicks": 15.0,
+     "leads": 1.0,
+     "cpm": 653.33,
+     "ctr": 0.006954102920723227,
+     "ff": 0.06666666666666667,
+     "cpl": 1409.24,
+     "placement": "Facebook · facebook reels",
+     "share": 0.3380504726138846,
+     "flag": "CPM"
+    },
+    {
+     "spend": 794.17,
+     "impressions": 2383.0,
+     "clicks": 18.0,
+     "leads": 0.0,
+     "cpm": 333.27,
+     "ctr": 0.007553503986571549,
+     "ff": 0.0,
+     "cpl": null,
+     "placement": "Instagram · feed",
+     "share": 0.190507513325253,
+     "flag": "No leads"
+    },
+    {
+     "spend": 621.09,
+     "impressions": 3260.0,
+     "clicks": 29.0,
+     "leads": 1.0,
+     "cpm": 190.52,
+     "ctr": 0.008895705521472393,
+     "ff": 0.034482758620689655,
+     "cpl": 621.09,
+     "placement": "Facebook · facebook reels overlay",
+     "share": 0.14898726350085245
+    },
+    {
+     "spend": 490.89,
+     "impressions": 859.0,
+     "clicks": 20.0,
+     "leads": 2.0,
+     "cpm": 571.47,
+     "ctr": 0.023282887077997673,
+     "ff": 0.1,
+     "cpl": 245.45,
+     "placement": "Instagram · instagram reels",
+     "share": 0.11775640681656704
+    },
+    {
+     "spend": 420.31,
+     "impressions": 971.0,
+     "clicks": 7.0,
+     "leads": 1.0,
+     "cpm": 432.87,
+     "ctr": 0.007209062821833162,
+     "ff": 0.14285714285714285,
+     "cpl": 420.31,
+     "placement": "Facebook · feed",
+     "share": 0.10082521491428509
+    },
+    {
+     "spend": 274.52,
+     "impressions": 213.0,
+     "clicks": 4.0,
+     "leads": 0.0,
+     "cpm": 1288.82,
+     "ctr": 0.018779342723004695,
+     "ff": 0.0,
+     "cpl": null,
+     "placement": "Facebook · facebook stories",
+     "share": 0.06585217846599968
+    },
+    {
+     "spend": 86.37,
+     "impressions": 119.0,
+     "clicks": 1.0,
+     "leads": 0.0,
+     "cpm": 725.84,
+     "ctr": 0.008403361344537815,
+     "ff": 0.0,
+     "cpl": null,
+     "placement": "Instagram · instagram stories",
+     "share": 0.020719644861740657
+    },
+    {
+     "spend": 29.73,
+     "impressions": 4.0,
+     "clicks": 1.0,
+     "leads": 0.0,
+     "cpm": 7432.5,
+     "ctr": 0.25,
+     "ff": 0.0,
+     "cpl": null,
+     "placement": "Facebook · facebook notification",
+     "share": 0.007131685334306807
+    },
+    {
+     "spend": 25.54,
+     "impressions": 14.0,
+     "clicks": 0.0,
+     "leads": 0.0,
+     "cpm": 1823.96,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": null,
+     "placement": "Facebook · facebook profile feed",
+     "share": 0.006125477217815607
+    },
+    {
+     "spend": 16.34,
+     "impressions": 142.0,
+     "clicks": 1.0,
+     "leads": 0.0,
+     "cpm": 115.06,
+     "ctr": 0.007042253521126761,
+     "ff": 0.0,
+     "cpl": null,
+     "placement": "Facebook · instream video",
+     "share": 0.003919428411612476
+    },
+    {
+     "spend": 0.33,
+     "impressions": 4.0,
+     "clicks": 0.0,
+     "leads": 0.0,
+     "cpm": 82.48,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": null,
+     "placement": "Instagram · instagram explore grid home",
+     "share": 7.913699938741391e-05
+    },
+    {
+     "spend": 0.19,
+     "impressions": 2.0,
+     "clicks": 0.0,
+     "leads": 0.0,
+     "cpm": 95.0,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": null,
+     "placement": "Facebook · marketplace",
+     "share": 4.557753829526718e-05
+    }
+   ]
+  },
+  {
+   "product": "CPA",
+   "spend": 1070.25,
+   "leads": 25.0,
+   "cpl": 42.81,
+   "placements": [
+    {
+     "spend": 531.09,
+     "impressions": 14574.0,
+     "clicks": 41.0,
+     "leads": 14.0,
+     "cpm": 36.44,
+     "ctr": 0.0028132290380128997,
+     "ff": 0.34146341463414637,
+     "cpl": 37.93,
+     "placement": "Facebook · facebook reels",
+     "share": 0.4962297594020087
+    },
+    {
+     "spend": 248.47,
+     "impressions": 14309.0,
+     "clicks": 78.0,
+     "leads": 2.0,
+     "cpm": 17.36,
+     "ctr": 0.0054511146830666015,
+     "ff": 0.02564102564102564,
+     "cpl": 124.24,
+     "placement": "Facebook · facebook reels overlay",
+     "share": 0.23216500817565985,
+     "flag": "Form fill"
+    },
+    {
+     "spend": 147.8,
+     "impressions": 1444.0,
+     "clicks": 20.0,
+     "leads": 2.0,
+     "cpm": 102.36,
+     "ctr": 0.013850415512465374,
+     "ff": 0.1,
+     "cpl": 73.9,
+     "placement": "Instagram · feed",
+     "share": 0.13810119131044143,
+     "flag": "CPM"
+    },
+    {
+     "spend": 63.62,
+     "impressions": 1732.0,
+     "clicks": 13.0,
+     "leads": 2.0,
+     "cpm": 36.73,
+     "ctr": 0.007505773672055427,
+     "ff": 0.15384615384615385,
+     "cpl": 31.81,
+     "placement": "Facebook · feed",
+     "share": 0.05944517636066338
+    },
+    {
+     "spend": 25.97,
+     "impressions": 47.0,
+     "clicks": 2.0,
+     "leads": 0.0,
+     "cpm": 552.56,
+     "ctr": 0.0425531914893617,
+     "ff": 0.0,
+     "cpl": null,
+     "placement": "Facebook · facebook notification",
+     "share": 0.024265825741649143
+    },
+    {
+     "spend": 18.9,
+     "impressions": 1782.0,
+     "clicks": 5.0,
+     "leads": 0.0,
+     "cpm": 10.61,
+     "ctr": 0.0028058361391694723,
+     "ff": 0.0,
+     "cpl": null,
+     "placement": "Facebook · instream video",
+     "share": 0.017659799112356923
+    },
+    {
+     "spend": 17.88,
+     "impressions": 508.0,
+     "clicks": 2.0,
+     "leads": 5.0,
+     "cpm": 35.2,
+     "ctr": 0.003937007874015748,
+     "ff": 2.5,
+     "cpl": 3.58,
+     "placement": "Instagram · instagram reels",
+     "share": 0.016706657323055357
+    },
+    {
+     "spend": 14.0,
+     "impressions": 792.0,
+     "clicks": 2.0,
+     "leads": 0.0,
+     "cpm": 17.68,
+     "ctr": 0.0025252525252525255,
+     "ff": 0.0,
+     "cpl": null,
+     "placement": "Facebook · facebook stories",
+     "share": 0.013081336136416722
+    },
+    {
+     "spend": 2.38,
+     "impressions": 17.0,
+     "clicks": 0.0,
+     "leads": 0.0,
+     "cpm": 140.0,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": null,
+     "placement": "Instagram · instagram stories",
+     "share": 0.0022237794907731833
+    },
+    {
+     "spend": 0.12,
+     "impressions": 17.0,
+     "clicks": 0.0,
+     "leads": 0.0,
+     "cpm": 7.06,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": null,
+     "placement": "Facebook · marketplace",
+     "share": 0.00011212333566923614
+    },
+    {
+     "spend": 0.01,
+     "impressions": 4.0,
+     "clicks": 0.0,
+     "leads": 0.0,
+     "cpm": 2.5,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": null,
+     "placement": "Facebook · facebook profile feed",
+     "share": 9.343611305769678e-06
+    }
+   ]
+  },
+  {
+   "product": "FRM",
+   "spend": 917.18,
+   "leads": 37.0,
+   "cpl": 24.79,
+   "placements": [
+    {
+     "spend": 369.03,
+     "impressions": 1784.0,
+     "clicks": 77.0,
+     "leads": 15.0,
+     "cpm": 206.85,
+     "ctr": 0.043161434977578475,
+     "ff": 0.19480519480519481,
+     "cpl": 24.6,
+     "placement": "Facebook · facebook notification",
+     "share": 0.4023508578086245
+    },
+    {
+     "spend": 190.15,
+     "impressions": 12471.0,
+     "clicks": 93.0,
+     "leads": 1.0,
+     "cpm": 15.25,
+     "ctr": 0.0074573009381765695,
+     "ff": 0.010752688172043012,
+     "cpl": 190.15,
+     "placement": "Facebook · facebook reels overlay",
+     "share": 0.20732514802708868,
+     "flag": "Form fill"
+    },
+    {
+     "spend": 166.63,
+     "impressions": 6147.0,
+     "clicks": 54.0,
+     "leads": 6.0,
+     "cpm": 27.11,
+     "ctr": 0.008784773060029283,
+     "ff": 0.1111111111111111,
+     "cpl": 27.77,
+     "placement": "Facebook · feed",
+     "share": 0.18167936700763568
+    },
+    {
+     "spend": 88.57,
+     "impressions": 5092.0,
+     "clicks": 9.0,
+     "leads": 7.0,
+     "cpm": 17.39,
+     "ctr": 0.001767478397486253,
+     "ff": 0.7777777777777778,
+     "cpl": 12.65,
+     "placement": "Facebook · facebook reels",
+     "share": 0.09656424076361883
+    },
+    {
+     "spend": 31.47,
+     "impressions": 3500.0,
+     "clicks": 21.0,
+     "leads": 1.0,
+     "cpm": 8.99,
+     "ctr": 0.006,
+     "ff": 0.047619047619047616,
+     "cpl": 31.47,
+     "placement": "Facebook · instream video",
+     "share": 0.034314307517138674
+    },
+    {
+     "spend": 31.06,
+     "impressions": 4574.0,
+     "clicks": 9.0,
+     "leads": 1.0,
+     "cpm": 6.79,
+     "ctr": 0.0019676432006996065,
+     "ff": 0.1111111111111111,
+     "cpl": 31.06,
+     "placement": "Facebook · facebook stories",
+     "share": 0.033867285171145775
+    },
+    {
+     "spend": 28.92,
+     "impressions": 1570.0,
+     "clicks": 10.0,
+     "leads": 5.0,
+     "cpm": 18.42,
+     "ctr": 0.006369426751592357,
+     "ff": 0.5,
+     "cpl": 5.78,
+     "placement": "Instagram · instagram reels",
+     "share": 0.031533828525062854
+    },
+    {
+     "spend": 6.49,
+     "impressions": 90.0,
+     "clicks": 0.0,
+     "leads": 0.0,
+     "cpm": 72.12,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": null,
+     "placement": "Instagram · feed",
+     "share": 0.007076581796748534
+    },
+    {
+     "spend": 4.85,
+     "impressions": 49.0,
+     "clicks": 0.0,
+     "leads": 1.0,
+     "cpm": 98.99,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": 4.85,
+     "placement": "Instagram · instagram stories",
+     "share": 0.005288383382936458
+    }
+   ]
+  },
+  {
+   "product": "PGBAF",
+   "spend": 357.59,
+   "leads": 3.0,
+   "cpl": 119.2,
+   "placements": [
+    {
+     "spend": 297.87,
+     "impressions": 7033.0,
+     "clicks": 54.0,
+     "leads": 0.0,
+     "cpm": 42.35,
+     "ctr": 0.00767808900895777,
+     "ff": 0.0,
+     "cpl": null,
+     "placement": "Instagram · feed",
+     "share": 0.8329930926480048
+    },
+    {
+     "spend": 49.28,
+     "impressions": 1172.0,
+     "clicks": 2.0,
+     "leads": 3.0,
+     "cpm": 42.05,
+     "ctr": 0.0017064846416382253,
+     "ff": 1.5,
+     "cpl": 16.43,
+     "placement": "Instagram · instagram reels",
+     "share": 0.1378114600520149
+    },
+    {
+     "spend": 9.55,
+     "impressions": 112.0,
+     "clicks": 1.0,
+     "leads": 0.0,
+     "cpm": 85.27,
+     "ctr": 0.008928571428571428,
+     "ff": 0.0,
+     "cpl": null,
+     "placement": "Instagram · instagram stories",
+     "share": 0.026706563382644932
+    },
+    {
+     "spend": 0.41,
+     "impressions": 6.0,
+     "clicks": 1.0,
+     "leads": 0.0,
+     "cpm": 68.33,
+     "ctr": 0.16666666666666666,
+     "ff": 0.0,
+     "cpl": null,
+     "placement": "Facebook · facebook notification",
+     "share": 0.0011465645012444419
+    },
+    {
+     "spend": 0.3,
+     "impressions": 8.0,
+     "clicks": 0.0,
+     "leads": 0.0,
+     "cpm": 37.5,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": null,
+     "placement": "Facebook · facebook reels",
+     "share": 0.0008389496350569088
+    },
+    {
+     "spend": 0.14,
+     "impressions": 2.0,
+     "clicks": 0.0,
+     "leads": 0.0,
+     "cpm": 70.0,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": null,
+     "placement": "Facebook · feed",
+     "share": 0.0003915098296932241
+    },
+    {
+     "spend": 0.04,
+     "impressions": 1.0,
+     "clicks": 0.0,
+     "leads": 0.0,
+     "cpm": 40.0,
+     "ctr": 0.0,
+     "ff": null,
+     "cpl": null,
+     "placement": "Facebook · facebook stories",
+     "share": 0.00011185995134092118
+    }
+   ]
+  }
+ ],
+ "flags": [
+  {
+   "product": "CIBOP",
+   "placement": "Instagram · feed",
+   "share": 0.5954026934592742,
+   "spend": 176059.81,
+   "leads": 301.0,
+   "cpl": 584.92,
+   "product_cpl": 176.54,
+   "stage": "Form fill",
+   "fix": "Clicks here don't turn into leads (accidental/low-intent taps). Exclude the placement or switch to a Higher-intent form (extra qualifying question / review screen).",
+   "excess_spend": 122922.31,
+   "stage_split": {
+    "CPM": 0.31,
+    "CTR": 0.0,
+    "Form fill": 0.69
+   },
+   "vs_rest": {
+    "cpm": [
+     99.08,
+     42.49
+    ],
+    "ctr": [
+     0.011184320116694204,
+     0.004774336078878482
+    ],
+    "ff": [
+     0.015145416121565865,
+     0.10221693200416605
+    ]
+   }
+  },
+  {
+   "product": "ACCA",
+   "placement": "Instagram · feed",
+   "share": 0.7341555798530924,
+   "spend": 139294.68,
+   "leads": 205.0,
+   "cpl": 679.49,
+   "product_cpl": 190.31,
+   "stage": "Form fill",
+   "fix": "Clicks here don't turn into leads (accidental/low-intent taps). Exclude the placement or switch to a Higher-intent form (extra qualifying question / review screen).",
+   "excess_spend": 100282.06,
+   "stage_split": {
+    "CPM": 0.24,
+    "CTR": 0.0,
+    "Form fill": 0.76
+   },
+   "vs_rest": {
+    "cpm": [
+     124.41,
+     55.86
+    ],
+    "ctr": [
+     0.011231709953036715,
+     0.004213853333540058
+    ],
+    "ff": [
+     0.016302186878727636,
+     0.2081471747700394
+    ]
+   }
+  },
+  {
+   "product": "CMA",
+   "placement": "Instagram · feed",
+   "share": 0.43012838238483186,
+   "spend": 66350.47,
+   "leads": 121.0,
+   "cpl": 548.35,
+   "product_cpl": 130.07,
+   "stage": "Form fill",
+   "fix": "Clicks here don't turn into leads (accidental/low-intent taps). Exclude the placement or switch to a Higher-intent form (extra qualifying question / review screen).",
+   "excess_spend": 50612.58,
+   "stage_split": {
+    "CPM": 0.34,
+    "CTR": 0.0,
+    "Form fill": 0.66
+   },
+   "vs_rest": {
+    "cpm": [
+     181.52,
+     73.21
+    ],
+    "ctr": [
+     0.008970781352593566,
+     0.00400993364246882
+    ],
+    "ff": [
+     0.03690149435803599,
+     0.22118380062305296
+    ]
+   }
+  },
+  {
+   "product": "CFA",
+   "placement": "Instagram · feed",
+   "share": 0.6281601636190811,
+   "spend": 39234.64,
+   "leads": 58.0,
+   "cpl": 676.46,
+   "product_cpl": 117.41,
+   "stage": "Form fill",
+   "fix": "Clicks here don't turn into leads (accidental/low-intent taps). Exclude the placement or switch to a Higher-intent form (extra qualifying question / review screen).",
+   "excess_spend": 32425.13,
+   "stage_split": {
+    "CPM": 0.17,
+    "CTR": 0.0,
+    "Form fill": 0.83
+   },
+   "vs_rest": {
+    "cpm": [
+     122.07,
+     72.27
+    ],
+    "ctr": [
+     0.009302499229977071,
+     0.005523589617518648
+    ],
+    "ff": [
+     0.01939799331103679,
+     0.26704225352112676
+    ]
+   }
+  },
+  {
+   "product": "Fintech",
+   "placement": "Instagram · feed",
+   "share": 0.5588700948110913,
+   "spend": 48284.15,
+   "leads": 69.0,
+   "cpl": 699.77,
+   "product_cpl": 344.21,
+   "stage": "Form fill",
+   "fix": "Clicks here don't turn into leads (accidental/low-intent taps). Exclude the placement or switch to a Higher-intent form (extra qualifying question / review screen).",
+   "excess_spend": 24533.85,
+   "stage_split": {
+    "CPM": 0.3,
+    "CTR": 0.0,
+    "Form fill": 0.7
+   },
+   "vs_rest": {
+    "cpm": [
+     103.15,
+     52.98
+    ],
+    "ctr": [
+     0.008628147970921924,
+     0.003155806475381234
+    ],
+    "ff": [
+     0.017083436494181727,
+     0.0801762114537445
+    ]
+   }
+  },
+  {
+   "product": "ISFB PG",
+   "placement": "Instagram · feed",
+   "share": 0.24544489566772806,
+   "spend": 42078.83,
+   "leads": 66.0,
+   "cpl": 637.56,
+   "product_cpl": 416.11,
+   "stage": "Form fill",
+   "fix": "Clicks here don't turn into leads (accidental/low-intent taps). Exclude the placement or switch to a Higher-intent form (extra qualifying question / review screen).",
+   "excess_spend": 14615.3,
+   "stage_split": {
+    "CPM": 0.0,
+    "CTR": 0.43,
+    "Form fill": 0.57
+   },
+   "vs_rest": {
+    "cpm": [
+     120.46,
+     151.86
+    ],
+    "ctr": [
+     0.0036126609165624186,
+     0.005036275269423117
+    ],
+    "ff": [
+     0.05229793977812995,
+     0.08065268065268065
+    ]
+   }
+  },
+  {
+   "product": "AIPM (IBM)",
+   "placement": "Instagram · feed",
+   "share": 0.39134919419581127,
+   "spend": 29637.27,
+   "leads": 47.0,
+   "cpl": 630.58,
+   "product_cpl": 348.99,
+   "stage": "CPM",
+   "fix": "Inventory is expensive here. Exclude or cap this placement, or give it a format made for it (9:16 video for Stories/Reels) so it wins auctions cheaper.",
+   "excess_spend": 13234.7,
+   "stage_split": {
+    "CPM": 0.85,
+    "CTR": 0.0,
+    "Form fill": 0.15
+   },
+   "vs_rest": {
+    "cpm": [
+     253.21,
+     113.11
+    ],
+    "ctr": [
+     0.007356082224082839,
+     0.006625669315298425
+    ],
+    "ff": [
+     0.0545876887340302,
+     0.06296296296296296
+    ]
+   }
+  },
+  {
+   "product": "ISB CFO",
+   "placement": "Instagram · feed",
+   "share": 0.27353967736272267,
+   "spend": 22113.67,
+   "leads": 22.0,
+   "cpl": 1005.17,
+   "product_cpl": 464.61,
+   "stage": "Form fill",
+   "fix": "Clicks here don't turn into leads (accidental/low-intent taps). Exclude the placement or switch to a Higher-intent form (extra qualifying question / review screen).",
+   "excess_spend": 11892.18,
+   "stage_split": {
+    "CPM": 0.0,
+    "CTR": 0.17,
+    "Form fill": 0.83
+   },
+   "vs_rest": {
+    "cpm": [
+     126.62,
+     188.18
+    ],
+    "ctr": [
+     0.0036932062183286096,
+     0.0046203584142109665
+    ],
+    "ff": [
+     0.034108527131782945,
+     0.10540915395284327
+    ]
+   }
+  },
+  {
+   "product": "IIMC PEVC",
+   "placement": "Instagram · feed",
+   "share": 0.9145159099744753,
+   "spend": 38816.61,
+   "leads": 29.0,
+   "cpl": 1338.5,
+   "product_cpl": 943.22,
+   "stage": "Form fill",
+   "fix": "Clicks here don't turn into leads (accidental/low-intent taps). Exclude the placement or switch to a Higher-intent form (extra qualifying question / review screen).",
+   "excess_spend": 11463.18,
+   "stage_split": {
+    "CPM": 0.0,
+    "CTR": 0.24,
+    "Form fill": 0.76
+   },
+   "vs_rest": {
+    "cpm": [
+     157.67,
+     314.85
+    ],
+    "ctr": [
+     0.0054185131177572066,
+     0.00971884762235335
+    ],
+    "ff": [
+     0.021739130434782608,
+     0.14285714285714285
+    ]
+   }
+  },
+  {
+   "product": "PGA (Data Science)",
+   "placement": "Instagram · feed",
+   "share": 0.18820605613244354,
+   "spend": 20179.78,
+   "leads": 57.0,
+   "cpl": 354.03,
+   "product_cpl": 166.24,
+   "stage": "Form fill",
+   "fix": "Clicks here don't turn into leads (accidental/low-intent taps). Exclude the placement or switch to a Higher-intent form (extra qualifying question / review screen).",
+   "excess_spend": 10704.37,
+   "stage_split": {
+    "CPM": 0.36,
+    "CTR": 0.0,
+    "Form fill": 0.64
+   },
+   "vs_rest": {
+    "cpm": [
+     226.03,
+     72.94
+    ],
+    "ctr": [
+     0.03142956350317544,
+     0.003332447920550822
+    ],
+    "ff": [
+     0.020313613684960798,
+     0.1478501382951974
+    ]
+   }
+  },
+  {
+   "product": "FAP (KPMG/PwC)",
+   "placement": "Instagram · feed",
+   "share": 0.24449305856816478,
+   "spend": 18874.93,
+   "leads": 52.0,
+   "cpl": 362.98,
+   "product_cpl": 219.94,
+   "stage": "CPM",
+   "fix": "Inventory is expensive here. Exclude or cap this placement, or give it a format made for it (9:16 video for Stories/Reels) so it wins auctions cheaper.",
+   "excess_spend": 7437.86,
+   "stage_split": {
+    "CPM": 0.68,
+    "CTR": 0.0,
+    "Form fill": 0.32
+   },
+   "vs_rest": {
+    "cpm": [
+     171.71,
+     102.8
+    ],
+    "ctr": [
+     0.006322492608596771,
+     0.005555545763631973
+    ],
+    "ff": [
+     0.07482014388489208,
+     0.09486040609137056
+    ]
+   }
+  },
+  {
+   "product": "PM (KPMG/PwC)",
+   "placement": "Instagram · feed",
+   "share": 0.17898426027440323,
+   "spend": 17593.87,
+   "leads": 46.0,
+   "cpl": 382.48,
+   "product_cpl": 231.84,
+   "stage": "CPM",
+   "fix": "Inventory is expensive here. Exclude or cap this placement, or give it a format made for it (9:16 video for Stories/Reels) so it wins auctions cheaper.",
+   "excess_spend": 6929.42,
+   "stage_split": {
+    "CPM": 0.76,
+    "CTR": 0.24,
+    "Form fill": 0.0
+   },
+   "vs_rest": {
+    "cpm": [
+     242.18,
+     109.34
+    ],
+    "ctr": [
+     0.005395955786199017,
+     0.006957212129259175
+    ],
+    "ff": [
+     0.11734693877551021,
+     0.07361246348588121
+    ]
+   }
+  },
+  {
+   "product": "CFOP",
+   "placement": "Instagram · feed",
+   "share": 0.69528980632831,
+   "spend": 8527.43,
+   "leads": 15.0,
+   "cpl": 568.5,
+   "product_cpl": 137.8,
+   "stage": "Form fill",
+   "fix": "Clicks here don't turn into leads (accidental/low-intent taps). Exclude the placement or switch to a Higher-intent form (extra qualifying question / review screen).",
+   "excess_spend": 6460.37,
+   "stage_split": {
+    "CPM": 0.0,
+    "CTR": 0.0,
+    "Form fill": 1.0
+   },
+   "vs_rest": {
+    "cpm": [
+     94.05,
+     123.78
+    ],
+    "ctr": [
+     0.009837548112448028,
+     0.006856120826709062
+    ],
+    "ff": [
+     0.016816143497757848,
+     0.357487922705314
+    ]
+   }
+  },
+  {
+   "product": "PGA Pro",
+   "placement": "Instagram · feed",
+   "share": 0.42983372131182546,
+   "spend": 9778.5,
+   "leads": 12.0,
+   "cpl": 814.88,
+   "product_cpl": 406.24,
+   "stage": "Form fill",
+   "fix": "Clicks here don't turn into leads (accidental/low-intent taps). Exclude the placement or switch to a Higher-intent form (extra qualifying question / review screen).",
+   "excess_spend": 4903.61,
+   "stage_split": {
+    "CPM": 0.39,
+    "CTR": 0.0,
+    "Form fill": 0.61
+   },
+   "vs_rest": {
+    "cpm": [
+     185.19,
+     89.48
+    ],
+    "ctr": [
+     0.018142908546862867,
+     0.007809104643381921
+    ],
+    "ff": [
+     0.012526096033402923,
+     0.038869257950530034
+    ]
+   }
+  },
+  {
+   "product": "IIML DM",
+   "placement": "Instagram · feed",
+   "share": 0.5546342872598592,
+   "spend": 7382.13,
+   "leads": 9.0,
+   "cpl": 820.24,
+   "product_cpl": 458.96,
+   "stage": "Form fill",
+   "fix": "Clicks here don't turn into leads (accidental/low-intent taps). Exclude the placement or switch to a Higher-intent form (extra qualifying question / review screen).",
+   "excess_spend": 3251.47,
+   "stage_split": {
+    "CPM": 0.0,
+    "CTR": 0.11,
+    "Form fill": 0.89
+   },
+   "vs_rest": {
+    "cpm": [
+     94.73,
+     164.73
+    ],
+    "ctr": [
+     0.005248367103388983,
+     0.006197198755002223
+    ],
+    "ff": [
+     0.022004889975550123,
+     0.08968609865470852
+    ]
+   }
+  },
+  {
+   "product": "IIML SHRM",
+   "placement": "Instagram · feed",
+   "share": 0.3011109171183176,
+   "spend": 3656.24,
+   "leads": 2.0,
+   "cpl": 1828.12,
+   "product_cpl": 346.93,
+   "stage": "Form fill",
+   "fix": "Clicks here don't turn into leads (accidental/low-intent taps). Exclude the placement or switch to a Higher-intent form (extra qualifying question / review screen).",
+   "excess_spend": 2962.38,
+   "stage_split": {
+    "CPM": 0.0,
+    "CTR": 0.07,
+    "Form fill": 0.93
+   },
+   "vs_rest": {
+    "cpm": [
+     161.05,
+     256.13
+    ],
+    "ctr": [
+     0.004272751299444983,
+     0.0050706265845708075
+    ],
+    "ff": [
+     0.020618556701030927,
+     0.19642857142857142
+    ]
+   }
+  },
+  {
+   "product": "IIML SML",
+   "placement": "Instagram · feed",
+   "share": 0.3905861509702543,
+   "spend": 3819.5,
+   "leads": 2.0,
+   "cpl": 1909.75,
+   "product_cpl": 752.22,
+   "stage": "Form fill",
+   "fix": "Clicks here don't turn into leads (accidental/low-intent taps). Exclude the placement or switch to a Higher-intent form (extra qualifying question / review screen).",
+   "excess_spend": 2315.05,
+   "stage_split": {
+    "CPM": 0.0,
+    "CTR": 0.07,
+    "Form fill": 0.93
+   },
+   "vs_rest": {
+    "cpm": [
+     89.29,
+     112.24
+    ],
+    "ctr": [
+     0.0032262589423481553,
+     0.0035597242626285454
+    ],
+    "ff": [
+     0.014492753623188406,
+     0.0582010582010582
+    ]
+   }
+  },
+  {
+   "product": "IIMC IBCM",
+   "placement": "Instagram · feed",
+   "share": 0.147333212709955,
+   "spend": 2410.29,
+   "leads": 2.0,
+   "cpl": 1205.15,
+   "product_cpl": 564.12,
+   "stage": "Form fill",
+   "fix": "Clicks here don't turn into leads (accidental/low-intent taps). Exclude the placement or switch to a Higher-intent form (extra qualifying question / review screen).",
+   "excess_spend": 1282.05,
+   "stage_split": {
+    "CPM": 0.07,
+    "CTR": 0.0,
+    "Form fill": 0.93
+   },
+   "vs_rest": {
+    "cpm": [
+     170.16,
+     159.24
+    ],
+    "ctr": [
+     0.003600423579244617,
+     0.0031620643599958903
+    ],
+    "ff": [
+     0.0392156862745098,
+     0.09747292418772563
+    ]
+   }
+  },
+  {
+   "product": "Franchise",
+   "placement": "Instagram · feed",
+   "share": 0.190507513325253,
+   "spend": 794.17,
+   "leads": 0.0,
+   "cpl": null,
+   "product_cpl": 833.74,
+   "stage": "No leads",
+   "fix": "Spent without a single lead. Exclude the placement from this product's ad sets.",
+   "excess_spend": 794.17,
+   "stage_split": {},
+   "vs_rest": {
+    "cpm": [
+     333.27,
+     435.71
+    ],
+    "ctr": [
+     0.007553503986571549,
+     0.010071013557133635
+    ],
+    "ff": [
+     0.0,
+     0.0641025641025641
+    ]
+   }
+  },
+  {
+   "product": "FMVA",
+   "placement": "Facebook · facebook notification",
+   "share": 0.17739491098262242,
+   "spend": 1123.13,
+   "leads": 12.0,
+   "cpl": 93.59,
+   "product_cpl": 32.47,
+   "stage": "CPM",
+   "fix": "Inventory is expensive here. Exclude or cap this placement, or give it a format made for it (9:16 video for Stories/Reels) so it wins auctions cheaper.",
+   "excess_spend": 733.51,
+   "stage_split": {
+    "CPM": 0.8,
+    "CTR": 0.0,
+    "Form fill": 0.2
+   },
+   "vs_rest": {
+    "cpm": [
+     484.52,
+     30.88
+    ],
+    "ctr": [
+     0.04874892148403796,
+     0.005116621014312309
+    ],
+    "ff": [
+     0.10619469026548672,
+     0.21205098493626884
+    ]
+   }
+  },
+  {
+   "product": "Franchise",
+   "placement": "Facebook · facebook reels",
+   "share": 0.3380504726138846,
+   "spend": 1409.24,
+   "leads": 1.0,
+   "cpl": 1409.24,
+   "product_cpl": 833.74,
+   "stage": "CPM",
+   "fix": "Inventory is expensive here. Exclude or cap this placement, or give it a format made for it (9:16 video for Stories/Reels) so it wins auctions cheaper.",
+   "excess_spend": 575.49,
+   "stage_split": {
+    "CPM": 0.63,
+    "CTR": 0.37,
+    "Form fill": 0.0
+   },
+   "vs_rest": {
+    "cpm": [
+     653.33,
+     346.19
+    ],
+    "ctr": [
+     0.006954102920723227,
+     0.010161836657884832
+    ],
+    "ff": [
+     0.06666666666666667,
+     0.04938271604938271
+    ]
+   }
+  },
+  {
+   "product": "FMVA",
+   "placement": "Facebook · facebook reels",
+   "share": 0.1686988283682818,
+   "spend": 1068.07,
+   "leads": 22.0,
+   "cpl": 48.55,
+   "product_cpl": 32.47,
+   "stage": "CTR",
+   "fix": "People scroll past the ad here. Add a placement-specific creative (vertical, hook in the first 2s, text-safe zones) or remove the placement.",
+   "excess_spend": 353.78,
+   "stage_split": {
+    "CPM": 0.0,
+    "CTR": 0.54,
+    "Form fill": 0.46
+   },
+   "vs_rest": {
+    "cpm": [
+     17.1,
+     48.5
+    ],
+    "ctr": [
+     0.0031542205712821827,
+     0.007177871148459383
+    ],
+    "ff": [
+     0.1116751269035533,
+     0.2220795892169448
+    ]
+   }
+  },
+  {
+   "product": "FRM",
+   "placement": "Facebook · facebook reels overlay",
+   "share": 0.20732514802708868,
+   "spend": 190.15,
+   "leads": 1.0,
+   "cpl": 190.15,
+   "product_cpl": 24.79,
+   "stage": "Form fill",
+   "fix": "Clicks here don't turn into leads (accidental/low-intent taps). Exclude the placement or switch to a Higher-intent form (extra qualifying question / review screen).",
+   "excess_spend": 165.37,
+   "stage_split": {
+    "CPM": 0.0,
+    "CTR": 0.02,
+    "Form fill": 0.98
+   },
+   "vs_rest": {
+    "cpm": [
+     15.25,
+     31.88
+    ],
+    "ctr": [
+     0.0074573009381765695,
+     0.007892659826361484
+    ],
+    "ff": [
+     0.010752688172043012,
+     0.2
+    ]
+   }
+  },
+  {
+   "product": "CPA",
+   "placement": "Facebook · facebook reels overlay",
+   "share": 0.23216500817565985,
+   "spend": 248.47,
+   "leads": 2.0,
+   "cpl": 124.24,
+   "product_cpl": 42.81,
+   "stage": "Form fill",
+   "fix": "Clicks here don't turn into leads (accidental/low-intent taps). Exclude the placement or switch to a Higher-intent form (extra qualifying question / review screen).",
+   "excess_spend": 162.85,
+   "stage_split": {
+    "CPM": 0.0,
+    "CTR": 0.0,
+    "Form fill": 1.0
+   },
+   "vs_rest": {
+    "cpm": [
+     17.36,
+     39.29
+    ],
+    "ctr": [
+     0.0054511146830666015,
+     0.004063680260075537
+    ],
+    "ff": [
+     0.02564102564102564,
+     0.27058823529411763
+    ]
+   }
+  },
+  {
+   "product": "CPA",
+   "placement": "Instagram · feed",
+   "share": 0.13810119131044143,
+   "spend": 147.8,
+   "leads": 2.0,
+   "cpl": 73.9,
+   "product_cpl": 42.81,
+   "stage": "CPM",
+   "fix": "Inventory is expensive here. Exclude or cap this placement, or give it a format made for it (9:16 video for Stories/Reels) so it wins auctions cheaper.",
+   "excess_spend": 62.18,
+   "stage_split": {
+    "CPM": 0.74,
+    "CTR": 0.0,
+    "Form fill": 0.26
+   },
+   "vs_rest": {
+    "cpm": [
+     102.36,
+     27.31
+    ],
+    "ctr": [
+     0.013850415512465374,
+     0.0042330235036409924
+    ],
+    "ff": [
+     0.1,
+     0.16083916083916083
+    ]
+   }
+  }
+ ]
+}

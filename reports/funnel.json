@@ -1,0 +1,200 @@
+{
+ "funnel": {
+  "configured": false,
+  "products": []
+ },
+ "creative": {
+  "source": "ad names (last 7 days) — add the creative sheet for SQL columns",
+  "angles": [
+   {
+    "name": "untagged",
+    "spend": 704361.98,
+    "leads": 4701.0,
+    "ctr": 0.006307291710935954,
+    "ff": 0.07632608660356222,
+    "cpl": 149.83,
+    "sql_rate": null,
+    "cost_per_sql": null
+   },
+   {
+    "name": "credential",
+    "spend": 577101.82,
+    "leads": 1898.0,
+    "ctr": 0.006786627385150806,
+    "ff": 0.0627375797441576,
+    "cpl": 304.06,
+    "sql_rate": null,
+    "cost_per_sql": null
+   },
+   {
+    "name": "AI/tool",
+    "spend": 146198.3,
+    "leads": 297.0,
+    "ctr": 0.005613660646842952,
+    "ff": 0.06902161282825936,
+    "cpl": 492.25,
+    "sql_rate": null,
+    "cost_per_sql": null
+   },
+   {
+    "name": "career",
+    "spend": 124294.86,
+    "leads": 399.0,
+    "ctr": 0.007722881511761128,
+    "ff": 0.042986425339366516,
+    "cpl": 311.52,
+    "sql_rate": null,
+    "cost_per_sql": null
+   },
+   {
+    "name": "product",
+    "spend": 73673.75,
+    "leads": 176.0,
+    "ctr": 0.005455297175270783,
+    "ff": 0.03934719427677174,
+    "cpl": 418.6,
+    "sql_rate": null,
+    "cost_per_sql": null
+   },
+   {
+    "name": "speed",
+    "spend": 50166.04,
+    "leads": 237.0,
+    "ctr": 0.005755870516485447,
+    "ff": 0.08823529411764706,
+    "cpl": 211.67,
+    "sql_rate": null,
+    "cost_per_sql": null
+   },
+   {
+    "name": "pain",
+    "spend": 45489.72,
+    "leads": 82.0,
+    "ctr": 0.012435264249365299,
+    "ff": 0.012364294330518697,
+    "cpl": 554.75,
+    "sql_rate": null,
+    "cost_per_sql": null
+   },
+   {
+    "name": "outcome",
+    "spend": 15194.44,
+    "leads": 36.0,
+    "ctr": 0.005281310627290365,
+    "ff": 0.09183673469387756,
+    "cpl": 422.07,
+    "sql_rate": null,
+    "cost_per_sql": null
+   }
+  ],
+  "audiences": [
+   {
+    "name": "unknown",
+    "spend": 656398.62,
+    "leads": 3396.0,
+    "ctr": 0.007844879992556363,
+    "ff": 0.053993036233842634,
+    "cpl": 193.29,
+    "sql_rate": null,
+    "cost_per_sql": null
+   },
+   {
+    "name": "lookalike",
+    "spend": 525682.51,
+    "leads": 2645.0,
+    "ctr": 0.005492261410610351,
+    "ff": 0.0879263346851938,
+    "cpl": 198.75,
+    "sql_rate": null,
+    "cost_per_sql": null
+   },
+   {
+    "name": "interest",
+    "spend": 387923.83,
+    "leads": 1342.0,
+    "ctr": 0.005693052453162216,
+    "ff": 0.07791453785415699,
+    "cpl": 289.06,
+    "sql_rate": null,
+    "cost_per_sql": null
+   },
+   {
+    "name": "job titles",
+    "spend": 81614.91,
+    "leads": 138.0,
+    "ctr": 0.0073246101729978535,
+    "ff": 0.04060017652250662,
+    "cpl": 591.41,
+    "sql_rate": null,
+    "cost_per_sql": null
+   },
+   {
+    "name": "retargeting",
+    "spend": 44594.73,
+    "leads": 227.0,
+    "ctr": 0.0031375072353776626,
+    "ff": 0.09947414548641542,
+    "cpl": 196.45,
+    "sql_rate": null,
+    "cost_per_sql": null
+   },
+   {
+    "name": "open/broad",
+    "spend": 40266.31,
+    "leads": 78.0,
+    "ctr": 0.009974395128385556,
+    "ff": 0.02092274678111588,
+    "cpl": 516.23,
+    "sql_rate": null,
+    "cost_per_sql": null
+   }
+  ],
+  "formats": [
+   {
+    "name": "unknown",
+    "spend": 723205.55,
+    "leads": 4458.0,
+    "ctr": 0.0073798236492580846,
+    "ff": 0.06309889456624818,
+    "cpl": 162.23,
+    "sql_rate": null,
+    "cost_per_sql": null
+   },
+   {
+    "name": "static",
+    "spend": 422834.46,
+    "leads": 1821.0,
+    "ctr": 0.00581647949958902,
+    "ff": 0.10075803685055054,
+    "cpl": 232.2,
+    "sql_rate": null,
+    "cost_per_sql": null
+   },
+   {
+    "name": "video",
+    "spend": 407111.27,
+    "leads": 908.0,
+    "ctr": 0.0057959654244629216,
+    "ff": 0.03734781178019085,
+    "cpl": 448.36,
+    "sql_rate": null,
+    "cost_per_sql": null
+   },
+   {
+    "name": "human/UGC",
+    "spend": 183329.63,
+    "leads": 639.0,
+    "ctr": 0.005434962279245982,
+    "ff": 0.09717153284671533,
+    "cpl": 286.9,
+    "sql_rate": null,
+    "cost_per_sql": null
+   }
+  ],
+  "callouts": [
+   "On CPL alone, 'speed' angles (₹212) beat 'pain' (₹555). Without SQL data this can't say which brings better leads.",
+   "Highest-CTR ad: 'PGA_Jobtitle_Chennai_DSP_H3' (1.65% CTR, 2.5% form fill)."
+  ],
+  "ads_tagged": 459
+ }
+}

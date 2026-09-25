@@ -208,5 +208,6 @@
     },
     "program_map": {},
     "stage_rules": "MQL = Level 2+, SQL = Level 3+, enrolled = Level 5; Closed/Lost keep the highest level reached (Old Lead Stage)"
-  }
+  },
+  "engine_url": "https://claude.ai/artifact/YUY2Tib1THXG647DamU843"
 }
