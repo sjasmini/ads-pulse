@@ -190,7 +190,7 @@ def daily_email(r):
                 f'{fmt_money(SETTINGS.get("email_min_spend4", 5000))} in 4 days) are on the dashboard.</span>') if hidden else ""
     body = intro + table + note + h("Summary") + ul(summ) + h("Urgent action") + ul(urgent or ["Nothing critical today."]) \
         + h("Update / change") + ul(upd) + foot
-    subject = f"Meta Ads Daily CPL - 4-day view + actions ({dates})"
+    subject = f"Meta + Google Ads Daily CPL - 4-day view + actions ({dates})"
     return subject, f'<div style="max-width:980px;">{body}</div>'
 
 
@@ -222,7 +222,7 @@ def weekly_email(r):
                 f'{fmt_money(SETTINGS.get("weekly_min_spend11", 20000))} in 11 days are on the dashboard.</span>') if hidden else ""
     body = intro + table + note + h("Weekly summary") + ul(summ) + h("Funnel") + ul(fb) + h("Placements") + ul(pb) \
         + h("What we learned from changes") + ul(lb) + (para(f'Dashboard: <a href="{E(link)}">{E(link)}</a>') if link else "")
-    subject = f"Meta Ads Weekly CPL - 11-day campaign view ({dates})"
+    subject = f"Meta + Google Ads Weekly CPL - 11-day campaign view ({dates})"
     return subject, f'<div style="max-width:1100px;">{body}</div>'
 
 
