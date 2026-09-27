@@ -236,11 +236,14 @@ def main():
     with open(path, "w", encoding="utf-8") as f:
         f.write(body)
     rc = SETTINGS["recipients"]
-    team = bool(rc.get("team_mode"))
+    preview = "--preview" in sys.argv
+    team = bool(rc.get("team_mode")) and not preview
+    if preview:   # 11:00 preview: same email, only to recipients.me, before the 12:30 team send
+        subject = "[PREVIEW - team send at 12:30] " + subject
     write_json(os.path.join(OUT, "email.json"), {
         "mode": mode, "subject": subject, "html_file": f"out/email_{mode}.html",
         "to": rc["to"] if team else [rc["me"]], "cc": rc["cc"] if team else [],
-        "team_mode": team, "data_date": r["data_date"]})
+        "team_mode": team, "preview": preview, "data_date": r["data_date"]})
     print(f"render: dashboard {size / 1024:.0f} KB, {mode} email {len(body) / 1024:.0f} KB -> "
           f"{'TEAM' if team else 'ME ONLY'}; subject: {subject}")
 

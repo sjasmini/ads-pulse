@@ -23,10 +23,12 @@ STEPS = [  # (script, args, required, report it writes)
 def main():
     mode = next((a for a in sys.argv[1:] if a in ("daily", "weekly")), None)
     if not mode:
-        sys.exit("usage: run_pipeline.py daily|weekly [--allow-stale]")
+        sys.exit("usage: run_pipeline.py daily|weekly [--allow-stale] [--preview]")
     warnings = []
     for script, args, required, report in STEPS:
         args = [mode if a == "MODE" else a for a in args]
+        if script == "render.py" and "--preview" in sys.argv:
+            args.append("--preview")
         rpath = os.path.join(ROOT, "reports", report) if report else None
         backup = rpath + ".prev" if rpath and os.path.exists(rpath) else None
         if backup:

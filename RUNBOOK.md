@@ -103,6 +103,15 @@ Change detection needs yesterday's snapshot, so a run that skips this breaks tom
 (When running from a git checkout instead: `git add history/ reports/*.json settings.json`, check nothing under raw/ is
 staged, commit "Ads Pulse <MODE> run for <data_date>", push.)
 
+## PREVIEW mode (11:00 IST, before the 12:30 team email)
+
+A run started with **"follow it in PREVIEW mode"** is a DAILY run with these differences:
+- Step 3: run `python3 run_pipeline.py daily --preview`. The email goes to `recipients.me` only, with the subject
+  prefixed "[PREVIEW - team send at 12:30]", whatever `team_mode` says.
+- Skip step 4 (don't republish the dashboard) and step 7 (don't save state to the Engine) — the 12:30 run does both.
+- Step 6: log the line with mode PREVIEW (local only; not saved).
+- If the run fails, the failure note (step 8) goes to `recipients.me` as usual, titled "Ads Pulse PREVIEW run did not send".
+
 ## 8. Failure note (instead of the team email)
 
 To `recipients.me` only, subject `Ads Pulse <MODE> run did not send (<today IST>)`, plain short body:
