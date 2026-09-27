@@ -100,11 +100,12 @@ footer{color:var(--muted);font-size:12px;border-top:1px solid var(--line);paddin
     <div class="kpis" id="kpis"></div>
   </header>
   <nav class="jump" aria-label="Sections">
-    <a href="#accounts">Accounts</a><a href="#nonlead">Non-lead</a><a href="#ask">Ask</a><a href="#recs">Recommendations</a>
+    <a href="#scorecard">Campaign scorecard</a><a href="#accounts">Accounts</a><a href="#nonlead">Non-lead</a><a href="#ask">Ask</a><a href="#recs">Recommendations</a>
     <a href="#funnel">Funnel &amp; ROI</a><a href="#placements">Placements</a><a href="#copy">Copy &amp; audience</a>
     <a href="#changes">Changes</a><a href="#rootcause">Root cause</a><a href="#creative">Creative &amp; targeting</a>
   </nav>
 
+  <section id="scorecard"><h2>Campaign scorecard: leads, CPL, MQL, SQL</h2><div id="score-body"></div></section>
   <section id="accounts"><h2>Accounts</h2><p class="muted" id="acct-note"></p><div id="acct-list"></div></section>
   <section id="nonlead"><h2>Campaigns not optimising for leads</h2><div id="nonlead-body"></div></section>
   <section id="ask">
@@ -197,6 +198,55 @@ $('recs-body').innerHTML = `<h3 style="margin-bottom:8px">Urgent (${R.urgent.len
   <h3 style="margin:18px 0 8px">Watch (${R.watch.length})</h3>${recBlock(R.watch,'watch') || '<p class="muted">Nothing on watch.</p>'}
   <h3 style="margin:18px 0 8px">Room to scale</h3>${R.scale.map(s=>`<div class="rec healthy">${esc(s.text)}</div>`).join('') || '<p class="muted">No product is far enough under target to scale.</p>'}`;
 
+
+// ---------- campaign scorecard (one table: platform leads & CPL + CRM leads, MQL, SQL and their costs)
+(function(){
+  const F = R.funnel;
+  if (!F || !F.configured || F.mode !== 'crm') { $('score-body').innerHTML = '<div class="card muted">Needs the lead funnel sheet.</div>'; return; }
+  const num = v => v==null?'–':Math.round(v).toLocaleString('en-IN');
+  const t = R.thresholds;
+  const COLS = [['campaign','Campaign','s'],['platform','Platform','s'],['product','Product','s'],['spend','Spend','m'],
+    ['platform_leads','Leads (platform)','n'],['platform_cpl','CPL (platform)','m'],['leads','CRM leads','n'],['cost_per_lead','CPL (CRM)','m'],
+    ['mql','MQL','n'],['mql_pct','MQL %','p'],['cost_per_mql','Cost / MQL','m'],['sql','SQL','n'],['sql_pct','SQL %','p'],['cost_per_sql','Cost / SQL','m'],
+    ['sales','Enrolled','n'],['cost_per_sale','Cost / enrolment','m']];
+  const all = F.campaigns;
+  const sum = k => all.reduce((a,r)=>a+(r[k]||0),0);
+  const T = {spend:sum('spend'), platform_leads:sum('platform_leads'), leads:sum('leads'), mql:sum('mql'), sql:sum('sql'), sales:sum('sales')};
+  let plat='all', prod='all', q='', sortK='spend', dir=-1;
+  const products = [...new Set(all.map(r=>r.product))].sort();
+  const fmt = (r,[k,,f]) => {
+    const v = r[k];
+    if (f==='s') return k==='campaign' ? `<td class="name">${esc(v)}</td>` : `<td style="white-space:nowrap">${esc(k==='platform'?(v==='meta'?'Meta':'Google'):v)}</td>`;
+    const txt = f==='m'?money(v):f==='p'?pct(v):num(v);
+    const red = (k==='platform_cpl' && v!=null && v > (r.platform==='google'?t.google:t.meta)) || (k==='sql' && r.leads>=20 && !r.sql) || (k==='leads' && r.spend>=25000 && !r.leads);
+    return `<td class="n${red?' red':''}">${txt}</td>`;
+  };
+  const totRow = rows => {
+    const s = k => rows.reduce((a,r)=>a+(r[k]||0),0);
+    const sp=s('spend'), pl=s('platform_leads'), l=s('leads'), m=s('mql'), q2=s('sql'), e=s('sales');
+    const d=(a,b)=>b?a/b:null;
+    return `<tr style="font-weight:600;background:var(--sunk)"><td class="name">Total (${rows.length} campaigns)</td><td></td><td></td><td class="n">${money(sp)}</td><td class="n">${num(pl)}</td><td class="n">${money(d(sp,pl))}</td><td class="n">${num(l)}</td><td class="n">${money(d(sp,l))}</td><td class="n">${num(m)}</td><td class="n">${pct(d(m,l))}</td><td class="n">${money(d(sp,m))}</td><td class="n">${num(q2)}</td><td class="n">${pct(d(q2,l))}</td><td class="n">${money(d(sp,q2))}</td><td class="n">${num(e)}</td><td class="n">${money(d(sp,e))}</td></tr>`;
+  };
+  const draw = () => {
+    let rows = all.filter(r => (plat==='all'||r.platform===plat) && (prod==='all'||r.product===prod) && (!q || r.campaign.toLowerCase().includes(q)));
+    rows = rows.slice().sort((a,b)=>{const x=a[sortK],y=b[sortK]; if(x==null&&y==null)return 0; if(x==null)return 1; if(y==null)return -1; return (typeof x==='string'?x.localeCompare(y):(x>y?1:x<y?-1:0))*dir;});
+    $('sc-table').innerHTML = `<thead><tr>${COLS.map(c=>`<th class="${c[2]==='s'?'':'n'}" data-k="${c[0]}" style="cursor:pointer;position:sticky;top:0">${c[1]}${sortK===c[0]?(dir<0?' ▾':' ▴'):''}</th>`).join('')}</tr></thead>
+      <tbody>${totRow(rows)}${rows.map(r=>`<tr>${COLS.map(c=>fmt(r,c)).join('')}</tr>`).join('')}</tbody>`;
+    document.querySelectorAll('#sc-table th[data-k]').forEach(th=>th.onclick=()=>{const k=th.dataset.k; if(sortK===k)dir=-dir; else {sortK=k; dir=['campaign','platform','product'].includes(k)?1:-1;} draw();});
+  };
+  const sel = 'font:inherit;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink);min-width:0';
+  $('score-body').innerHTML = `<p class="muted">Every campaign with spend or CRM leads, ${esc(F.window_start)} to ${esc(F.window_end)} (${F.window_days} days). <b>Leads / CPL (platform)</b> = what Meta or Google reports. <b>CRM leads</b> = leads in LeadSquared tagged with the campaign. MQL = Level 2+, SQL = Level 3+, enrolled = Level 5. Costs = campaign spend ÷ count. Red: platform CPL above target (Meta ${money(t.meta)}, Google ${money(t.google)}); 20+ CRM leads and no SQL; ₹25,000+ spend and no CRM leads (check UTM tags).</p>
+    <div class="card"><div style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:8px">
+      <select id="sc-plat" style="${sel}"><option value="all">All platforms</option><option value="meta">Meta</option><option value="google">Google</option></select>
+      <select id="sc-prod" style="${sel}"><option value="all">All products</option>${products.map(p=>`<option>${esc(p)}</option>`).join('')}</select>
+      <input id="sc-q" placeholder="Search campaign…" style="${sel};flex:1 1 200px"></div>
+      <div class="scroll" style="max-height:720px;overflow:auto"><table id="sc-table"></table></div>
+      <div class="note">Click any column to sort. Recent leads have had less time to reach MQL / SQL.</div></div>`;
+  $('sc-plat').onchange=e=>{plat=e.target.value; draw();};
+  $('sc-prod').onchange=e=>{prod=e.target.value; draw();};
+  $('sc-q').oninput=e=>{q=e.target.value.trim().toLowerCase(); draw();};
+  draw();
+})();
 // ---------- funnel
 if (!R.funnel.configured) {
   $('funnel-body').innerHTML = '<div class="card muted">The funnel sheet is not connected yet. Once it is, this shows leads → SQL → sales, cost per SQL, revenue and ROI per product, with a scale / hold / watch / fix-or-cut verdict.</div>';

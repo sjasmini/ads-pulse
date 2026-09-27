@@ -339,7 +339,7 @@ def crm_funnel(rows):
             "facebook_untagged": sum(1 for x in meta_leads if not x["matched"]),
             "bad_dates": bad_dates, "revenue_available": bool(fees),
             "fees_known": sorted(fees), "platforms": platforms, "products": products,
-            "campaigns": campaigns[:150], "adsets": adsets[:250], "ads": ads[:300], "keywords": keywords[:60],
+            "campaigns": campaigns, "adsets": adsets[:250], "ads": ads[:300], "keywords": keywords[:60],
             "by_source": by_source, "callouts": callouts[:8],
             "unmatched_campaign_names": [k for k, _ in collections.Counter(
                 x["campaign"] for x in leads if not x["matched"] and x["campaign"]).most_common(15)]}
