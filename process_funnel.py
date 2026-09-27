@@ -74,43 +74,107 @@ def verdict_for(spend, leads, roi):
 
 
 def stage_level(s):
+    """'Level 3 FP (Future Prospect)' -> 3, 'Level 2a' -> 2; Closed / Hold / Created / DNR / Level R -> 0."""
     m = re.search(r"(?i)level\s*(\d)", s or "")
     return int(m.group(1)) if m else 0
 
 
-def crm_funnel(rows):
-    """Lead-level LeadSquared dump -> funnel per product / campaign / source over the last N days of leads.
+def norm(s):
+    return re.sub(r"[^a-z0-9]", "", (s or "").lower())
 
-    SQL = reached Level 3+, MQL = Level 2+, Sale = Level 5 (current or old stage, so Closed/Lost leads keep the
-    highest level they reached). Leads are matched to ad campaigns by exact campaign name; spend is the same
-    window's spend for those campaigns (raw/spend_60d.json, raw/google_spend_60d.json)."""
+
+def toks(s):
+    return tuple(sorted(t for t in re.split(r"[^a-z0-9]+", (s or "").lower()) if t))
+
+
+class NameMatcher:
+    """Matches a UTM campaign / ad-group value from the CRM to the ad platform's name.
+
+    Order: exact (ignoring case, spaces and punctuation) -> same words in any order
+    (SC_FRM_CertPrep_PanIndia = SC_Certprep_FRM_PanIndia) -> unique prefix (UTM values cut at 50 characters,
+    or PWC_FAP_Perf -> PWC_FAP_Perf_AdGroup)."""
+
+    def __init__(self, names):
+        self.exact, self.words = {}, collections.defaultdict(set)
+        for n in names:
+            self.exact.setdefault(norm(n), n)
+            self.words[toks(n)].add(n)
+        self.keys = sorted(self.exact)
+
+    def get(self, value):
+        k = norm(value)
+        if not k:
+            return None
+        if k in self.exact:
+            return self.exact[k]
+        w = self.words.get(toks(value))
+        if w and len(w) == 1:
+            return next(iter(w))
+        if len(k) >= 10:
+            hits = [x for x in self.keys if x.startswith(k)]
+            if len(hits) == 1:
+                return self.exact[hits[0]]
+        return None
+
+
+def crm_funnel(rows):
+    """Lead-level LeadSquared extract -> Lead / MQL / SQL / enrolled with cost per stage at product, campaign,
+    ad set (Meta) / ad group (Google) and ad (Meta) level.
+
+    MQL = reached Level 2+, SQL = Level 3+ (3, 3a, 3 FP, 4), enrolled = Level 5, using the higher of Lead Stage and
+    Old Lead Stage so Closed/Lost leads keep the level they reached. Spend comes from Windsor pulls for EXACTLY the
+    dates the lead sheet covers (raw/meta_ads_window.json, raw/google_adgroups_window.json) — never a longer window,
+    which would inflate every cost per lead / SQL."""
     cfg = SETTINGS.get("crm", {})
-    days = cfg.get("window_days", 60)
     fees = cfg.get("program_fees", {})
     pmap = cfg.get("program_map", {})
+    excl = set(cfg.get("exclude_accounts", ["MyCaptain"]))
     hdr = {k.lower().strip(): k for k in rows[0]}
     g = lambda r, *names: next((r.get(hdr[n], "") for n in names if n in hdr), "")
-    cut = dstr(ist_today() - dt.timedelta(days=days))
-
-    spend = {}
-    for r in raw("spend_60d.json"):
-        spend[("meta", r["campaign"].strip().lower())] = (r["campaign"], num(r.get("spend")), num(r.get("actions_lead")))
-    for r in raw("google_spend_60d.json"):
-        spend[("google", r["campaign"].strip().lower())] = (r["campaign"], num(r.get("cost")), num(r.get("conversions")))
-    by_name = {}
-    for (plat, low), v in spend.items():
-        by_name.setdefault(low, (plat,) + v)
 
     def parse_date(x):
         x = (x or "").strip()
         for cand in (x, x.split(" ")[0], x[:19], x[:16]):
-            for fmt in ("%Y-%m-%d %H:%M:%S", "%Y-%m-%d %H:%M", "%Y-%m-%d", "%d/%m/%Y %H:%M:%S", "%d/%m/%Y %H:%M",
-                        "%d/%m/%Y", "%d-%m-%Y", "%d-%b-%Y", "%d %b %Y", "%Y/%m/%d", "%d-%b-%y"):
+            for fmt in ("%Y-%m-%d %I:%M:%S %p", "%Y-%m-%d %H:%M:%S", "%Y-%m-%d %H:%M", "%Y-%m-%d",
+                        "%d/%m/%Y %H:%M:%S", "%d/%m/%Y %H:%M", "%d/%m/%Y", "%d-%m-%Y", "%d-%b-%Y", "%d %b %Y",
+                        "%Y/%m/%d", "%d-%b-%y"):
                 try:
                     return dt.datetime.strptime(cand, fmt).date()
                 except ValueError:
                     pass
         return None
+
+    # ---- ad platform spend for the lead window (ad level for Meta, ad group level for Google)
+    meta = [r for r in raw("meta_ads_window.json") if r.get("account_name") not in excl]
+    goog = [r for r in raw("google_adgroups_window.json") if r.get("account_name") not in excl]
+    if not meta and not goog:
+        fail("no window spend files (raw/meta_ads_window.json / raw/google_adgroups_window.json)", 6)
+    sp = collections.defaultdict(lambda: collections.Counter())      # key -> spend / platform_leads / clicks / impr
+    camp_plat = {}
+    for r in meta:
+        c, s, a = r["campaign"], r.get("adset_name") or "", r.get("ad_name") or ""
+        v = {"spend": num(r.get("spend")), "platform_leads": num(r.get("actions_lead")),
+             "clicks": num(r.get("actions_link_click")), "impressions": num(r.get("impressions"))}
+        for key in (("c", c), ("s", c, s), ("a", c, s, a)):
+            sp[key].update(v)
+        camp_plat[c] = "meta"
+    for r in goog:
+        c, s = r["campaign"], r.get("ad_group_name") or ""
+        v = {"spend": num(r.get("cost")), "platform_leads": num(r.get("conversions")),
+             "clicks": num(r.get("clicks")), "impressions": num(r.get("impressions"))}
+        for key in (("c", c), ("s", c, s)):
+            sp[key].update(v)
+        camp_plat.setdefault(c, "google")
+    meta_c = NameMatcher([c for c, p in camp_plat.items() if p == "meta"])
+    goog_c = NameMatcher([c for c, p in camp_plat.items() if p == "google"])
+    sets = collections.defaultdict(list); ads_of = collections.defaultdict(list)
+    for k in sp:
+        if k[0] == "s":
+            sets[k[1]].append(k[2])
+        elif k[0] == "a":
+            ads_of[(k[1], k[2])].append(k[3])
+    set_m = {c: NameMatcher(v) for c, v in sets.items()}
+    ad_m = {cs: NameMatcher(v) for cs, v in ads_of.items()}
 
     leads, bad_dates = [], 0
     for r in rows:
@@ -118,74 +182,123 @@ def crm_funnel(rows):
         if d is None:
             bad_dates += 1
             continue
-        if dstr(d) < cut:
-            continue
         lvl = max(stage_level(g(r, "lead stage")), stage_level(g(r, "old lead stage")))
-        # Meta leads carry the campaign in "Campaign Name"; Google leads carry it in "Campaign Program"
-        camp, hit = "", None
-        for cand in (g(r, "campaign name"), g(r, "campaign program")):
-            cand = (cand or "").strip()
-            if cand and not camp:
-                camp = cand
-            if cand and by_name.get(cand.lower()):
-                camp, hit = cand, by_name[cand.lower()]
+        cn, cprog = (g(r, "campaign name") or "").strip(), (g(r, "campaign program") or "").strip()
+        camp = plat = None
+        for cand in (cn, cprog):          # Meta leads carry the campaign in Campaign Name, Google in Campaign Program
+            for m, p in ((meta_c, "meta"), (goog_c, "google")):
+                hit = m.get(cand)
+                if hit:
+                    camp, plat = hit, p
+                    break
+            if camp:
                 break
+        agv, adv = (g(r, "ad_group") or "").strip(), (g(r, "keyword utm term") or "").strip()
+        adset = set_m[camp].get(agv) if camp in set_m else None
+        ad = ad_m[(camp, adset)].get(adv) if plat == "meta" and adset and (camp, adset) in ad_m else None
         program = (g(r, "pr", "pr2", "program") or "").strip()
-        product = pmap.get(program) or (product_of(hit[1]) if hit else None) or program or "Unknown"
+        product = pmap.get(program) or (product_of(camp) if camp else None) or program or "Unknown"
         leads.append({"date": dstr(d), "source": (g(r, "pls", "lead source") or "Unknown").strip() or "Unknown",
-                      "campaign": camp, "matched": bool(hit), "platform": hit[0] if hit else None,
-                      "adgroup": (g(r, "ad_group") or "").strip(), "ad": (g(r, "keyword utm term") or "").strip(),
-                      "program": program, "product": product,
-                      "location": (g(r, "gr", "city") or "").strip(), "level": lvl,
+                      "campaign": camp or cn or cprog, "matched": bool(camp), "platform": plat,
+                      "adset": adset, "adset_raw": agv, "ad": ad, "keyword": adv if plat == "google" else "",
+                      "program": program, "product": product, "level": lvl,
                       "mql": lvl >= 2, "sql": lvl >= 3, "sale": lvl >= 5})
+    dates = sorted(x["date"] for x in leads)
+    first, last = (dates[0], dates[-1]) if dates else (None, None)
 
-    def roll(items, spend_total=None):
+    def roll(items, s=None):
+        s = s or {}
+        spend = s.get("spend", 0.0)
         n = len(items)
         mql = sum(x["mql"] for x in items); sql = sum(x["sql"] for x in items); sale = sum(x["sale"] for x in items)
         fee_of = lambda x: fees.get(x["program"], fees.get(x["product"]))
         rev = sum(fee_of(x) or 0 for x in items if x["sale"])
         missing_fee = any(fee_of(x) is None for x in items if x["sale"])
-        sp = spend_total or 0
-        # ROI only when every enrolment in the group has a known fee; otherwise it would look falsely low
-        roi = (rev / sp) if (sp and fees and not missing_fee and (sale or items)) else None
-        return {"leads": n, "mql": mql, "sql": sql, "sales": sale, "sql_pct": sql / n if n else None,
-                "sale_pct": sale / n if n else None, "spend": round(sp, 2),
-                "cost_per_lead": round(sp / n, 2) if sp and n else None,
-                "cost_per_sql": round(sp / sql, 2) if sp and sql else None,
-                "cost_per_sale": round(sp / sale, 2) if sp and sale else None,
-                "revenue": rev if fees else None, "roi": round(roi, 2) if roi is not None else None}
+        roi = (rev / spend) if (spend and fees and n and not missing_fee) else None
+        c = lambda k: round(spend / k, 2) if spend and k else None
+        pl = s.get("platform_leads", 0.0)
+        return {"spend": round(spend, 2), "platform_leads": round(pl, 1), "platform_cpl": c(pl),
+                "leads": n, "mql": mql, "sql": sql, "sales": sale,
+                "mql_pct": mql / n if n else None, "sql_pct": sql / n if n else None,
+                "sale_pct": sale / n if n else None,
+                "cost_per_lead": c(n), "cost_per_mql": c(mql), "cost_per_sql": c(sql), "cost_per_sale": c(sale),
+                "revenue": rev if fees else None, "roi": round(roi, 2) if roi is not None else None,
+                "fee_missing": missing_fee}
 
-    # campaign level (paid, matched)
-    camp_rows = collections.defaultdict(list)
-    for x in leads:
-        if x["matched"]:
-            camp_rows[x["campaign"].lower()].append(x)
+    paid = [x for x in leads if x["matched"]]
+    # ---- campaign level: every campaign with spend in the window, with or without CRM leads
+    by_c = collections.defaultdict(list)
+    for x in paid:
+        by_c[x["campaign"]].append(x)
     campaigns = []
-    for low, items in camp_rows.items():
-        plat, name, sp, pl = by_name[low]
-        c = {"campaign": name, "platform": plat, "product": product_of(name), "platform_leads": pl, **roll(items, sp)}
-        c["verdict"] = verdict_for(sp, c["leads"], c["roi"])
-        campaigns.append(c)
-    # campaigns with spend but no CRM leads -> check tagging
-    for low, (plat, name, sp, pl) in by_name.items():
-        if low not in camp_rows and sp >= 5 * threshold(plat):
-            campaigns.append({"campaign": name, "platform": plat, "product": product_of(name), "platform_leads": pl,
-                              **roll([], sp), "verdict": "check tagging"})
+    for c, p in camp_plat.items():
+        row = {"campaign": c, "platform": p, "product": product_of(c), **roll(by_c.get(c, []), sp[("c", c)])}
+        if row["spend"] <= 0 and not row["leads"]:
+            continue
+        row["verdict"] = verdict_for(row["spend"], row["leads"], row["roi"])
+        campaigns.append(row)
     campaigns.sort(key=lambda c: -c["spend"])
 
-    # product level: paid spend of matched campaigns + all CRM leads of that product that came from those campaigns
-    prod = collections.defaultdict(lambda: {"items": [], "spend": 0.0, "untracked": 0.0})
-    for c in campaigns:   # spend counts only where the campaign's leads reach the CRM; the rest is "untracked"
-        prod[c["product"]]["spend" if c["leads"] else "untracked"] += c["spend"]
-    for x in leads:
-        if x["matched"]:
-            prod[product_of(x["campaign"])]["items"].append(x)
+    # ---- ad set (Meta) / ad group (Google) level
+    by_s = collections.defaultdict(list)
+    for x in paid:
+        by_s[(x["campaign"], x["adset"])].append(x)
+    adsets = []
+    for k, s in sp.items():
+        if k[0] != "s":
+            continue
+        row = {"campaign": k[1], "adset": k[2], "platform": camp_plat[k[1]], "product": product_of(k[1]),
+               **roll(by_s.get((k[1], k[2]), []), s)}
+        if row["spend"] > 0 or row["leads"]:
+            adsets.append(row)
+    for (c, s), items in by_s.items():          # CRM leads whose ad-group value matches no ad group
+        if s is None:
+            adsets.append({"campaign": c, "adset": "(ad group not identified)", "platform": camp_plat[c],
+                           "product": product_of(c), **roll(items)})
+    adsets.sort(key=lambda a: -a["spend"])
+
+    # ---- ad level (Meta: utm term = ad name)
+    by_a = collections.defaultdict(list)
+    for x in paid:
+        if x["ad"]:
+            by_a[(x["campaign"], x["adset"], x["ad"])].append(x)
+    ads = []
+    for k, s in sp.items():
+        if k[0] != "a":
+            continue
+        row = {"campaign": k[1], "adset": k[2], "ad": k[3], "platform": "meta", "product": product_of(k[1]),
+               **roll(by_a.get(k[1:], []), s)}
+        if row["spend"] > 0 or row["leads"]:
+            ads.append(row)
+    ads.sort(key=lambda a: -a["spend"])
+
+    # ---- Google keywords (no keyword spend pulled; lead quality only)
+    by_k = collections.defaultdict(list)
+    for x in paid:
+        if x["platform"] == "google" and x["keyword"]:
+            by_k[(x["campaign"], x["keyword"].lower())].append(x)
+    keywords = sorted(({"campaign": k[0], "keyword": k[1], "platform": "google", "product": product_of(k[0]),
+                        **roll(v)} for k, v in by_k.items() if len(v) >= 10), key=lambda a: -a["leads"])
+
+    # ---- product level
+    prod_sp = collections.Counter(); prod_items = collections.defaultdict(list)
+    for c in campaigns:
+        prod_sp[c["product"]] += c["spend"]
+    for x in paid:
+        prod_items[product_of(x["campaign"])].append(x)
     products = []
-    for p, v in prod.items():
-        row = {"product": p, **roll(v["items"], v["spend"]), "untracked_spend": round(v["untracked"], 2)}
-        row["verdict"] = verdict_for(row["spend"] or row["untracked_spend"], row["leads"], row["roi"])
+    for p in set(prod_sp) | set(prod_items):
+        row = {"product": p, **roll(prod_items.get(p, []), {"spend": prod_sp[p], "platform_leads": sum(
+            c["platform_leads"] for c in campaigns if c["product"] == p)})}
+        row["verdict"] = verdict_for(row["spend"], row["leads"], row["roi"])
         products.append(row)
     products.sort(key=lambda x: -x["spend"])
+
+    platforms = []
+    for p in ("meta", "google"):
+        platforms.append({"platform": p, **roll([x for x in paid if x["platform"] == p], {
+            "spend": sum(c["spend"] for c in campaigns if c["platform"] == p),
+            "platform_leads": sum(c["platform_leads"] for c in campaigns if c["platform"] == p)})})
 
     by_source = []
     for src in sorted({x["source"] for x in leads}):
@@ -193,48 +306,41 @@ def crm_funnel(rows):
         by_source.append({"source": src, "matched": sum(x["matched"] for x in items), **roll(items)})
     by_source.sort(key=lambda s: -s["leads"])
 
-    # ad set / ad group level (audience SQL rate), paid only, 10+ leads
-    ag = collections.defaultdict(list)
-    for x in leads:
-        if x["matched"] and x["adgroup"]:
-            ag[(x["campaign"], x["adgroup"])].append(x)
-    ad = collections.defaultdict(list)   # Meta: utm term carries the ad name
-    for x in leads:
-        if x["matched"] and x["platform"] == "meta" and x["ad"]:
-            ad[(x["campaign"], x["ad"])].append(x)
-    ads = sorted(({"campaign": k[0], "ad": k[1], **roll(v)} for k, v in ad.items() if len(v) >= 10),
-                 key=lambda a: -a["leads"])
-    adgroups = sorted(({"campaign": k[0], "adgroup": k[1], **roll(v)} for k, v in ag.items() if len(v) >= 10),
-                      key=lambda a: -a["leads"])
-
     callouts = []
-    good = [c for c in campaigns if c["leads"] >= 20 and c["cost_per_lead"]]
+    good = [c for c in campaigns if c["leads"] >= 20 and c["cost_per_sql"]]
     if good:
-        cl = min(good, key=lambda c: c["cost_per_lead"])
-        withsql = [c for c in good if c["cost_per_sql"]]
-        if withsql:
-            cs = min(withsql, key=lambda c: c["cost_per_sql"])
-            if cl["campaign"] != cs["campaign"]:
-                callouts.append(f"Cheapest lead is not the cheapest SQL: '{cl['campaign']}' has the lowest cost per CRM "
-                                f"lead ({fmt_money(cl['cost_per_lead'])}) but '{cs['campaign']}' has the lowest cost per "
-                                f"SQL ({fmt_money(cs['cost_per_sql'])}).")
-    ags = [a for a in adgroups if a["leads"] >= 20]
-    if len(ags) >= 6:
-        rates = sorted(a["sql_pct"] for a in ags)
-        lo, hi = rates[len(rates) // 4], rates[(3 * len(rates)) // 4]
-        for a in ags[:40]:
-            if a["sql_pct"] <= lo and a["leads"] >= 40:
-                callouts.append(f"Low-quality volume: '{a['adgroup']}' ({a['campaign']}) — {a['leads']} leads, "
-                                f"SQL rate {a['sql_pct']:.0%}.")
-            elif a["sql_pct"] >= hi and a["sql_pct"] > 0:
-                callouts.append(f"Hidden gem: '{a['adgroup']}' ({a['campaign']}) — SQL rate {a['sql_pct']:.0%} "
-                                f"on {a['leads']} leads.")
+        cl = min(good, key=lambda c: c["cost_per_lead"]); cs = min(good, key=lambda c: c["cost_per_sql"])
+        if cl["campaign"] != cs["campaign"]:
+            callouts.append(f"Cheapest lead is not the cheapest SQL: '{cl['campaign']}' has the lowest cost per CRM "
+                            f"lead ({fmt_money(cl['cost_per_lead'])}, cost per SQL {fmt_money(cl['cost_per_sql'])}) "
+                            f"but '{cs['campaign']}' has the lowest cost per SQL ({fmt_money(cs['cost_per_sql'])}).")
+    zero = [a for a in ads if a["leads"] >= 25 and a["sql"] == 0]
+    for a in sorted(zero, key=lambda a: -a["spend"])[:3]:
+        callouts.append(f"No SQLs: ad '{a['ad']}' ({a['campaign']}) — {a['leads']} CRM leads, "
+                        f"{fmt_money(a['spend'])} spent, 0 SQL.")
+    gems = [a for a in ads if a["leads"] >= 20 and a["cost_per_sql"]]
+    for a in sorted(gems, key=lambda a: a["cost_per_sql"])[:3]:
+        callouts.append(f"Best cost per SQL: ad '{a['ad']}' ({a['campaign']}) — {fmt_money(a['cost_per_sql'])} "
+                        f"per SQL, SQL rate {a['sql_pct']:.0%} on {a['leads']} leads.")
+    wasted = [c for c in campaigns if c["spend"] >= 25000 and not c["leads"]]
+    if wasted:
+        callouts.append(f"{len(wasted)} campaigns spent {fmt_money(sum(c['spend'] for c in wasted))} with no lead "
+                        f"reaching the CRM under their name — check UTM tagging: "
+                        + ", ".join(c["campaign"] for c in wasted[:4]) + ".")
     n = len(leads)
-    matched = sum(x["matched"] for x in leads)
-    return {"configured": True, "mode": "crm", "window_days": days, "leads_in_window": n,
-            "matched_leads": matched, "match_rate": matched / n if n else None, "bad_dates": bad_dates,
-            "revenue_available": bool(fees), "products": products, "campaigns": campaigns[:80],
-            "by_source": by_source, "adgroups": adgroups[:60], "ads": ads[:60], "callouts": callouts[:8],
+    matched = len(paid)
+    meta_leads = [x for x in leads if x["source"] == "Facebook"]
+    return {"configured": True, "mode": "crm", "window_start": first, "window_end": last,
+            "window_days": (ddate(last) - ddate(first)).days + 1 if first else 0,
+            "leads_in_window": n, "matched_leads": matched, "match_rate": matched / n if n else None,
+            "adset_match_rate": sum(1 for x in paid if x["adset"]) / matched if matched else None,
+            "ad_match_rate": (sum(1 for x in paid if x["ad"]) / sum(1 for x in paid if x["platform"] == "meta")
+                              if any(x["platform"] == "meta" for x in paid) else None),
+            "facebook_untagged": sum(1 for x in meta_leads if not x["matched"]),
+            "bad_dates": bad_dates, "revenue_available": bool(fees),
+            "fees_known": sorted(fees), "platforms": platforms, "products": products,
+            "campaigns": campaigns[:150], "adsets": adsets[:250], "ads": ads[:300], "keywords": keywords[:60],
+            "by_source": by_source, "callouts": callouts[:8],
             "unmatched_campaign_names": [k for k, _ in collections.Counter(
                 x["campaign"] for x in leads if not x["matched"] and x["campaign"]).most_common(15)]}
 
@@ -242,6 +348,9 @@ def crm_funnel(rows):
 def funnel(spend_by_product):
     rows = read_csv("funnel.csv")
     if rows is None:
+        prev = read_json(os.path.join(REPORTS, "funnel.json"), {}).get("funnel", {})
+        if prev.get("configured"):   # keep the last good funnel instead of blanking it (pipeline keeps the old report)
+            fail("funnel sheet not downloaded today; keeping the previous funnel report", 7)
         return {"configured": False, "products": []}
     keys = {k.lower().strip() for k in rows[0]}
     if "prospect id" in keys and "lead stage" in keys:

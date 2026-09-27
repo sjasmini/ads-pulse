@@ -84,6 +84,7 @@ button:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
 .bar i{display:block;height:100%;background:var(--accent)}
 .stage{font:500 11px/1 var(--mono)}
 .tag{display:inline-block;font-size:11px;padding:2px 6px;border-radius:4px;background:var(--sunk);color:var(--muted);margin:2px 4px 2px 0}
+.rec,.card,p{overflow-wrap:anywhere}
 footer{color:var(--muted);font-size:12px;border-top:1px solid var(--line);padding-top:16px;margin-top:40px}
 @media (max-width:600px){h1{font-size:23px}.wrap{padding-inline:16px}}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
@@ -201,15 +202,56 @@ if (!R.funnel.configured) {
   $('funnel-body').innerHTML = '<div class="card muted">The funnel sheet is not connected yet. Once it is, this shows leads → SQL → sales, cost per SQL, revenue and ROI per product, with a scale / hold / watch / fix-or-cut verdict.</div>';
 } else if (R.funnel.mode === 'crm') {
   const F = R.funnel, num = v => v==null?'–':Math.round(v).toLocaleString('en-IN');
-  const prow = p => `<tr><td>${esc(p.product||p.campaign||p.source||p.adgroup)}</td><td class="n">${money(p.spend)}</td><td class="n">${num(p.leads)}</td><td class="n">${num(p.mql)}</td><td class="n">${num(p.sql)}</td><td class="n">${pct(p.sql_pct)}</td><td class="n">${num(p.sales)}</td><td class="n">${money(p.cost_per_sql)}</td><td class="n">${money(p.cost_per_sale)}</td><td class="n">${F.revenue_available?money(p.revenue):'–'}</td><td class="n"><b>${p.roi==null?'–':p.roi.toFixed(2)+'×'}</b></td><td>${esc(p.verdict||'')}</td></tr>`;
-  const head = first => `<thead><tr><th>${first}</th><th class="n">Ad spend</th><th class="n">CRM leads</th><th class="n">MQL</th><th class="n">SQL</th><th class="n">SQL %</th><th class="n">Enrolled</th><th class="n">Cost / SQL</th><th class="n">Cost / enrolment</th><th class="n">Revenue</th><th class="n">ROI</th><th>Verdict</th></tr></thead>`;
-  $('funnel-body').innerHTML = `<p class="muted">LeadSquared leads created in the last ${F.window_days} days. MQL = Level 2+, SQL = Level 3+, enrolled = Level 5 (Closed/Lost leads keep the highest level they reached). ${num(F.matched_leads)} of ${num(F.leads_in_window)} leads (${pct(F.match_rate)}) carry a campaign name that matches an ad campaign; spend is those campaigns' spend over the same ${F.window_days} days.${F.revenue_available?'':' Revenue and ROI appear once program fees are added.'}</p>
+  const t = R.thresholds;
+  const COLS = [['spend','Ad spend','m'],['platform_leads','Platform leads','n'],['platform_cpl','Platform CPL','m'],['leads','CRM leads','n'],['cost_per_lead','CPL (CRM)','m'],
+    ['mql','MQL','n'],['mql_pct','MQL %','p'],['cost_per_mql','Cost / MQL','m'],['sql','SQL','n'],['sql_pct','SQL %','p'],['cost_per_sql','Cost / SQL','m'],
+    ['sales','Enrolled','n'],['cost_per_sale','Cost / enrolment','m'],['roi','ROI','r']];
+  const cell = (row,[k,,f]) => { const v=row[k]; const txt = f==='m'?money(v):f==='p'?pct(v):f==='r'?(v==null?'–':v.toFixed(2)+'×'):num(v);
+    const red = k==='platform_cpl' && v!=null && v > (row.platform==='google'?t.google:t.meta);
+    const zero = (k==='sql') && row.leads>=20 && !row.sql;
+    return `<td class="n${red||zero?' red':''}">${txt}</td>`; };
+  const LEVELS = {
+    product:{label:'Product', rows:F.products, name:r=>esc(r.product)},
+    campaign:{label:'Campaign', rows:F.campaigns, name:r=>`${esc(r.campaign)}<div class="muted" style="font-size:11px">${r.platform} · ${esc(r.product)}</div>`},
+    adset:{label:'Ad set / ad group', rows:F.adsets||[], name:r=>`${esc(r.adset)}<div class="muted" style="font-size:11px">${r.platform} · ${esc(r.campaign)}</div>`},
+    ad:{label:'Ad (Meta)', rows:F.ads||[], name:r=>`${esc(r.ad)}<div class="muted" style="font-size:11px">${esc(r.adset)} · ${esc(r.campaign)}</div>`},
+    keyword:{label:'Keyword (Google, no spend)', rows:F.keywords||[], name:r=>`${esc(r.keyword)}<div class="muted" style="font-size:11px">${esc(r.campaign)}</div>`}};
+  let lvl='campaign', sortK='spend', sortDir=-1, q='';
+  const draw = () => {
+    const L = LEVELS[lvl];
+    let rows = L.rows.filter(r => !q || JSON.stringify([r.product,r.campaign,r.adset,r.ad,r.keyword]).toLowerCase().includes(q));
+    rows = rows.slice().sort((a,b)=>{const x=a[sortK],y=b[sortK]; if(x==null&&y==null)return 0; if(x==null)return 1; if(y==null)return -1; return (x>y?1:x<y?-1:0)*sortDir;});
+    $('fl-table').innerHTML = `<thead><tr><th>${L.label}</th>${COLS.map(c=>`<th class="n" data-k="${c[0]}" style="cursor:pointer">${c[1]}${sortK===c[0]?(sortDir<0?' ▾':' ▴'):''}</th>`).join('')}</tr></thead>
+      <tbody>${rows.slice(0,300).map(r=>`<tr><td class="name">${L.name(r)}</td>${COLS.map(c=>cell(r,c)).join('')}</tr>`).join('') || `<tr><td colspan="15" class="muted">No rows.</td></tr>`}</tbody>`;
+    $('fl-count').textContent = `${rows.length.toLocaleString('en-IN')} rows${rows.length>300?' (first 300 shown)':''}`;
+    document.querySelectorAll('#fl-table th[data-k]').forEach(th=>th.onclick=()=>{const k=th.dataset.k; if(sortK===k)sortDir=-sortDir; else {sortK=k; sortDir=-1;} draw();});
+    document.querySelectorAll('#fl-levels button').forEach(b=>b.className = b.dataset.l===lvl?'':'ghost');
+  };
+  const plat = F.platforms||[];
+  $('funnel-body').innerHTML = `<p class="muted">LeadSquared leads created ${F.window_start||''} to ${F.window_end||''} (${F.window_days} days), with ad spend pulled for exactly the same dates.
+    MQL = reached Level 2+, SQL = Level 3+ (incl. 3a / 3 FP / 4), enrolled = Level 5; Closed/Lost leads keep the highest level they reached.
+    ${num(F.matched_leads)} of ${num(F.leads_in_window)} leads (${pct(F.match_rate)}) match an ad campaign; of those, ${pct(F.adset_match_rate)} match an ad set / ad group and ${pct(F.ad_match_rate)} of Meta leads match an exact ad.
+    ${num(F.facebook_untagged)} Facebook leads carry no campaign name, so they can't be tied to an ad. Recent leads have had less time to move up levels.
+    ROI uses program fees for ${esc((F.fees_known||[]).join(', '))}; other products show – until their fee is added.</p>
+  <div class="grid2" style="margin-bottom:12px">${plat.map(p=>`<div class="card"><div class="eyebrow">${p.platform==='meta'?'Meta':'Google'} · ${F.window_days} days</div>
+    <div class="kpis" style="margin-top:8px">
+    <div class="kpi"><div class="v">${money(p.spend)}</div><div class="l">spend</div></div>
+    <div class="kpi"><div class="v">${money(p.platform_cpl)}</div><div class="l">platform CPL</div></div>
+    <div class="kpi"><div class="v">${money(p.cost_per_lead)}</div><div class="l">CPL (CRM, ${num(p.leads)})</div></div>
+    <div class="kpi"><div class="v">${money(p.cost_per_mql)}</div><div class="l">per MQL (${num(p.mql)})</div></div>
+    <div class="kpi"><div class="v">${money(p.cost_per_sql)}</div><div class="l">per SQL (${num(p.sql)})</div></div>
+    <div class="kpi"><div class="v">${money(p.cost_per_sale)}</div><div class="l">per enrolment (${num(p.sales)})</div></div></div></div>`).join('')}</div>
   ${(F.callouts||[]).map(c=>`<div class="rec">${esc(c)}</div>`).join('')}
-  <div class="card scroll"><table>${head('Product')}<tbody>${F.products.map(prow).join('')}</tbody></table></div>
-  <div class="grid2" style="margin-top:12px"><div class="card scroll"><h3 style="margin-bottom:6px">By lead source (PLS)</h3><table><thead><tr><th>Source</th><th class="n">Leads</th><th class="n">Matched to ads</th><th class="n">SQL %</th><th class="n">Enrolled</th></tr></thead><tbody>${F.by_source.map(x=>`<tr><td>${esc(x.source)}</td><td class="n">${num(x.leads)}</td><td class="n">${num(x.matched)}</td><td class="n">${pct(x.sql_pct)}</td><td class="n">${num(x.sales)}</td></tr>`).join('')}</tbody></table></div>
-  <div class="card"><h3 style="margin-bottom:6px">Campaign names in CRM with no matching ad campaign</h3>${(F.unmatched_campaign_names||[]).map(x=>`<span class="tag">${esc(x)}</span>`).join('') || '<span class="muted">None</span>'}</div></div>
-  <details><summary>By campaign (${F.campaigns.length})</summary><div class="scroll"><table>${head('Campaign')}<tbody>${F.campaigns.map(prow).join('')}</tbody></table></div></details>
-  <details><summary>By ad set / ad group (${F.adgroups.length})</summary><div class="scroll"><table>${head('Ad set / ad group')}<tbody>${F.adgroups.map(a=>prow({...a, adgroup:a.adgroup+' · '+a.campaign})).join('')}</tbody></table></div></details>`;
+  <div class="card" style="margin-top:12px"><div style="display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:space-between">
+    <div id="fl-levels" style="display:flex;flex-wrap:wrap;gap:6px">${Object.entries(LEVELS).map(([k,v])=>`<button type="button" data-l="${k}">${v.label.replace(' (Google, no spend)','')}</button>`).join('')}</div>
+    <input id="fl-q" placeholder="Filter by name…" style="flex:0 1 240px;min-width:0;font:inherit;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink)"></div>
+    <div class="note" id="fl-count"></div><div class="scroll" style="max-height:640px;overflow:auto;margin-top:8px"><table id="fl-table"></table></div>
+    <div class="note">Click a column to sort. Red platform CPL = above target (Meta ${money(t.meta)}, Google ${money(t.google)}); red SQL = 20+ CRM leads and no SQL. Keywords have no spend (Google spend is pulled at ad-group level).</div></div>
+  <div class="grid2" style="margin-top:12px"><div class="card scroll"><h3 style="margin-bottom:6px">By lead source (PLS), all leads</h3><table><thead><tr><th>Source</th><th class="n">Leads</th><th class="n">Matched to ads</th><th class="n">MQL %</th><th class="n">SQL %</th><th class="n">Enrolled</th></tr></thead><tbody>${F.by_source.map(x=>`<tr><td>${esc(x.source)}</td><td class="n">${num(x.leads)}</td><td class="n">${num(x.matched)}</td><td class="n">${pct(x.mql_pct)}</td><td class="n">${pct(x.sql_pct)}</td><td class="n">${num(x.sales)}</td></tr>`).join('')}</tbody></table></div>
+  <div class="card"><h3 style="margin-bottom:6px">Campaign names in CRM with no matching ad campaign</h3>${(F.unmatched_campaign_names||[]).map(x=>`<span class="tag">${esc(x)}</span>`).join('') || '<span class="muted">None</span>'}</div></div>`;
+  document.querySelectorAll('#fl-levels button').forEach(b=>b.onclick=()=>{lvl=b.dataset.l; draw();});
+  $('fl-q').oninput = e => { q = e.target.value.trim().toLowerCase(); draw(); };
+  draw();
 } else {
   $('funnel-body').innerHTML = `<div class="card scroll"><table><thead><tr><th>Product</th><th class="n">Spend</th><th class="n">Leads</th><th class="n">SQL</th><th class="n">SQL %</th><th class="n">Sales</th><th class="n">Cost / SQL</th><th class="n">Cost / sale</th><th class="n">Revenue</th><th class="n">ROI</th><th>Verdict</th></tr></thead><tbody>
   ${R.funnel.products.map(p=>`<tr><td>${esc(p.product)}</td><td class="n">${money(p.spend)}</td><td class="n">${Math.round(p.leads)}</td><td class="n">${Math.round(p.sql)}</td><td class="n">${pct(p.sql_pct)}</td><td class="n">${Math.round(p.sales)}</td><td class="n">${money(p.cost_per_sql)}</td><td class="n">${money(p.cost_per_sale)}</td><td class="n">${money(p.revenue)}</td><td class="n"><b>${p.roi==null?'–':p.roi.toFixed(2)+'×'}</b></td><td>${esc(p.verdict)}</td></tr>`).join('')}</tbody></table></div>`;

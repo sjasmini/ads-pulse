@@ -37,19 +37,32 @@ immediately with the command shown (`--match` strings pick the right call out of
 | 7 | facebook | account_name, campaign, adset_id, adset_name, ad_id, ad_name, date, spend, impressions, actions_link_click, actions_lead | last_14d | `[["spend","gt",0]]` | `python3 tools/save_tool_result.py --out raw/ad_days.json --match '"adset_name", "ad_id"' --match last_14d` |
 | G1 | google_ads | account_name, account_id, campaign, campaign_status, advertising_channel_type, bidding_strategy_type, date, cost, conversions, clicks, impressions, budget_amount | last_11d | `[["cost","gt",0]]` | `python3 tools/save_tool_result.py --out raw/google_campaign_days.json --match '"advertising_channel_type", "bidding_strategy_type"'` |
 | G2 | google_ads | account_name, date, cost, conversions | last_11d | – | `python3 tools/save_tool_result.py --out raw/google_totals.json --match '"fields": ["account_name", "date", "cost", "conversions"]'` |
-| F1 | facebook | account_name, campaign, spend, actions_lead | last_60d | `[["spend","gt",0]]` | `python3 tools/save_tool_result.py --out raw/spend_60d.json --match '"actions_lead"]' --match last_60d` |
-| F2 | google_ads | account_name, campaign, cost, conversions | last_60d | `[["cost","gt",0]]` | `python3 tools/save_tool_result.py --out raw/google_spend_60d.json --match '"cost", "conversions"]' --match last_60d` |
 
 Notes: `adsset_optimization_goal` has a double "s". Status (#3) only returns delivering entities, so a missing campaign
 means "not delivering". Large results are saved by the harness to a file; the save script finds and copies that file.
 If a save command prints "no matching tool result", repeat the pull once, then treat it as a failed required step.
 
-## 2. Sheets (optional)
+## 2. Lead funnel sheet + matching spend (optional — never blocks the email)
 
-Only if `settings.json → sheets.funnel_file_id` / `creative_file_id` is set (the funnel sheet is the PII-free LeadSquared extract; F1/F2 above give the matching 60-day spend): call Google Drive `download_file_content`
-with that `fileId` and `exportMimeType: "text/csv"` (first tab only), then
-`python3 tools/save_drive_csv.py --name funnel --match '<fileId>'` (or `--name creative`).
-If the helper refuses (personal-data columns), the sheet shows #REF!/#ERROR! instead of a header row, or the download fails, skip it and say so in the log and in the email's Update section ("Lead funnel sheet not readable today") — the funnel step is optional and must never block the email.
+Only if `settings.json → sheets.funnel_file_id` is set (the PII-free LeadSquared extract): call Google Drive
+`download_file_content` with that `fileId` and `exportMimeType: "text/csv"` (first tab only), then
+`python3 tools/save_drive_csv.py --name funnel --match '<fileId>'`.
+If the helper refuses (personal-data columns), the sheet shows #REF!/#ERROR!, or the download fails, skip the rest of
+this step and say so in the log and the email's Update section ("Lead funnel sheet not readable today — showing the last
+funnel"). The pipeline then keeps the previous funnel report.
+
+Then run `python3 tools/lead_window.py`. It prints `date_from=YYYY-MM-DD date_to=YYYY-MM-DD` — the first and last lead
+date in the sheet. Pull spend for **exactly** those dates (`date_from` / `date_to`, not a preset). Never use a longer
+window: dividing more days of spend by fewer days of leads inflates every cost per lead / MQL / SQL.
+
+| # | connector | fields | dates | filters | save with |
+|---|---|---|---|---|---|
+| F1 | facebook | account_name, campaign, adset_name, ad_name, spend, actions_lead, impressions, actions_link_click | date_from / date_to above | `[["spend","gt",0]]` | `python3 tools/save_tool_result.py --out raw/meta_ads_window.json --match '"ad_name", "spend", "actions_lead", "impressions"'` |
+| F2 | google_ads | account_name, campaign, ad_group_name, cost, conversions, clicks, impressions | date_from / date_to above | `[["cost","gt",0]]` | `python3 tools/save_tool_result.py --out raw/google_adgroups_window.json --match '"ad_group_name", "cost"'` |
+
+Leads are matched to campaigns / ad sets / ads by name (ignoring case and punctuation, word order, and UTM values cut
+at 50 characters). Meta: Campaign Name → campaign, ad_group → ad set, Keyword utm term → ad. Google: Campaign Program →
+campaign, ad_group → ad group. MyCaptain accounts are excluded (`crm.exclude_accounts`).
 Never open tabs with names, phone numbers or emails.
 
 ## 3. Pipeline

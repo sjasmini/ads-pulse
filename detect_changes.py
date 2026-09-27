@@ -115,8 +115,8 @@ def diff(prev, cur, change_date_for):
                          ("advantage_plus", "Advantage+ audience"), ("other_detailed", "detailed targeting")):
             if pt.get(k) != ct.get(k):
                 if isinstance(ct.get(k), list) and k != "age":
-                    added = sorted(set(ct.get(k) or []) - set(pt.get(k) or []))
-                    removed = sorted(set(pt.get(k) or []) - set(ct.get(k) or []))
+                    added = sorted({str(x) for x in (ct.get(k) or [])} - {str(x) for x in (pt.get(k) or [])})
+                    removed = sorted({str(x) for x in (pt.get(k) or [])} - {str(x) for x in (ct.get(k) or [])})
                     det = "; ".join(x for x in (("+ " + ", ".join(added[:6])) if added else "",
                                                 ("− " + ", ".join(removed[:6])) if removed else "") if x)
                 else:
