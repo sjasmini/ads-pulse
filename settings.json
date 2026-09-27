@@ -180,11 +180,17 @@
   "lead_overrides": [],
   "recipients": {
     "to": [
-      "jasmini.vinarkar@imarticus.com"
+      "jasmini.vinarkar@imarticus.com",
+      "bhaskar.narkar@imarticus.com",
+      "shreyas.patil@imarticus.com",
+      "shubham.shukla@imarticus.com",
+      "satendra.patel@imarticus.com",
+      "nikhil.dubey@imarticus.com",
+      "sudheer.a@mycaptain.in"
     ],
     "cc": [],
     "me": "sjasmini29@gmail.com",
-    "team_mode": false
+    "team_mode": true
   },
   "dashboard_url": "https://claude.ai/artifact/DFBSWXF9Tao3ThJpNMUJeV",
   "sheets": {
