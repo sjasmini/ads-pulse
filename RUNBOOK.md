@@ -71,12 +71,19 @@ Never open tabs with names, phone numbers or emails.
 It exits non-zero if totals don't reconcile (spend ±0.5, Meta leads exact, Google conversions ±0.01) or the newest data
 date isn't yesterday → rule 1. Warnings about optional steps are fine; mention them in the log.
 
-## 4. Republish the dashboard (same URL every run)
+## 4. Republish the dashboards (same URLs every run)
 
-`settings.json → dashboard_url` is the artifact. Call Artifact `action: "read"` on that URL first (a scheduled
-session has not seen it yet), then Artifact publish with `url` = dashboard_url and `file_path` = `out/dashboard.html`.
-Omit `icon` and `capabilities` so the page keeps its icon and its `sample` capability. If publishing fails, keep going
-(the email still goes) and note it in the log and the email is sent without a changed link.
+`settings.json → dashboard_url` is the main artifact (every account except the split ones). Call Artifact
+`action: "read"` on that URL first (a scheduled session has not seen it yet), then Artifact publish with `url` =
+dashboard_url and `file_path` = `out/dashboard.html`.
+
+Then, for each entry in `settings.json → split_dashboards` (currently ISFB: its Meta and Google accounts appear only
+there, not on the main page): read its `url` the same way, then publish `out/<file>` (e.g. `out/dashboard_isfb.html`)
+with `url` = that entry's `url`.
+
+Omit `icon` and `capabilities` so each page keeps its icon and its `sample` capability. If a publish fails, keep going
+(the email still goes) and note which page failed in the log. The email itself still covers all accounts and links to
+every dashboard.
 
 ## 5. Send the email (Gmail connector)
 
@@ -87,7 +94,7 @@ already applies `team_mode`; never add recipients.
 ## 6. Log
 
 Append one line to `history/run_log.md`:
-`- <IST date time> <MODE> data <data_date> | PIPELINE OK | emailed <to> | dashboard <published/failed> | <warnings>`
+`- <IST date time> <MODE> data <data_date> | PIPELINE OK | emailed <to> | dashboards <published/failed, per page> | <warnings>`
 
 ## 7. Save state (history) back to the Engine artifact
 

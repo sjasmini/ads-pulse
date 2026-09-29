@@ -193,6 +193,17 @@
     "team_mode": true
   },
   "dashboard_url": "https://claude.ai/artifact/DFBSWXF9Tao3ThJpNMUJeV",
+  "split_dashboards": [
+    {
+      "key": "isfb",
+      "title": "Ads Pulse · ISFB",
+      "accounts": [
+        "ISFB"
+      ],
+      "file": "dashboard_isfb.html",
+      "url": "https://claude.ai/artifact/1TicGYpVRvnDGfs4qGRfQ5"
+    }
+  ],
   "sheets": {
     "funnel_file_id": "1zc7b0kaPcyqR75zVkFc2sqq4lEFxjG4LPzdqkObgOfY",
     "creative_file_id": ""

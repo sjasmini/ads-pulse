@@ -114,6 +114,33 @@ def actions_for(platform, prod, rc, placement_flags, T):
     return acts[:2]
 
 
+def general_qa(urgent, flags, chg, funnel, creative):
+    """Portfolio-level Ask-box answers; render.py rebuilds these per dashboard scope."""
+    fix_first = urgent[:3]
+    return [
+        {"keys": ["fix first", "priority", "urgent", "what should", "first"], "q": "What should we fix first?",
+         "a": " ".join(f"{i + 1}. {u['product']} ({u['platform'].title()}, {u['account']}): CPL {fmt_money(u['cpl4'])}. "
+                       + (u["actions"][0] if u["actions"] else "") for i, u in enumerate(fix_first)) or "Nothing critical today."},
+        {"keys": ["wast", "burn", "excess", "budget"], "q": "Where are we wasting budget?",
+         "a": " ".join(f"{f['product']} on {f['placement']}: {fmt_money(f['excess_spend'])} above what the product's "
+                       f"CPL would have bought." for f in flags[:4]) or "No placement is wasting budget this week."},
+        {"keys": ["placement", "instagram", "facebook", "reels", "stories", "feed"], "q": "Which placements are a problem?",
+         "a": " ".join(f"{f['product']}: {f['placement']} ({pct(f['share'])} of spend) CPL {fmt_money(f['cpl'])} vs "
+                       f"{fmt_money(f['product_cpl'])} — {f['stage']} stage." for f in flags[:5]) or "No flagged placements."},
+        {"keys": ["chang", "edit", "what changed", "new ad"], "q": "What changed?",
+         "a": f"{chg['recent_count']} changes in the last 7 days. "
+              + " ".join(f"{c['date']} {c['adset_name']}: {c['type']} ({c['detail'][:60]}) — {c['problem']}."
+                         for c in chg["course_corrections"][:3])},
+        {"keys": ["money", "roi", "revenue", "profit", "make money"], "q": "Which products make money?",
+         "a": (" ".join(f"{p['product']}: {p['sales']} enrolled, cost per enrolment {fmt_money(p.get('cost_per_sale'))}"
+                        + (f", ROI {p['roi']}x" if p.get('roi') is not None else "") + f" ({p['verdict']})."
+                        for p in funnel["products"][:6])
+               if funnel["configured"] else "The funnel sheet isn't connected yet, so revenue/ROI isn't available.")},
+        {"keys": ["copy", "creative", "angle", "hook", "works"], "q": "Which copy works?",
+         "a": " ".join(creative.get("callouts", [])) or "Not enough data."},
+    ]
+
+
 def main():
     ing, full = load("ingest.json"), load("full.json")
     plc = load("placement.json", {"products": [], "flags": []})
@@ -203,29 +230,7 @@ def main():
                 lines.append(f"Recent changes: {len(ch)} (latest {ch[-1]['date']}: {ch[-1]['type']} — {ch[-1]['detail'][:80]}).")
             qa.append({"keys": [prod.lower(), a["account"].lower()] + prod.lower().replace("(", " ").replace(")", " ").split(),
                        "q": f"How is {prod} doing?", "a": " ".join(lines)})
-    fix_first = urgent[:3]
-    qa += [
-        {"keys": ["fix first", "priority", "urgent", "what should", "first"], "q": "What should we fix first?",
-         "a": " ".join(f"{i + 1}. {u['product']} ({u['platform'].title()}, {u['account']}): CPL {fmt_money(u['cpl4'])}. "
-                       + (u["actions"][0] if u["actions"] else "") for i, u in enumerate(fix_first)) or "Nothing critical today."},
-        {"keys": ["wast", "burn", "excess", "budget"], "q": "Where are we wasting budget?",
-         "a": " ".join(f"{f['product']} on {f['placement']}: {fmt_money(f['excess_spend'])} above what the product's "
-                       f"CPL would have bought." for f in plc["flags"][:4]) or "No placement is wasting budget this week."},
-        {"keys": ["placement", "instagram", "facebook", "reels", "stories", "feed"], "q": "Which placements are a problem?",
-         "a": " ".join(f"{f['product']}: {f['placement']} ({pct(f['share'])} of spend) CPL {fmt_money(f['cpl'])} vs "
-                       f"{fmt_money(f['product_cpl'])} — {f['stage']} stage." for f in plc["flags"][:5]) or "No flagged placements."},
-        {"keys": ["chang", "edit", "what changed", "new ad"], "q": "What changed?",
-         "a": f"{chg['recent_count']} changes in the last 7 days. "
-              + " ".join(f"{c['date']} {c['adset_name']}: {c['type']} ({c['detail'][:60]}) — {c['problem']}."
-                         for c in chg["course_corrections"][:3])},
-        {"keys": ["money", "roi", "revenue", "profit", "make money"], "q": "Which products make money?",
-         "a": (" ".join(f"{p['product']}: {p['sales']} enrolled, cost per enrolment {fmt_money(p.get('cost_per_sale'))}"
-                        + (f", ROI {p['roi']}x" if p.get('roi') is not None else "") + f" ({p['verdict']})."
-                        for p in fun["funnel"]["products"][:6])
-               if fun["funnel"]["configured"] else "The funnel sheet isn't connected yet, so revenue/ROI isn't available.")},
-        {"keys": ["copy", "creative", "angle", "hook", "works"], "q": "Which copy works?",
-         "a": " ".join(fun["creative"].get("callouts", [])) or "Not enough data."},
-    ]
+    qa += general_qa(urgent, plc["flags"], chg, fun["funnel"], fun["creative"])
 
     report = {"data_date": full["data_date"], "dates4": full["dates4"], "dates11": full["dates11"],
               "generated_ist": str(ist_today()), "thresholds": THRESHOLDS, "currency": CUR,

@@ -63,7 +63,7 @@ def ask_context(r):
     return txt[:52000]
 
 
-def dashboard(r):
+def dashboard(r, fname="dashboard.html", title="Ads Pulse", links=""):
     slim = json.loads(json.dumps(r))
     for a in slim["accounts"]:
         for p in a["products"]:
@@ -76,10 +76,80 @@ def dashboard(r):
     data = json.dumps(slim, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
     ctx = ask_context(r).replace("</", "<\\/")
     tpl = open(os.path.join(ROOT, "templates", "dashboard.html"), encoding="utf-8").read()
-    page = tpl.replace("__REPORT_JSON__", data).replace("__ASK_CONTEXT__", E(ctx, quote=False))
-    with open(os.path.join(OUT, "dashboard.html"), "w", encoding="utf-8") as f:
+    page = (tpl.replace("__REPORT_JSON__", data).replace("__ASK_CONTEXT__", E(ctx, quote=False))
+            .replace("__TITLE__", E(title)).replace("__OTHER_LINKS__", links))
+    with open(os.path.join(OUT, fname), "w", encoding="utf-8") as f:
         f.write(page)
     return len(page)
+
+
+def scope_report(r, in_scope, url, primary):
+    """Copy of the report limited to accounts where in_scope(account_name) is true.
+    Portfolio totals, quick answers and placement/funnel rows are rebuilt from the kept accounts;
+    cross-account sections (lead-source split, copy analysis) stay on the primary dashboard only."""
+    from build_report import general_qa
+    s = json.loads(json.dumps(r))
+    keep = lambda acc: in_scope((acc or "").strip())
+    s["accounts"] = [a for a in s["accounts"] if keep(a["account"])]
+    prods = {p["product"] for a in s["accounts"] for p in a["products"]}
+    meta_prods = {p["product"] for a in s["accounts"] if a["platform"] == "meta" for p in a["products"]}
+    # products that only the excluded accounts run; the primary page keeps everything else
+    other_only = {p["product"] for a in r["accounts"] if not keep(a["account"]) for p in a["products"]} - prods
+    if primary:
+        prod_ok = meta_ok = lambda x: x not in other_only
+    else:
+        prod_ok, meta_ok = (lambda x: x in prods), (lambda x: x in meta_prods)
+    for k in ("urgent", "watch", "scale", "root_cause", "non_lead"):
+        s[k] = [x for x in s[k] if keep(x["account"])]
+    plat = {}
+    for pl in ("meta", "google"):
+        acc = [a for a in s["accounts"] if a["platform"] == pl]
+        sp, ld = sum(a["spend4"] for a in acc), sum(a["leads4"] for a in acc)
+        plat[pl] = {"spend4": round(sp, 2), "leads4": ld, "cpl4": round(sp / ld, 2) if ld else None,
+                    "threshold": THRESHOLDS[pl],
+                    "critical": sum(1 for a in acc for p in a["products"] if p["severity"] == "critical"),
+                    "watch": sum(1 for a in acc for p in a["products"] if p["severity"] == "watch")}
+    s["platform_totals"] = plat
+    names = {a["account"] for a in s["accounts"]}
+    s["weekly"] = {k: [x for x in v if any(x.endswith(f"({n})") for n in names)] for k, v in s["weekly"].items()}
+    s["weekly"] = {k: v for k, v in s["weekly"].items() if v}
+    s["placement"]["products"] = [p for p in s["placement"]["products"] if meta_ok(p["product"])]
+    s["placement"]["flags"] = [f for f in s["placement"]["flags"] if meta_ok(f["product"])]
+    ch = s["changes"]
+    ch["recent"] = [e for e in ch["recent"] if keep(e["account"])]
+    ch["course_corrections"] = [e for e in ch["course_corrections"] if keep(e["account"])]
+    ch["recent_count"] = len(ch["recent"])
+    f = s["funnel"]
+    for k in ("products", "campaigns", "adsets", "ads", "keywords"):
+        if isinstance(f.get(k), list):
+            f[k] = [x for x in f[k] if prod_ok(x.get("product"))]
+    if not primary:
+        f["platforms"], f["by_source"], f["callouts"] = [], [], []
+        s["creative"] = {k: ([] if isinstance(v, list) else v) for k, v in s["creative"].items()}
+    lower = {n.lower() for n in names}
+    qa = [q for q in s["quick_answers"] if q["q"].startswith("How is ") and len(q["keys"]) > 1 and q["keys"][1] in lower]
+    s["quick_answers"] = qa + general_qa(s["urgent"], s["placement"]["flags"], ch, f, s["creative"])
+    s["dashboard_url"] = url
+    return s
+
+
+def dashboards(r):
+    """Main dashboard (dashboard_url) plus one page per settings.split_dashboards entry.
+    Accounts listed in a split are shown only on that split's page."""
+    splits = SETTINGS.get("split_dashboards", [])
+    moved = {x.strip() for sp in splits for x in sp["accounts"]}
+    main_url = SETTINGS.get("dashboard_url", "")
+    pages = [("dashboard.html", "Ads Pulse", main_url, lambda n: n not in moved, True)]
+    for sp in splits:
+        acc = {x.strip() for x in sp["accounts"]}
+        pages.append((sp["file"], sp["title"], sp.get("url", ""), (lambda A: lambda n: n in A)(acc), False))
+    sizes = {}
+    for fname, title, url, fn, primary in pages:
+        others = [(t, u) for f2, t, u, _, _ in pages if f2 != fname and u]
+        links = " · ".join(f'<a href="{E(u)}">{E(t)} dashboard</a>' for t, u in others)
+        rr = scope_report(r, fn, url, primary) if splits else r
+        sizes[fname] = dashboard(rr, fname, title, ("Also: " + links) if links else "")
+    return sizes
 
 
 def product_table(r, min_spend):
@@ -131,6 +201,14 @@ def campaign_table(r, min_spend):
                        f"{cell(E(st), right=False)}</tr>")
     out.append("</table>")
     return "".join(out), hidden
+
+
+def extra_links():
+    out = ""
+    for sp in SETTINGS.get("split_dashboards", []):
+        if sp.get("url"):
+            out += para(f'{E(sp["title"])} dashboard: <a href="{E(sp["url"])}">{E(sp["url"])}</a>')
+    return out
 
 
 def para(t):
@@ -185,7 +263,7 @@ def daily_email(r):
     upd.append(f"Changes detected in the last 7 days: {r['changes']['recent_count']}.")
     link = r.get("dashboard_url") or SETTINGS.get("dashboard_url")
     foot = (para(f'Full detail (campaign trends, placements, changes, root cause, Ask box): '
-                 f'<a href="{E(link)}">{E(link)}</a>') if link else "")
+                 f'<a href="{E(link)}">{E(link)}</a>') if link else "") + extra_links()
     note = para(f'<span style="color:#5B6878;font-size:12px;">{hidden} smaller product rows (under '
                 f'{fmt_money(SETTINGS.get("email_min_spend4", 5000))} in 4 days) are on the dashboard.</span>') if hidden else ""
     body = intro + table + note + h("Summary") + ul(summ) + h("Urgent action") + ul(urgent or ["Nothing critical today."]) \
@@ -221,7 +299,8 @@ def weekly_email(r):
     note = para(f'<span style="color:#5B6878;font-size:12px;">{hidden} campaigns under '
                 f'{fmt_money(SETTINGS.get("weekly_min_spend11", 20000))} in 11 days are on the dashboard.</span>') if hidden else ""
     body = intro + table + note + h("Weekly summary") + ul(summ) + h("Funnel") + ul(fb) + h("Placements") + ul(pb) \
-        + h("What we learned from changes") + ul(lb) + (para(f'Dashboard: <a href="{E(link)}">{E(link)}</a>') if link else "")
+        + h("What we learned from changes") + ul(lb) + (para(f'Dashboard: <a href="{E(link)}">{E(link)}</a>') if link else "") \
+        + extra_links()
     subject = f"Meta + Google Ads Weekly CPL - 11-day campaign view ({dates})"
     return subject, f'<div style="max-width:1100px;">{body}</div>'
 
@@ -229,7 +308,8 @@ def weekly_email(r):
 def main():
     mode = sys.argv[1] if len(sys.argv) > 1 else "daily"
     r = read_json(os.path.join(REPORTS, "report.json"))
-    size = dashboard(r)
+    sizes = dashboards(r)
+    size = sizes["dashboard.html"]
     subject, body = (weekly_email if mode == "weekly" else daily_email)(r)
     assert "<img" not in body and "<style" not in body
     path = os.path.join(OUT, f"email_{mode}.html")
@@ -244,7 +324,8 @@ def main():
         "mode": mode, "subject": subject, "html_file": f"out/email_{mode}.html",
         "to": rc["to"] if team else [rc["me"]], "cc": rc["cc"] if team else [],
         "team_mode": team, "preview": preview, "data_date": r["data_date"]})
-    print(f"render: dashboard {size / 1024:.0f} KB, {mode} email {len(body) / 1024:.0f} KB -> "
+    extra = "".join(f", {k} {v / 1024:.0f} KB" for k, v in sizes.items() if k != "dashboard.html")
+    print(f"render: dashboard {size / 1024:.0f} KB{extra}, {mode} email {len(body) / 1024:.0f} KB -> "
           f"{'TEAM' if team else 'ME ONLY'}; subject: {subject}")
 
 
